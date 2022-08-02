@@ -1,1 +1,21 @@
-{}
+{
+    "global": {
+        "confirm": "Bestätigen",
+        "cancel": "Abbrechen",
+        "brand": "HeiGIT - Universität Heidelberg",
+        "close": "Schließen",
+        "select": "Wählen",
+        "yes": "Ja.",
+        "no": "Nein",
+        "and": "und",
+        "noAndDonAskAgain": "Nein (bitte nicht wieder fragen)",
+        "ok": "OKAY.",
+        "polygon": "polygon",
+        "duration": "Dauer",
+        "distance": "Entfernung",
+        "elevation": "Höhe",
+        "save": "Speichern",
+        "closeAndDoNotShowAgain": "Schließen und nicht wieder anzeigen",
+        "developedBy": "Heidelberg Institut für Geoinformationstechnologie"
+    }
+}
