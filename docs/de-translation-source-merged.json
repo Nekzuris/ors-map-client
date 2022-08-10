@@ -16,6 +16,12 @@
         "elevation": "Höhe",
         "save": "Speichern",
         "closeAndDoNotShowAgain": "Schließen und nicht wieder anzeigen",
-        "developedBy": "Heidelberg Institut für Geoinformationstechnologie"
+        "developedBy": "Heidelberg Institut für Geoinformationstechnologie",
+        "send": "Sende",
+        "developedByIntro": "Dienstleistungen entwickelt von",
+        "profile": "Profil",
+        "options": "Optionen",
+        "custom": "Zoll",
+        "parameters": "Parameter"
     }
 }
