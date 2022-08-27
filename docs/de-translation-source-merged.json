@@ -22,6 +22,11 @@
         "profile": "Profil",
         "options": "Optionen",
         "custom": "Zoll",
-        "parameters": "Parameter"
+        "parameters": "Parameter",
+        "customOverlayer": "Benutzerdefinierte Überlagerungsschicht"
+    },
+    "download": {
+        "preparingDownload": "Vorbereiten des Downloads ...",
+        "fileReady": "Datei bereit"
     }
 }
