@@ -61,12 +61,21 @@ class IsochronesBuilder {
   getPolygons = () => {
     const polygons = []
     if (this.responseData.features) {
+      /* First get the information about the ranges from the returned features
+         We need to set the color based on the "value" property in the polygon as that shows the range.
+         When you request multiple points in an isochrone request, ors returns them all as polygon features and so
+         you cannot use the count of polygons as the scaling for the colour*/
+      let maxRange = 0
+      this.responseData.features.forEach((feature) => {
+        maxRange = ((feature.properties.value > maxRange) ? feature.properties.value : maxRange)
+      })
+
       this.responseData.features.forEach((feature, index) => {
         const polygon = { geometry: feature.geometry, properties: feature.properties }
         polygon.properties.range_type = this.responseData.metadata.query.range_type
+        polygon.properties.color = PolygonUtils.buildPolygonColorFromScale(polygon.properties.value, maxRange)
 
         PolygonUtils.preparePolygonForView(polygon, this.translations, index)
-
         polygons.push(polygon)
       })
     }

@@ -2,6 +2,7 @@ import htmlColors from 'html-colors'
 import GeoUtils from '@/support/geo-utils'
 import Leaflet from 'leaflet'
 import store from '@/store/store'
+import utils from '@/support/utils'
 
 const PolygonUtils = {
 
@@ -93,6 +94,23 @@ const PolygonUtils = {
     const names = htmlColors.names() // Get an array containing all colors names
     const color = htmlColors.hex(names[index + 6])
     return color
+  },
+  /**
+   * Generate a color (from red to blue) on a linear scale
+   * @param {Number} value The number to be placed on the scale
+   * @param {Number} scaleMax The maximum value of the scale
+   * @returns {String} color
+   */
+  buildPolygonColorFromScale(value, scaleMax) {
+    let modifier = parseInt(255 * (1 -(value/scaleMax)))
+
+    let red = (255 - modifier) * 2
+    let blue = modifier * 2
+    // Cap values to 255. By multiplying by two we ensure that we get a good middle color (where both are 255)
+    if (red > 255) red = 255
+    if (blue > 255) blue = 255
+
+    return utils.rgbDecimalToHex(red, 0, blue)
   },
   /**
    * Build polygon label
