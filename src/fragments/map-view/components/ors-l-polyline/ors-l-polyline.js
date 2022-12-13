@@ -203,8 +203,8 @@ export default {
         }
         if (tooltipIcon) {
           let tooltip = `
-          <div style='vertical-align: middle'>
-            <span style='display:inline;min-width:30px;width:20%;height:50px;${iconStyle};' class="material-icons">${tooltipIcon}</span>
+          <div>
+            <span style='vertical-align:middle;display:inline;min-width:30px;width:20%;height:50px;${iconStyle};' class="material-icons">${tooltipIcon}</span>
             <span style='min-width:180px;display:inline-block;vertical-align:middle;padding-left:10px'>${tooltipInnerContent}</span>
           </div>`
           return tooltip
