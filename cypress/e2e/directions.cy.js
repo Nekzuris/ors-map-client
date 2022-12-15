@@ -64,6 +64,19 @@ describe('Directions component', () => {
       cy.get('.custom-html-icon-div').eq(0).should('have.css', 'background-color', 'rgb(0, 128, 0)')
       cy.get('.custom-html-icon-div').eq(1).should('have.css', 'background-color', 'rgb(255, 0, 0)')
     })
+
+    // popup is shown correctly, if the width of the popup content is at least equal to the width of the two contained spans.
+    it('shows the popup correctly', () => {
+      let contentWidth
+
+      cy.get('.leaflet-popup-content').children().children('span').then(($span) => {
+        contentWidth = $span[0].offsetWidth + $span[1].offsetWidth
+      })
+
+      cy.get('.leaflet-popup-content').then(($popup) => {
+        expect($popup.width()).to.be.gte(contentWidth)
+      })
+    })
   })
 
   context('loads round trip from url link', () => {
