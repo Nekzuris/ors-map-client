@@ -101,11 +101,20 @@
         "traildifficulty": "Schwierigkeit der Strecke",
         "osmid": "OSM-ID",
         "countryinfo": "Länderinformationen",
-        "roadaccessrestrictions": "Beschränkungen des Straßenzugangs"
+        "roadaccessrestrictions": "Beschränkungen des Straßenzugangs",
+        "rawRouting": "Rohes Routing"
     },
     "download": {
         "preparingDownload": "Vorbereiten des Downloads ...",
-        "fileReady": "Datei bereit"
+        "fileReady": "Datei bereit",
+        "documentTitle": "ORS-Route",
+        "download": "Herunterladen",
+        "downloadFileName": "Dateiname herunterladen",
+        "downloadFormat": "Format herunterladen",
+        "downloadRoute": "Route herunterladen",
+        "errorPreparingFile": "Fehler bei der Erstellung der Datei",
+        "fileTooBigToBeDownloaded": "Datei zu groß zum Herunterladen",
+        "standard": "Standard"
     },
     "maps": {
         "pageTitle": "ORS-Karten",
@@ -116,6 +125,77 @@
         "settings": "Einstellungen",
         "toggleAccessibleMode": "Zugriffsmodus umschalten",
         "aboutTitle": "Über ORS",
-        "updateSearch": "Diesen Bereich durchsuchen"
+        "updateSearch": "Diesen Bereich durchsuchen",
+        "updateSearchAfterZoomOrCenterChange": "Verbessern der Suche nach Zoom- oder Zentrumsänderung",
+        "pageNotFound": "Seite nicht gefunden. Überprüfen Sie, ob die URL nicht fehlerhaft ist"
+    },
+    "about": {
+        "donate": "Spenden Sie!",
+        "donateText": "Bitte spenden Sie Ihre geografischen Daten an",
+        "info_I": "Openrouteservice wird vom Heidelberger Institut für Geoinformationstechnologie (HeiGIT) entwickelt und bereitgestellt und bietet Routing-Dienste unter Verwendung von nutzergenerierten, gemeinschaftlich gesammelten freien geografischen Daten von OpenStreetMap. Bitte spenden Sie Ihre geografischen Daten an openstreetmap.org!",
+        "sources": "Wir verwenden verschiedene Open-Source-Bibliotheken für diese Webanwendung. Diese finden Sie in den entsprechenden Paketdateien auf",
+        "feelFreeToReportBugs": "Bitte melden Sie Fehler auf",
+        "orToFixThem": "oder beheben Sie sie selbst und stellen Sie einen Pull-Request",
+        "info_IV": "Falls Sie weitere Fragen, Bedenken oder Feedback haben, kontaktieren Sie uns bitte über:",
+        "CIAT_CSI_SRTM": "CIAT-CSI SRTM",
+        "dataProvided": "Bevölkerungsdaten bereitgestellt von",
+        "ghsFramework": "Leitlinien für globale menschliche Siedlungen (GHS)",
+        "askOpenrouteservice": "Openrouteservice fragen",
+        "termsOfService": "Bedingungen der Dienstleistung",
+        "privacyPolicy": "Datenschutzbestimmungen",
+        "openStreetMapOrg": "OpenStreetMap.org",
+        "infoSupport": "Bitte unterstützen Sie openrouteservice.org",
+        "supportText": "Openrouteservice bietet kostenlose Dienste an und finanziert sich zum größten Teil über Spenden. Wenn Sie die Weiterentwicklung der Funktionen und der Serverinfrastruktur unterstützen möchten, sind Spenden sehr willkommen.",
+        "softwareAndLibraries": "Software & Bibliotheken",
+        "info_II": "Wir verwenden den lokalen Speicher des Browsers, um Informationen zu speichern, so dass Sie diese während Ihres Besuchs oder bei späteren Besuchen nicht erneut eingeben müssen. Wir sammeln und speichern keine persönlichen Daten über Sie oder persönlich identifizierbare Informationen über Sie, außer denen, die Sie uns freiwillig durch direkten Kontakt zur Verfügung stellen. Außerdem geben wir keine analytischen Daten an Dienstleister oder Partner weiter.",
+        "info_III": "Den Nutzern ist jede kommerzielle, unfreie Weiterveräußerung oder Weiterverbreitung ohne ausdrückliche schriftliche Genehmigung des CIAT untersagt. Originaldaten von Jarvis A., H.I. Reuter, A. Nelson, E. Guevara, 2008, Hole-filled seamless SRTM data V4, International Centre for Tropical Agriculture (CIAT)",
+        "info_V": "Openrouteservice kümmert sich um Ihre Anfragen, Probleme, Fragen usw. Da es immer einen Strom von Anfragen geben wird, übernehmen wir die Verantwortung, Ihnen in kurzer Zeit zu antworten. Nachdem Sie unsere automatische Antwort-E-Mail erhalten haben, um Ihnen mitzuteilen, dass wir Ihre Anfrage erhalten haben, werden wir in der Regel kurz darauf antworten. Bitte geben Sie uns Zeit, Ihr Problem zu prüfen, bevor wir uns bei Ihnen melden."
+    },
+    "box": {
+        "maximize": "Maximieren Sie",
+        "minimize": "Minimieren"
+    },
+    "formFields": {
+        "fieldHelp": "Klicken Sie, um die Beschreibung zu öffnen",
+        "defaultAbbreviation": "df.: ",
+        "paramJSONContent": "JSON-Inhalt",
+        "wrongInputValue": "Falscher Eingabewert für diesen Parameter.",
+        "notValidJsonString": "Kein gültiger Json für :fieldName"
+    },
+    "formActions": {
+        "addPlaceInput": "Ortseingabe hinzufügen",
+        "clearRoute": "Route löschen",
+        "reverseRoute": "Umgekehrte Route",
+        "roundTrip": "Rundreise",
+        "toggleRoundTrip": "Rundreise umschalten"
+    },
+    "isochronesDetails": {
+        "polygons": "Polygone",
+        "center": "zentrieren",
+        "reachCenters": "Zentren erreichen",
+        "toggleVisibility": "Sichtbarkeit umschalten",
+        "opacity": "Deckkraft"
+    },
+    "isochrones": {
+        "isochrones": "Isochrone",
+        "isochronesReady": "Isochrone bereit",
+        "calculatingIsochrones": "Berechnung von Isochronen ...",
+        "itWasNotPossibleToCalculateIsochronesWithTheDefinedOptions": "Es war nicht möglich, Isochronen mit den definierten Optionen zu berechnen. Versuchen Sie, kleinere Isochrone(n) zu definieren.",
+        "couldResolveTheSelectedPlaceAsASuitableCenter": "Es war nicht möglich, den ausgewählten Punkt als geeigneten Mittelpunkt zu bestimmen.",
+        "apiError": {
+            "2003": "Die Fläche eines zu vermeidenden Polygons darf 20,0000 Quadratkilometer nicht überschreiten.",
+            "3001": "Ein oder mehrere Parameter haben einen falschen Wert oder ein falsches Format.",
+            "3099": "Die Isochronenkarte für den/die ausgewählten Punkt(e) und das Profil kann nicht erstellt werden.",
+            "3003": "Der Parameter 'avoid_features' hat den falschen Wert 'null'",
+            "3004": "Die gewählte Kombination aus Profil, Intervall und Zeit oder Entfernung überschreitet die maximal unterstützten Werte. Bitte passen Sie die Werte an."
+        },
+        "genericErrorMsg": "Es war nicht möglich, die Isochronen zu berechnen."
+    },
+    "altitudePreview": {
+        "expandAltitudeChart": "Tabelle erweitern",
+        "altitude": "Höhenlage"
+    },
+    "placeDetails": {
+        "layer": "Ebene"
     }
 }
