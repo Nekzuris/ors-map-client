@@ -1,6 +1,7 @@
 # ORS map client
 
 [![Test](https://github.com/GIScience/ors-map-client/actions/workflows/test.yml/badge.svg)](https://github.com/GIScience/ors-map-client/actions/workflows/test.yml)
+[![Translation status](https://weblate.zp1.net/widgets/openrouteservice/-/ors-map-client/multi-auto.svg)](https://weblate.zp1.net/engage/openrouteservice/)
 
 This application implements a map client for the [openrouteservice API](https://openrouteservice.org/dev/#/api-docs/) as
 Single Page Application (SPA). It is a base application that can be used for multiple purposes,
