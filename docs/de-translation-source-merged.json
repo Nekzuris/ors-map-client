@@ -196,6 +196,61 @@
         "altitude": "Höhenlage"
     },
     "placeDetails": {
-        "layer": "Ebene"
+        "layer": "Ebene",
+        "lat": "Lat.",
+        "lon": "Lon.",
+        "placeDetails": "Details zum Ort",
+        "placeName": "Name",
+        "latlngCopied": "Breitengrad und Längengrad kopiert",
+        "lnglatCopied": "Längen- und Breitengrad kopiert",
+        "copyLatlng": "Kopie im Format Breitengrad, Längengrad",
+        "satelliteView": "Satellitenansicht",
+        "notAvailable": "Nicht verfügbar",
+        "copyLnglat": "Kopie im Format Längengrad, Breitengrad"
+    },
+    "roundtrip": {
+        "roundtripOptions": "Rundreiseoptionen"
+    },
+    "routeExtras": {
+        "extras": "Routen-Extras",
+        "extraInfo": "Zusätzliche Informationen",
+        "value": "Wert",
+        "clickToHighlightOnMap": "Anklicken, um es auf der Karte zu markieren",
+        "showAllOnMap": "Alle auf der Karte anzeigen"
+    },
+    "steps": {
+        "instruction": "Anleitung",
+        "on": "Auf",
+        "step": "Schritt",
+        "gotoStep": "Weiter zu Schritt"
+    },
+    "routeDetails": {
+        "warnings": "Warnungen",
+        "routes": "Routen",
+        "route": "Route",
+        "segments": "Segmente",
+        "segment": "Segment",
+        "instructions": "Anweisungen",
+        "instruction": "Anleitung",
+        "name": "Name",
+        "selectRoute": "Wählen Sie diese Route",
+        "gotoSegment": "Zum Segment gehen",
+        "warningCodes": {
+            "1": "Auf einigen Straßen kann es zu Einschränkungen kommen",
+            "2": "Entlang der Strecke gibt es Mautstellen",
+            "3": "Entlang der Route gibt es übersprungene Abschnitte. Dauer und Zugänglichkeit sind möglicherweise nicht korrekt",
+            "4": "Mindestens eine zusätzliche Information wurde angefordert, ist aber nicht verfügbar"
+        },
+        "routeOpacity": "Trübung der Route",
+        "routeDetails": "Details zur Route",
+        "selectedRoute": "Ausgewählte Route"
+    },
+    "placesAndDirections": {
+        "isochrones": "Isochrones",
+        "place": "Ort",
+        "notRouteFound": "Es war nicht möglich, eine Route zu finden, die die Orte mit dem gewählten Profil verbindet",
+        "notRouteFoundWithFilters": "Es war nicht möglich, eine Route zu finden, die die Orte mit dem gewählten Profil und den Filtern verbindet",
+        "noPlaceFound": "Keine Stelle mit dem eingegebenen Inhalt gefunden",
+        "routeReady": "Route bereit"
     }
 }
