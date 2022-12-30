@@ -243,6 +243,21 @@
             "3": "Există segmente sărite de-a lungul traseului. Este posibil ca duratele și accesibilitatea să nu fie corecte",
             "4": "Cel puțin o informație suplimentară solicitată, dar care nu este disponibilă"
         },
-        "routeOpacity": "Opacitatea traseului"
+        "routeOpacity": "Opacitatea rutei"
+    },
+    "placesAndDirections": {
+        "isochrones": "Izocronii",
+        "noPlaceFound": "Nu s-a găsit niciun loc cu conținutul introdus",
+        "routeReady": "Ruta pregătită",
+        "useLocation": "GPS",
+        "addPlaceInput": "Adăugați locul",
+        "clearRoute": "Rută liberă",
+        "reverseRoute": "Inversați",
+        "calculatingRoute": "Calcularea rutei...",
+        "yourLocation": "Locația dumneavoastră",
+        "place": "loc",
+        "notRouteFound": "Nu a fost posibil să se găsească o rută care să lege locurile cu profilul selectat",
+        "notRouteFoundWithFilters": "Nu a fost posibil să se găsească o rută care să conecteze locurile cu profilul și filtrele selectate",
+        "orderByClosestPlaces": "Comandați prin locuri mai apropiate de locația dumneavoastră"
     }
 }
