@@ -531,6 +531,82 @@
         "lat": "Lat.",
         "lon": "Lon.",
         "notAvailable": "Nicht verfügbar",
-        "placeDetails": "Details zum Ort"
+        "placeDetails": "Details zum Ort",
+        "next": "Nächster Block",
+        "prev": "Vorheriger Block",
+        "directionsTo": "Anfahrtsbeschreibung",
+        "distance": "Entfernung",
+        "distanceFromLocationMarkedOnTheMap": "Ungefähre Entfernung vom auf der Karte markierten Standort",
+        "selectPlace": "Wählen"
+    },
+    "floatingTopMenu": {
+        "openSettings": "Einstellungen",
+        "showAbout": "Allgemeine Informationen anzeigen",
+        "about": "Über ORS",
+        "openrouteserviceAPI": "Openrouteservice API",
+        "openrouteserviceForDisasters": "Openrouteservice für Katastrophen",
+        "askOpenrouteservice": "Openrouteservice fragen",
+        "settingsTooltip": "Klicken Sie hier, wenn Sie die App-Einstellungen anpassen und weitere Optionen sehen möchten"
+    },
+    "topMenu": {
+        "openSettings": "Einstellungen öffnen",
+        "showAbout": "Allgemeine Informationen anzeigen",
+        "about": "Über ORS",
+        "pinSidebar": "Pin-Seitenleiste",
+        "settingsTooltip": "Klicken Sie hier, wenn Sie die App-Einstellungen anpassen möchten"
+    },
+    "sidebar": {
+        "switchSide": "Schalter Seite",
+        "showSidebar": "Seitenleiste anzeigen",
+        "hideSidebar": "Seitenleiste ausblenden"
+    },
+    "options": {
+        "units": {
+            "kilometers": "Kilometer",
+            "meters": "Meter",
+            "miles": "Meilen"
+        },
+        "areUnits": {
+            "sqKms": "km²",
+            "hectare": "Hektar",
+            "sqMeters": "m²"
+        }
+    },
+    "orsDictionary": {
+        "unknown": "Unbekannt",
+        "paved": "Gepflastert",
+        "asphalt": "Asphalt",
+        "concrete": "Beton",
+        "cobblestone": "Kopfsteinpflaster",
+        "metal": "Metall",
+        "wood": "Holz",
+        "compactedGravel": "Verdichteter Schotter",
+        "fineGravel": "Feiner Schotter",
+        "gravel": "Schotter",
+        "dirt": "Dreck",
+        "ground": "Boden",
+        "ice": "Eis",
+        "pavingStones": "Pflastersteine",
+        "sand": "Sand",
+        "woodchips": "Hackschnitzel",
+        "grass": "Gras",
+        "grassPaver": "Rasengittersteine",
+        "none": "Keine",
+        "no": "Nein",
+        "customers": "Kunden",
+        "destination": "Reiseziel",
+        "delivery": "Lieferung",
+        "private": "Privat",
+        "permissive": "Permissiv",
+        "stateRoad": "Bundesstraße",
+        "road": "Straße",
+        "street": "Straße",
+        "path": "Pfad",
+        "track": "Spur",
+        "cycleway": "Radweg",
+        "footway": "Fußweg",
+        "steps": "Schritte",
+        "ferry": "Fähre",
+        "unpaved": "Ungepflasterte"
     }
 }
