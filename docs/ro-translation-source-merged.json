@@ -163,6 +163,15 @@
         "fileTooBigToBeDownloaded": "Fișier prea mare pentru a fi descărcat"
     },
     "formActions": {
-        "addPlaceInput": "Adăugați intrarea locului"
+        "addPlaceInput": "Adăugați intrarea locului",
+        "clearRoute": "Traseu liber",
+        "reverseRoute": "Rută inversă",
+        "roundTrip": "Călătorie dus-întors",
+        "toggleRoundTrip": "Comutați călătoria dus-întors"
+    },
+    "isochronesDetails": {
+        "polygons": "Poligoane",
+        "center": "Centru",
+        "reachCenters": "Centrele Reach"
     }
 }
