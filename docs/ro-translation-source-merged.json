@@ -172,6 +172,59 @@
     "isochronesDetails": {
         "polygons": "Poligoane",
         "center": "Centru",
-        "reachCenters": "Centrele Reach"
+        "reachCenters": "Centrele Reach",
+        "toggleVisibility": "Comutați vizibilitatea",
+        "opacity": "Opacitate"
+    },
+    "isochrones": {
+        "isochrones": "Izocronii",
+        "isochronesReady": "Isocroni gata",
+        "calculatingIsochrones": "Calcularea izocronilor ...",
+        "itWasNotPossibleToCalculateIsochronesWithTheDefinedOptions": "Nu a fost posibil să se calculeze izocronele cu opțiunile definite. Încercați să definiți izocrone mai mici.",
+        "couldResolveTheSelectedPlaceAsASuitableCenter": "Nu a fost posibilă rezolvarea punctului selectat ca fiind un centru adecvat.",
+        "apiError": {
+            "2003": "Suprafața unui poligon de evitat nu trebuie să depășească 20,0000 kilometri pătrați.",
+            "3001": "Unul sau mai mulți parametri au o valoare sau un format incorect.",
+            "3003": "Parametrul \"avoid_features\" are valoarea incorectă \"null\"",
+            "3004": "Combinația de profil, interval și timp sau distanță selectată depășește valoarea maximă acceptată. Vă rugăm să ajustați valorile.",
+            "3099": "Nu se poate construi o hartă izocronă pentru punctul (punctele) și profilul selectat(e)."
+        },
+        "genericErrorMsg": "Nu a fost posibil să se calculeze izocronii."
+    },
+    "altitudePreview": {
+        "expandAltitudeChart": "Extindeți graficul",
+        "altitude": "Altitudine"
+    },
+    "placeDetails": {
+        "layer": "Stratul",
+        "lat": "Lat.",
+        "lon": "Lon.",
+        "notAvailable": "Nu este disponibil",
+        "placeDetails": "Detalii privind locul",
+        "placeName": "Nume",
+        "latlngCopied": "Latitudine și longitudine copiate",
+        "lnglatCopied": "Longitudine și latitudine copiate",
+        "copyLatlng": "Copiați în format latitudine, longitudine",
+        "copyLnglat": "Copiați în format longitudine, latitudine",
+        "satelliteView": "vedere din satelit"
+    },
+    "roundtrip": {
+        "roundtripOptions": "Opțiuni de călătorie dus-întors"
+    },
+    "routeExtras": {
+        "extras": "Extras de traseu",
+        "extraInfo": "Informații suplimentare",
+        "value": "Valoare",
+        "showAllOnMap": "Arată totul pe hartă",
+        "clickToHighlightOnMap": "Faceți clic pentru a-l evidenția pe hartă"
+    },
+    "steps": {
+        "on": "Pe",
+        "step": "pasul",
+        "gotoStep": "Mergeți la pas",
+        "instruction": "Instrucțiuni"
+    },
+    "routeDetails": {
+        "routeDetails": "Detalii despre traseu"
     }
 }
