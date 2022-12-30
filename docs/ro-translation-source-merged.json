@@ -28,7 +28,14 @@
             "locality": "Localitate",
             "borough": "Orășel",
             "localadmin": "Administrator local",
-            "address": "Adresă"
+            "address": "Adresă",
+            "notAvailable": "Nu este disponibil",
+            "undefined": "Nedefinit",
+            "street": "Stradă",
+            "venue": "Locația",
+            "rawCoordinate": "Coordonate brute lng,lat",
+            "postalcode": "Cod poștal",
+            "ocean": "Oceanul"
         },
         "send": "Trimiteți",
         "save": "Salvați",
@@ -82,6 +89,24 @@
             "october": "Oct",
             "november": "Nov",
             "december": "Dec"
-        }
+        },
+        "population": "Populația",
+        "roadaccessrestrictions": "Restricții de acces la drumuri",
+        "green": "Verde",
+        "noise": "Zgomot",
+        "steepness": "Abrupt",
+        "surface": "Suprafață",
+        "waytypes": "Tipuri de căi",
+        "suitability": "Adecvare",
+        "waycategory": "Categoria Calea",
+        "tollways": "Autostrăzi cu taxă",
+        "traildifficulty": "Dificultatea traseului",
+        "osmid": "OSM ID",
+        "countryinfo": "Informații despre țară"
+    },
+    "maps": {
+        "pageTitle": "Hărți ORS",
+        "Places": "Locuri",
+        "isochrones": "Izocronii"
     }
 }
