@@ -145,6 +145,7 @@
     },
     "formFields": {
         "fieldHelp": "Faceți clic pentru a deschide descrierea",
-        "defaultAbbreviation": "df.: "
+        "defaultAbbreviation": "df.: ",
+        "paramJSONContent": "Conținutul JSON"
     }
 }
