@@ -416,6 +416,121 @@
         "polygonArea": "Polygonfläche",
         "copyLnglat": "lng, lat kopieren",
         "copyLatlng": "Breitengrad, Längengrad kopieren",
-        "directionsToClickedPoint": "Wegbeschreibung zum angeklickten Ort"
+        "directionsToClickedPoint": "Wegbeschreibung zum angeklickten Ort",
+        "lnglatCopied": "Längen- und Breitengrad kopiert",
+        "latlngCopied": "Breitengrad und Längengrad kopiert"
+    },
+    "mapRightClick": {
+        "options": "Optionen",
+        "addDestinationToRoute": "Anhängen als Ziel",
+        "directionsFromHere": "Wegbeschreibung von hier",
+        "directionsToHere": "Wegbeschreibung hierher",
+        "nonStopDirectionsToHere": "Direkt hierher",
+        "addRouteStop": "Hier Haltestelle hinzufügen",
+        "centerHere": "Hier zentrieren",
+        "addAsIsochroneCenter": "Als Reichweitencenter hinzufügen",
+        "inspectDataOnOSM": "Daten auf OSM prüfen"
+    },
+    "myLocation": {
+        "stopShowingCurrentLocation": "Klicken Sie, um die Anzeige Ihres aktuellen Standorts zu beenden",
+        "showCurrentLocation": "Klicken Sie, um Ihren aktuellen Standort anzuzeigen",
+        "yourCurrentLocation": "Ihr aktueller Standort",
+        "continuously": "Kontinuierlich",
+        "onlyOnce": "Nur einmal",
+        "continuouslyLocation": "Aktualisieren Sie Ihre Position alle 2 Sekunden",
+        "onlyOnceLocation": "Erwerben Sie Ihre Position nur einmal",
+        "myPositionToolTip": "Aktivieren Sie den Standort, um Ihre Position anzuzeigen und Orte in der Nähe leichter zu finden"
+    },
+    "orsLPolyline": {
+        "type": "Typ",
+        "surface": "Fläche",
+        "unknownSurfaceType": "Unbekannt"
+    },
+    "mapView": {
+        "routeTo": "Route zu diesem Ort",
+        "polygonDetails": "Polygon-Details",
+        "polygon": "Polygon",
+        "whatIsHere": "Was ist hier?",
+        "directionsFromHere": "Wegbeschreibung von hier",
+        "fitAllFeatures": "Alle Funktionen anzeigen",
+        "addDestinationToRoute": "Ziel zur Route hinzufügen",
+        "acquirePositionErrors": {
+            "unavailable": "Laut Ihrem Gerät ist Ihr Standort derzeit nicht verfügbar. Stellen Sie sicher, dass die Ortungsoption/der Ortungsdienst richtig konfiguriert ist.",
+            "timeout": "Ihr Gerät hat beim Versuch, eine Position zu ermitteln, eine Zeitüberschreitung gemeldet. Sie können es erneut versuchen, indem Sie auf die Schaltfläche \"Meine Position\" klicken",
+            "generic": "Es war nicht möglich, Ihren Standort zu ermitteln, weil er nicht autorisiert war oder das Gerät ihn nicht unterstützt.",
+            "permissionDenied": "Ihre Position konnte nicht ermittelt werden, weil das Gerät den Zugriff darauf verweigert hat. Sie können es erneut versuchen, indem Sie die Geräteeinstellungen ändern und dann erneut auf die Schaltfläche \"Meine Position\" klicken"
+        },
+        "yourCurrentLocation": "Ihr aktueller Standort",
+        "options": "Optionen",
+        "polylineMeasure": {
+            "bearingTextIn": "Unter",
+            "bearingTextOut": "Aus",
+            "tooltipTextDragAndDelete": "Klicken und ziehen zum <b>Punkt verschieben</b><br>Drücken Sie die SHIFT-Taste und klicken Sie zum <b>Punkt löschen</b>",
+            "tooltipTextResume": "<br>Strg-Taste drücken und auf <b>Zeile fortsetzen</b> klicken",
+            "tooltipTextDelete": "Drücken Sie die SHIFT-Taste und klicken Sie auf <b>, um den Punkt zu löschen.</b>",
+            "tooltipTextAdd": "Drücken Sie die CTRL-Taste und klicken Sie auf <b>Punkt hinzufügen</b>",
+            "clearControlTitle": "Eindeutige Messungen",
+            "measureControlTitleOn": "Entfernungsmessung einschalten",
+            "measureControlTitleOff": "Entfernungsmessung ausschalten",
+            "unitControlTitle": {
+                "text": "Einheiten ändern",
+                "metres": "Meter",
+                "landmiles": "Landmeilen",
+                "nauticalmiles": "Seemeilen"
+            },
+            "clearControlLabel": "&Zeiten",
+            "measureControlLabel": "& #8614;",
+            "unitControlLabel": {
+                "metres": "m",
+                "kilometres": "km",
+                "feet": "ft",
+                "landmiles": "M",
+                "nauticalmiles": "NM"
+            }
+        },
+        "defineAvoidPolygon": "Vermeiden Sie Polygone zur Routenberechnung",
+        "defineAvoidRectangle": "Vermeiden Sie Polygone zur Routenberechnung",
+        "youCantIntersectPolygons": "Sie können keine Polygone schneiden",
+        "polygonArea": "Polygonfläche",
+        "highlighting": "Hervorhebung",
+        "accuracy": "Genauigkeit",
+        "yourLocation": "Verwenden Sie Ihren Standort",
+        "removePlace": "Platz entfernen",
+        "viewOnORS": "Ansicht auf ORS",
+        "moveMapPositionToLeft": "Verschieben der Kartenmitte nach links",
+        "moveMapPositionToRight": "Verschieben der Kartenmitte nach rechts",
+        "moveMapPositionToUp": "Kartenmitte nach oben verschieben",
+        "moveMapPositionToDown": "Kartenmitte nach unten verschieben",
+        "toggleDirect": "Direkt von hier bis zum nächsten Ort umschalten",
+        "heightGraph": {
+            "distance": "Entfernung",
+            "elevation": "Höhe",
+            "segment_length": "Länge des Segments",
+            "type": "Typ",
+            "legend": "Legende"
+        },
+        "editShape": "Form bearbeiten",
+        "remove": "entfernen",
+        "avoidPolygonSaved": "Polygon vermeiden gespeichert",
+        "avoidPolygonRemoved": "Polygon vermeiden entfernt",
+        "avoidPolygonNotRemoved": "Es war nicht möglich, das Vermeidungspolygon zu entfernen",
+        "avoidPolygonNotSaved": "Es war nicht möglich, das Vermeidungspolygon zu entfernen",
+        "polygonEditModeEnabled": "Wenn Sie die Bearbeitung abgeschlossen haben, klicken Sie auf eine beliebige Stelle, um die Änderungen zu speichern",
+        "customTileProvider": "Benutzerdefinierter Kachelanbieter, der vom Benutzer definiert wird",
+        "gestureHandling": {
+            "touch": "Verwenden Sie zwei Finger, um die Karte zu bewegen",
+            "scroll": "Verwenden Sie ctrl + Scroll, um die Karte zu vergrößern",
+            "scrollMac": "Verwenden Sie ⌘ + Scrollen, um die Karte zu vergrößern"
+        },
+        "addRouteStop": "Hier einen Routenstopp hinzufügen",
+        "youCanCenterAtYourLocationLater": "Sie können die Karte jederzeit auf Ihren aktuellen Standort zentrieren, indem Sie auf die Schaltfläche \"Mein Standort\" klicken",
+        "setMyLocationAsMapCenter": "Möchten Sie die Karte auf Ihren aktuellen Standort zentrieren? Dadurch wird die Genauigkeit der Ortssuche verbessert. Wenn Sie dazu aufgefordert werden, müssen Sie dies zulassen."
+    },
+    "placesCarousel": {
+        "layer": "Ebene",
+        "lat": "Lat.",
+        "lon": "Lon.",
+        "notAvailable": "Nicht verfügbar",
+        "placeDetails": "Details zum Ort"
     }
 }
