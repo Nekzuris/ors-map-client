@@ -118,6 +118,12 @@
         "pageNotFound": "Pagina nu a fost găsită. Verificați dacă URL-ul nu este deformat"
     },
     "about": {
-        "donate": "Donați!"
+        "donate": "Donați!",
+        "info_I": "Openrouteservice este dezvoltat și furnizat de Institutul Heidelberg pentru Tehnologia Geoinformațiilor (HeiGIT) și oferă servicii de rutare prin utilizarea datelor geografice gratuite generate de utilizatori și colectate în mod colaborativ din OpenStreetMap. Vă rugăm să donați datele dumneavoastră geografice către openstreetmap.org!",
+        "info_II": "Utilizăm memoria locală a browserului pentru a păstra informațiile, astfel încât nu va trebui să le introduceți din nou în timpul vizitei dumneavoastră sau în vizitele ulterioare. Nu colectăm și nu stocăm informații personale despre dumneavoastră sau informații care să vă identifice personal, cu excepția celor pe care le furnizați în mod voluntar prin contact direct. În plus, nu împărtășim date analitice cu niciun furnizor de servicii sau partener.",
+        "donateText": "Vă rugăm să donați datele dumneavoastră geografice la",
+        "sources": "Pentru această aplicație web folosim diferite biblioteci open source. Acestea pot fi găsite în fișierele pachetelor corespunzătoare de pe",
+        "feelFreeToReportBugs": "Vă rugăm să nu ezitați să raportați bug-uri pe",
+        "orToFixThem": "sau reparați-le singuri și faceți o cerere pull"
     }
 }
