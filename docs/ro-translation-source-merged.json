@@ -477,7 +477,8 @@
         "dictInvalidFileType": "Tip de fișier invalid",
         "dictCancelUpload": "Anulați încărcarea",
         "dictUploadCanceled": "Încărcare anulată",
-        "failedToLoadFile": "Nu s-a reușit încărcarea fișierului selectat. Asigurați-vă că fișierul nu este corupt și că este într-unul dintre formatele acceptate"
+        "failedToLoadFile": "Nu s-a reușit încărcarea fișierului selectat. Asigurați-vă că fișierul nu este corupt și că este într-unul dintre formatele acceptate",
+        "dictRemoveFile": "Eliminați fișierul"
     },
     "myLocation": {
         "myPositionToolTip": "Activați locația pentru a vă afișa poziția și pentru a găsi mai ușor locurile din apropiere",
