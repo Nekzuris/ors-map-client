@@ -258,7 +258,28 @@
         "place": "loc",
         "notRouteFound": "Nu a fost posibil să se găsească o rută care să lege locurile cu profilul selectat",
         "notRouteFoundWithFilters": "Nu a fost posibil să se găsească o rută care să conecteze locurile cu profilul și filtrele selectate",
-        "orderByClosestPlaces": "Comandați prin locuri mai apropiate de locația dumneavoastră"
+        "orderByClosestPlaces": "Comandați prin locuri mai apropiate de locația dumneavoastră",
+        "expandAltitudeChart": "Extindeți graficul",
+        "errorRenderingContentUploaded": "Eroare la redarea conținutului încărcat. Verificați formatul și conținutul fișierului",
+        "roundTrip": "Călătorie dus-întors",
+        "notPossibleToCalculateRoute": "O rută nu a putut fi calculată folosind unul dintre locurile selectate",
+        "apiError": {
+            "2000": "Nu se poate analiza cererea JSON",
+            "2001": "Parametrul necesar lipsește",
+            "2002": "Format de parametru invalid",
+            "2006": "Imposibilitatea de a analiza cererea către gestionarul de export",
+            "2007": "Format de export neacceptat",
+            "2008": "Element gol",
+            "2009": "Imposibilitatea de a găsi un traseu adecvat pentru locurile și criteriile specificate. Poate că profilul specificat nu este acceptat în această zonă/regiune cu filtrul aplicat(e).",
+            "2011": "Atunci când se utilizează opțiunea de trasee alternative, nu este posibilă definirea de opriri pe traseu",
+            "2003": "Parametrii rutei depășesc una sau mai multe limite. Vă rugăm să rețineți că unele variabile de evitare au limite, cum ar fi lungimea traseului și suprafața unui poligon de evitare care nu trebuie să depășească 20000 de kilometri pătrați.",
+            "2004": "Parametrii rutei depășesc una sau mai multe limite. Rețineți că distanța aproximativă a traseului nu trebuie să fie mai mare de 6000 km. În cazul în care se utilizează anumite opțiuni de traseu sau anumite opțiuni de evitare, distanța aproximativă a traseului nu trebuie să fie mai mare de 150 km.",
+            "2010": "Nu a fost posibil să se găsească un punct potrivit care să facă parte din traseu. Poate că unul dintre punctele selectate nu poate fi trasat sau profilul selectat nu este acceptat în această regiune",
+            "2012": "A fost specificat un parametru invalid. Asigurați-vă că URL-ul este corect",
+            "2099": "Nu se poate calcula o rută care să conecteze locurile selectate"
+        },
+        "genericErrorMsg": "Nu a fost posibil să se calculeze ruta",
+        "reorder": "Reordonare"
     },
     "mapView": {
         "polylineMeasure": {
@@ -361,5 +382,77 @@
         "cobblestone": "Pavaj",
         "metal": "metal",
         "wood": "Lemn"
+    },
+    "print": {
+        "print": "Imprimare",
+        "segment": "Segmentul",
+        "preparingPrinting": "Pregătirea imprimării",
+        "readyToPrint": "Gata de imprimare"
+    },
+    "share": {
+        "fullUrl": "Complet",
+        "clickToCopy": "Faceți clic pentru a copia URL-ul",
+        "share": "Partajați (click pentru a copia)",
+        "shareLink": "Partajați link-ul",
+        "short": "URL scurt",
+        "embedCodeCopied": "Cod de încorporare copiat",
+        "embed": "Integrare (click pentru a copia)",
+        "embedInstructions": "Utilizați acest cod pentru a încorpora harta ORS în site-ul dumneavoastră",
+        "shortUrl": "Scurt",
+        "urlCopied": "URL copiat în clipboard.",
+        "copyUrlInfo": "De asemenea, puteți copia linkul din bara de adrese a browserului dumneavoastră.",
+        "urlShortened": "URL scurtat",
+        "shorteningNotPossible": "Nu a fost posibilă generarea unui URL scurt. Vă rugăm să utilizați URL-ul complet"
+    },
+    "mapForm": {
+        "placesAndDirections": "Găsiți & plecați",
+        "isochrones": "Ajungeți la",
+        "uploadedContentRendered": "Conținutul încărcat a fost redat",
+        "errorRenderingContentUploaded": "Eroare la redarea conținutului încărcat. Verificați formatul și conținutul fișierului"
+    },
+    "placeInput": {
+        "findAPlace": "Găsiți un loc",
+        "place": "Locul",
+        "addRouteStop": "Adăugați o oprire pe traseu",
+        "routePlace": "Oprire traseu",
+        "routeDestination": "Destinație",
+        "placeNameRequired": "Numele locului este necesar",
+        "yourLocation": "Locația dumneavoastră",
+        "couldNotDetermineYourLocation": "Locația dumneavoastră nu a putut fi determinată. Asigurați-vă că ați primit permisiunile necesare",
+        "useYourLocation": "Utilizați locația dumneavoastră curentă",
+        "removeInput": "Eliminați locul/introducere",
+        "fromYourBrowser": "De pe dispozitivul dumneavoastră",
+        "startingPlace": "Locul de start",
+        "openInputOptions": "Opțiuni de intrare deschise",
+        "addInput": "Adăugați intrarea locului",
+        "switchCoords": "Comutați coordonatele",
+        "rawCoordinate": "Coordonate brute lat,lng",
+        "noPlaceFound": "Nu au fost returnate rezultate",
+        "unknownSearchPlaceError": "Eroare de căutare a unui loc necunoscut",
+        "approximateDistance": "Distanța aproximativă în linie dreaptă față de centrul actual al hărții",
+        "pleaseTypeSomething": "Vă rugăm să introduceți ceva pentru a căuta",
+        "toggleDirect": "Comutați direct de aici până la următorul loc",
+        "clickOnTheMapToSelectAPlace": "Alegeți un loc făcând clic pe o locație de pe hartă",
+        "clickOnTheMapBtnToPickAPlace": "Faceți clic pe acest buton pentru a alege un loc de pe hartă pentru această intrare",
+        "clickToSearchAndShowResultsOnTheMap": "Faceți clic pentru a căuta și a afișa rezultatele pe hartă",
+        "directions": "Direcții",
+        "addStartingPlace": "Adăugați un loc de pornire",
+        "fillOrRemoveInput": "Căutați un loc sau folosiți butonul de pe hartă din dreapta",
+        "couldNotDetermineYourPreciseLocationUsingPreviousLocation": "Nu a fost posibil să se stabilească locația dumneavoastră exactă. Se va folosi în schimb locația dumneavoastră anterioară",
+        "goToDirectionsMode": "Faceți clic pe butonul de direcții pentru a trece la modul de rutare"
+    },
+    "profileSelector": {
+        "activeProfile": "Activă"
+    },
+    "routeImporter": {
+        "loadRouteFile": "Importați fișierul",
+        "acceptedImportTypes": "Tipuri de importuri acceptate",
+        "dictDefaultMessage": "Trimiteți un fișier de traseu pentru a importa sau faceți clic aici",
+        "dictFallbackMessage": "Browser neacceptat",
+        "dictFileTooBig": "Fișier prea mare",
+        "dictInvalidFileType": "Tip de fișier invalid",
+        "dictCancelUpload": "Anulați încărcarea",
+        "dictUploadCanceled": "Încărcare anulată",
+        "failedToLoadFile": "Nu s-a reușit încărcarea fișierului selectat. Asigurați-vă că fișierul nu este corupt și că este într-unul dintre formatele acceptate"
     }
 }
