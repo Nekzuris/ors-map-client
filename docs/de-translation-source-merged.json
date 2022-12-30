@@ -359,6 +359,63 @@
         "appLocale": "App Gebietsschema",
         "unit": "Einheit",
         "areaUnit": "Flächeneinheit",
-        "endpointsSectionTitle": "Dienstendpunkte (URI oder vollständige URL)"
+        "endpointsSectionTitle": "Dienstendpunkte (URI oder vollständige URL)",
+        "saveToLocalStorage": "In meinem Browser speichern",
+        "routeInstructions": "Routing-Anweisungen",
+        "randomizedIsochroneColors": "Zufällige Isochronenfarben",
+        "distanceMarkers": "Abstandsmarkierungen",
+        "elevationProfile": "Erhebungsprofil",
+        "mapSettings": "Kartenansicht und zusätzliche Informationen",
+        "defaultMapSettingsRestored": "Standardkarteneinstellungen wiederhergestellt und gespeichert",
+        "endpointsTitle": {
+            "directions": "Wegbeschreibung",
+            "isochrones": "Isochrones",
+            "geocodeSearch": "Geocode-Suche",
+            "autocomplete": "Automatische Vervollständigung des Geocodes",
+            "pois": "POIs",
+            "reverseGeocode": "Geocode rückwärts"
+        },
+        "apiKey": "API-Schlüssel",
+        "customApiKey": "Benutzerdefinierter API-Schlüssel",
+        "apiBaseUrl": "API-Basis-URL",
+        "restoreDefaults": "Standardwerte wiederherstellen",
+        "advanced": "Fortgeschrittene",
+        "mapSettingsSaved": "Karteneinstellungen gespeichert",
+        "alwaysFitBounds": "Bei Routenänderungen immer die Grenzen anpassen",
+        "routeExtraInfo": "Route extra info",
+        "mapViewOptions": "Optionen für die Kartenansicht",
+        "customOverlayerTileProviderUrl": "Benutzerdefinierte Overlayer-Anbieter-URL",
+        "customTileProviderUrl": "Benutzerdefinierte Kachelanbieter-URL",
+        "defaultTilesProvider": "Standardkachelanbieter",
+        "customTileProviderUrlHint": "https://domain.tld/path/{z}/{x}/{y}.ext?optionalKey=value",
+        "prioritizeSearchingForNearbyPlaces": "Prioritäre Suche nach Orten in der Nähe",
+        "defaultProfile": "Standard-Profil",
+        "compressDataUrlSegment": "URL-Segment nach /data/ komprimieren",
+        "autoFitHighlightedBounds": "Automatische Anpassung hervorgehobener Grenzen",
+        "reloadToApplyLanguageChangeText": "Um die Sprachänderung vollständig zu übernehmen, muss die App neu geladen werden. Jetzt neu laden?",
+        "resetShownOnceTooltips": "Tooltips beim Laden der App wieder anzeigen",
+        "skipAllSegments": "gerader Weg für alle Segmente",
+        "useStopOptimization": "Optimieren Sie die Route, wenn eine Haltestelle per Drag-and-Drop erstellt wird",
+        "invalidSettingsValue": "Ungültige(r) Einstellungswert(e). Bitte überprüfen Sie die Felder oder stellen Sie die Standardwerte wieder her",
+        "advancedSettingsWarning": "Ändern Sie die folgenden Einstellungen nicht, wenn Sie nicht wissen, was Sie tun!",
+        "reloadToApplyLanguageChangeTitle": "Es ist notwendig, die App neu zu laden",
+        "convertStopAfterRouteEndingToDestination": "Am Ende der Route zum endgültigen Bestimmungsort hinzugefügte Haltestelle umwandeln"
+    },
+    "simplePlaceSearch": {
+        "noPlaceFound": "Keine Stelle mit dem unterstellten Inhalt gefunden",
+        "openSidebarToSeeRouteDetails": "Öffnen Sie die Seitenleiste, um Routendetails zu sehen",
+        "unknownSearchPlaceError": "Unbekannter Suchort-Fehler"
+    },
+    "header": {
+        "hideMenuBar": "Menüleiste ausblenden",
+        "showMenuBar": "Menüleiste anzeigen"
+    },
+    "mapLeftClick": {
+        "placeInfo": "Ortsangaben",
+        "placeInsidePolygon": "Innerhalb des Polygons platzieren",
+        "polygonArea": "Polygonfläche",
+        "copyLnglat": "lng, lat kopieren",
+        "copyLatlng": "Breitengrad, Längengrad kopieren",
+        "directionsToClickedPoint": "Wegbeschreibung zum angeklickten Ort"
     }
 }
