@@ -26,7 +26,9 @@
             "macroregion": "Macro regiune",
             "neighbourhood": "Vecinătate",
             "locality": "Localitate",
-            "borough": "Orășel"
+            "borough": "Orășel",
+            "localadmin": "Administrator local",
+            "address": "Adresă"
         },
         "send": "Trimiteți",
         "save": "Salvați",
