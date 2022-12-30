@@ -107,6 +107,7 @@
     "maps": {
         "pageTitle": "Hărți ORS",
         "Places": "Locuri",
-        "isochrones": "Izocronii"
+        "isochrones": "Izocronii",
+        "placeNameRequired": "Numele locului este necesar"
     }
 }
