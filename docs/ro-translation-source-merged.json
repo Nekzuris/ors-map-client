@@ -259,5 +259,107 @@
         "notRouteFound": "Nu a fost posibil să se găsească o rută care să lege locurile cu profilul selectat",
         "notRouteFoundWithFilters": "Nu a fost posibil să se găsească o rută care să conecteze locurile cu profilul și filtrele selectate",
         "orderByClosestPlaces": "Comandați prin locuri mai apropiate de locația dumneavoastră"
+    },
+    "mapView": {
+        "polylineMeasure": {
+            "unitControlLabel": {
+                "feet": "ft",
+                "landmiles": "M",
+                "nauticalmiles": "NM",
+                "kilometres": "km"
+            }
+        },
+        "youCantIntersectPolygons": "Nu se pot intersecta poligoane",
+        "polygonArea": "Zona poligonală",
+        "highlighting": "Evidențierea",
+        "accuracy": "Precizie",
+        "yourLocation": "Utilizați locația dvs",
+        "viewOnORS": "Vezi pe ORS",
+        "moveMapPositionToLeft": "Mutați centrul hărții spre stânga",
+        "moveMapPositionToUp": "Mutați centrul hărții în sus",
+        "moveMapPositionToDown": "Mutați centrul hărții în jos",
+        "toggleDirect": "Comutați direct de aici până la următorul loc",
+        "heightGraph": {
+            "distance": "Distanță",
+            "elevation": "Elevație",
+            "segment_length": "Lungimea segmentului",
+            "type": "Tip",
+            "legend": "Legenda"
+        },
+        "editShape": "Editați forma",
+        "remove": "Eliminați",
+        "avoidPolygonSaved": "Evitați poligonul salvat",
+        "avoidPolygonNotRemoved": "Nu a fost posibil să se elimine poligonul de evitare",
+        "avoidPolygonNotSaved": "Nu a fost posibilă salvarea poligonului de evitare",
+        "customTileProvider": "Furnizor de țiglă personalizat definit de utilizator",
+        "gestureHandling": {
+            "touch": "Folosiți două degete pentru a muta harta",
+            "scroll": "Utilizați ctrl + scroll pentru a mări harta",
+            "scrollMac": "Utilizați ⌘ + scroll pentru a mări harta"
+        },
+        "defineAvoidPolygon": "Definirea poligoanelor de evitare pentru calculul traseului",
+        "defineAvoidRectangle": "Definirea dreptunghiurilor de evitare pentru calculul traseului",
+        "youCanCenterAtYourLocationLater": "Puteți centra harta pe locația dvs. curentă în orice moment, făcând clic pe butonul \"locația mea\"",
+        "setMyLocationAsMapCenter": "Doriți să centrați harta la locația dvs. curentă? Acest lucru va îmbunătăți precizia căutării unui loc. Va trebui să autorizați acest lucru dacă vi se solicită.",
+        "removePlace": "Scoateți locul",
+        "moveMapPositionToRight": "Mutați centrul hărții spre dreapta",
+        "avoidPolygonRemoved": "Evitați poligonul eliminat",
+        "polygonEditModeEnabled": "Când terminați editarea, faceți clic oriunde pentru a salva modificările"
+    },
+    "placesCarousel": {
+        "layer": "Stratul",
+        "lat": "Lat.",
+        "lon": "Lon.",
+        "placeDetails": "Detalii privind locul",
+        "next": "Următorul bloc",
+        "prev": "Blocul anterior",
+        "directionsTo": "Direcții către",
+        "distance": "Distanță",
+        "notAvailable": "Nu este disponibil",
+        "distanceFromLocationMarkedOnTheMap": "Distanța aproximativă față de locația marcată pe hartă",
+        "selectPlace": "Selectați"
+    },
+    "floatingTopMenu": {
+        "openSettings": "Setări",
+        "about": "Despre ORS",
+        "openrouteserviceAPI": "Openrouteservice API",
+        "openrouteserviceForDisasters": "Openrouteservice pentru dezastre",
+        "askOpenrouteservice": "Întrebați Openrouteservice",
+        "showAbout": "Afișați informații generale",
+        "settingsTooltip": "Faceți clic aici dacă doriți să ajustați setările aplicației și să vedeți alte opțiuni"
+    },
+    "topMenu": {
+        "openSettings": "Deschideți setările",
+        "showAbout": "Afișați informații generale",
+        "about": "Despre ORS",
+        "pinSidebar": "Bara laterală Pin",
+        "settingsTooltip": "Faceți clic aici dacă doriți să ajustați setările aplicației"
+    },
+    "sidebar": {
+        "showSidebar": "Afișați bara laterală",
+        "hideSidebar": "Ascundeți bara laterală",
+        "switchSide": "Partea de comutare"
+    },
+    "options": {
+        "units": {
+            "kilometers": "kilometri",
+            "meters": "metri",
+            "miles": "mile"
+        },
+        "areUnits": {
+            "sqKms": "km²",
+            "hectare": "hectare",
+            "sqMeters": "m²"
+        }
+    },
+    "orsDictionary": {
+        "unknown": "Necunoscut",
+        "paved": "Asfaltat",
+        "unpaved": "Neasfaltat",
+        "asphalt": "Asfalt",
+        "concrete": "Beton",
+        "cobblestone": "Pavaj",
+        "metal": "metal",
+        "wood": "Lemn"
     }
 }
