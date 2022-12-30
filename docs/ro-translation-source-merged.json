@@ -381,7 +381,31 @@
         "concrete": "Beton",
         "cobblestone": "Pavaj",
         "metal": "metal",
-        "wood": "Lemn"
+        "wood": "Lemn",
+        "destination": "Destinație",
+        "private": "Privat",
+        "permissive": "Permisivitate",
+        "road": "Drumul",
+        "street": "Strada",
+        "path": "Calea",
+        "track": "Pista",
+        "cycleway": "Pistă de biciclete",
+        "footway": "Trotuare",
+        "steps": "Pași",
+        "ferry": "Feribot",
+        "construction": "Construcții",
+        "concrete:lanes": "benzi de beton",
+        "paving_stones": "pietre de pavaj",
+        "sett": "Setare",
+        "compacted": "Compactat",
+        "fine_gravel": "Pietriș fin",
+        "pebblestone": "Pavaj",
+        "impassable": "Impasibil",
+        "very_horrible": "Foarte oribil",
+        "customers": "Clienți",
+        "delivery": "Livrare",
+        "stateRoad": "Drum national",
+        "unhewn_cobblestone": "Pavaj neșlefuit"
     },
     "print": {
         "print": "Imprimare",
@@ -454,5 +478,24 @@
         "dictCancelUpload": "Anulați încărcarea",
         "dictUploadCanceled": "Încărcare anulată",
         "failedToLoadFile": "Nu s-a reușit încărcarea fișierului selectat. Asigurați-vă că fișierul nu este corupt și că este într-unul dintre formatele acceptate"
+    },
+    "myLocation": {
+        "myPositionToolTip": "Activați locația pentru a vă afișa poziția și pentru a găsi mai ușor locurile din apropiere",
+        "onlyOnce": "O singură dată",
+        "continuouslyLocation": "Actualizați-vă poziția la fiecare 2 secunde"
+    },
+    "orsLPolyline": {
+        "type": "Tip",
+        "surface": "Suprafața"
+    },
+    "orsMapFilters": {
+        "profiles": {
+            "bus": "Autobuz",
+            "delivery": "Camion de livrare",
+            "forestry": "Camion forestier",
+            "goods": "Camion de marfă",
+            "hgv": "Vehicule grele",
+            "agricultural": "Vehicul agricol"
+        }
     }
 }
