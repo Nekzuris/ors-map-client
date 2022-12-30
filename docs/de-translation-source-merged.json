@@ -274,7 +274,7 @@
             "2008": "Leeres Element",
             "2009": "Es konnte keine passende Route für die angegebenen Orte und Kriterien gefunden werden. Möglicherweise wird das angegebene Profil in diesem Gebiet/Region mit dem/den angewandten Filter(n) nicht unterstützt.",
             "2010": "Es war nicht möglich, einen geeigneten Punkt zu finden, der Teil der Route ist. Vielleicht ist einer der ausgewählten Punkte nicht routingfähig oder das ausgewählte Profil wird in dieser Region nicht unterstützt",
-            "2011": "Bei der Verwendung von Alternativrouten ist es nicht möglich, Routenstopps zu definieren.",
+            "2011": "Bei der Verwendung von Alternativrouten ist es nicht möglich, Routenstopps zu definieren",
             "2012": "Es wurde ein ungültiger Parameter angegeben. Stellen Sie sicher, dass die URL korrekt ist",
             "2099": "Es kann keine Route berechnet werden, die die ausgewählten Orte miteinander verbindet"
         },
@@ -636,7 +636,8 @@
         "tunnel": "Tunnel",
         "paved_road": "Gepflasterte Straße",
         "ford": "Ford",
-        "no_data": "Keine Daten"
+        "no_data": "Keine Daten",
+        "sett": "Setzung"
     },
     "orsMapFilters": {
         "profiles": {
@@ -652,7 +653,190 @@
             "wheelchair": "Rollstuhl",
             "hgv": "Schweres Fahrzeug",
             "bus": "Bus",
-            "agricultural": "Landwirtschaftliches Fahrzeug"
+            "agricultural": "Landwirtschaftliches Fahrzeug",
+            "delivery": "Lieferwagen",
+            "forestry": "Forstwirtschaftlicher LKW",
+            "goods": "Lastwagen"
+        },
+        "filters": {
+            "preference": {
+                "label": "Bevorzugte Route",
+                "description": "Der bevorzugte Faktor, der bei der Routenberechnung zu berücksichtigen ist",
+                "enum": {
+                    "fastest": "Schnellste",
+                    "shortest": "Kürzeste",
+                    "recommended": "Empfohlen"
+                }
+            },
+            "range_type": {
+                "label": "Isochrone Methode",
+                "description": "Methode zur Berechnung des Isochrons",
+                "enum": {
+                    "time": "Zeit",
+                    "distance": "Entfernung"
+                }
+            },
+            "time_range": {
+                "label": "Bereich",
+                "description": "Der maximale Bereich der zu berechnenden Isochronen"
+            },
+            "distance_range": {
+                "label": "Reichweite",
+                "description": "Der maximale Bereich der zu berechnenden Isochrone"
+            },
+            "time_interval": {
+                "label": "Intervall",
+                "description": "Das Intervall der zu berechnenden Isochronen"
+            },
+            "distance_interval": {
+                "label": "Interoperabilität",
+                "description": "Das Intervall der zu berechnenden Isochronen"
+            },
+            "options": {
+                "label": "Optionen"
+            },
+            "profile_params": {
+                "label": "Profil-Parameter"
+            },
+            "restrictions": {
+                "label": "Beschränkungen"
+            },
+            "axleload": {
+                "label": "Achslast",
+                "description": "Die maximale Achslast in Tonnen"
+            },
+            "height": {
+                "label": "Höhe",
+                "description": "Die maximale Höhe in Metern. Die Grenzwerte werden nicht vom Server erzwungen und sind nur dazu da, um sicherzustellen, dass keine unangemessenen Werte gesetzt werden. Seltsam große Werte können zu unbrauchbaren Routen führen, wenn die OpenStreetMap-Datenbank dafür nicht ausreichend getaggt ist."
+            },
+            "weight": {
+                "label": "Gewicht",
+                "description": "Das maximale Gewicht in Tonnen"
+            },
+            "width": {
+                "label": "Breite",
+                "description": "Die maximale Höhe in Metern. Die Grenzwerte werden nicht vom Server erzwungen und sind nur dazu da, um sicherzustellen, dass keine unangemessenen Werte gesetzt werden. Seltsam große Werte können zu unbrauchbaren Routen führen, wenn die OpenStreetMap-Datenbank dafür nicht ausreichend getaggt ist."
+            },
+            "hazmat": {
+                "label": "Gefährliche Güter",
+                "description": "Beförderung gefährlicher Güter"
+            },
+            "maximum_incline": {
+                "label": "Maximale Neigung",
+                "description": "Die maximale Neigung in Prozent"
+            },
+            "maximum_sloped_kerb": {
+                "label": "Maximale Bordsteinhöhe",
+                "description": "Gibt die maximale Höhe des schrägen Bordsteins in Metern an"
+            },
+            "minimum_width": {
+                "label": "Mindestbreite der Fußwege",
+                "description": "Gibt die Mindestbreite des Fußwegs in Metern an"
+            },
+            "smoothness_type": {
+                "label": "Glattheit der Strecke",
+                "description": "Gibt die Mindestglätte der Strecke an. Weitere Informationen: https://wiki.openstreetmap.org/wiki/Key:smoothness"
+            },
+            "surface_type": {
+                "label": "Min. Oberflächenart",
+                "description": "Gibt den minimalen Oberflächentyp an. Reihenfolge der Typen: https://wiki.openstreetmap.org/wiki/Key:surface"
+            },
+            "track_type": {
+                "label": "Minimale Steigung der Strecke",
+                "description": "Gibt die Mindestneigung der Route an. Werte für die Steigung: https://wiki.openstreetmap.org/wiki/Key:tracktype"
+            },
+            "round_trip": {
+                "label": "Rundreise"
+            },
+            "round_trip_length": {
+                "label": "Länge der Rundreise",
+                "description": "Die Ziellänge der Route (dies ist ein bevorzugter Wert, die Ergebnisse können jedoch abweichen)."
+            },
+            "points": {
+                "label": "Punkte",
+                "description": "Die Anzahl der Punkte, die auf der Route verwendet werden sollen. Größere Werte erzeugen mehr kreisförmige Routen."
+            },
+            "seed": {
+                "label": "Zufälliges Saatgut",
+                "description": "Ein Zufallswert, der für die Zufallsgenerierung der generierten Route verwendet wird (min:0, max: 90)"
+            },
+            "avoid_polygons": {
+                "label": "Polygone vermeiden",
+                "description": "Polygone vermeiden"
+            },
+            "avoid_features": {
+                "label": "Merkmale vermeiden",
+                "description": "Features vermeiden",
+                "enum": {
+                    "highways": "Autobahnen",
+                    "ferries": "Fähren",
+                    "hills": "Hügel",
+                    "tunnels": "Tunnel",
+                    "fords": "Fords",
+                    "steps": "Schritte",
+                    "pavedroads": "Gepflasterte Straßen",
+                    "unpavedroads": "Ungepflasterte Straßen",
+                    "tollways": "Mautgebühren"
+                }
+            },
+            "avoid_borders": {
+                "label": "Grenzen vermeiden",
+                "enum": {
+                    "all": "Alle",
+                    "controlled": "Kontrolliert"
+                },
+                "description": "Grenzen vermeiden"
+            },
+            "avoid_countries": {
+                "label": "Länder meiden",
+                "description": "Länder vermeiden"
+            },
+            "alternative_routes": {
+                "label": "Alternative Routen"
+            },
+            "target_count": {
+                "label": "Anzahl der Routen",
+                "description": "Zielanzahl der zu berechnenden Alternativrouten. Der Dienst gibt bis zu dieser Anzahl von Routen zurück, die die Bedingungen für den Anteilsfaktor und den Gewichtsfaktor erfüllen."
+            },
+            "share_factor": {
+                "label": "Anteilsfaktor",
+                "description": "Maximaler Anteil der Route, den sich Alternativen mit der optimalen Route teilen dürfen. Der Standardwert von 0,6 bedeutet, dass die Alternativen bis zu 60 % der Pfadsegmente mit der optimalen Route teilen können."
+            },
+            "weight_factor": {
+                "label": "Gewichtsfaktor",
+                "description": "Maximaler Faktor, um den die Routengewichtung von der optimalen Route abweichen darf. Der Standardwert von 1,4 bedeutet, dass die Alternativen bis zu 1,4 Mal länger (teurer) sein können als die optimale Route."
+            },
+            "maximum_speed": {
+                "label": "Maximale Geschwindigkeit",
+                "description": "Die maximale Geschwindigkeit, die angewendet werden muss"
+            },
+            "weightings": {
+                "label": "Zusätzliche Einstellungen"
+            },
+            "green": {
+                "label": "Grün (nur Deutschland)",
+                "description": "Grünflächen bevorzugen (nur für Deutschland verfügbar)"
+            },
+            "quiet": {
+                "label": "Leise (nur Deutschland)",
+                "description": "Bevorzugen Sie ruhige Gebiete (nur für Deutschland verfügbar)"
+            },
+            "surface_quality_known": {
+                "label": "Nur Oberflächen mit bekannter Qualität",
+                "description": "Erzwingt die Verwendung nur von Kanten, bei denen die Oberflächenqualität explizit bekannt ist"
+            },
+            "allow_unsuitable": {
+                "label": "Ungeeignetes zulassen",
+                "description": "Ermöglicht die Nutzung von Kanten, die für Rollstühle ungeeignet sind und zuvor ausgeschlossen waren"
+            },
+            "vehicle_type": {
+                "label": "Fahrzeugtyp",
+                "description": "Fahrzeugtyp, der bei der Routenberechnung zu berücksichtigen ist"
+            },
+            "length": {
+                "label": "Länge",
+                "description": "Die maximale Höhe in Metern. Die Grenzwerte werden nicht vom Server erzwungen und sind nur dazu da, um sicherzustellen, dass keine unangemessenen Werte gesetzt werden. Seltsam große Werte können zu unbrauchbaren Routen führen, wenn die OpenStreetMap-Datenbank dafür nicht ausreichend getaggt ist."
+            }
         }
     }
 }
