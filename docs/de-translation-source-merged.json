@@ -1,842 +1,842 @@
 {
-    "global": {
-        "confirm": "Bestätigen",
-        "cancel": "Abbrechen",
-        "brand": "HeiGIT - Universität Heidelberg",
-        "close": "Schließen",
-        "select": "Wählen",
-        "yes": "Ja.",
-        "no": "Nein",
-        "and": "und",
-        "noAndDonAskAgain": "Nein (bitte nicht wieder fragen)",
-        "ok": "OKAY.",
-        "polygon": "polygon",
-        "duration": "Dauer",
-        "distance": "Entfernung",
-        "elevation": "Höhe",
-        "save": "Speichern",
-        "closeAndDoNotShowAgain": "Schließen und nicht wieder anzeigen",
-        "developedBy": "Heidelberg Institut für Geoinformationstechnologie",
-        "send": "Sende",
-        "developedByIntro": "Dienstleistungen entwickelt von",
-        "profile": "Profil",
-        "options": "Optionen",
-        "custom": "Zoll",
-        "parameters": "Parameter",
-        "customOverlayer": "Benutzerdefinierte Überlagerungsschicht",
-        "months": {
-            "january": "Januar",
-            "february": "Februar",
-            "march": "März",
-            "april": "April",
-            "may": "Mai",
-            "june": "Juni",
-            "july": "Juli",
-            "august": "August",
-            "september": "September",
-            "october": "Oktober",
-            "november": "November",
-            "december": "Dezember"
-        },
-        "monthsShort": {
-            "january": "Jan",
-            "february": "Feb",
-            "march": "März",
-            "april": "Apr",
-            "may": "Mai",
-            "june": "Jun",
-            "july": "Jul",
-            "august": "Aug",
-            "september": "Sep",
-            "october": "Okt",
-            "november": "Nov",
-            "december": "Dez"
-        },
-        "units": {
-            "km": "km(s)",
-            "mi": "mi(s)",
-            "m": "m",
-            "seconds": "Sekunden",
-            "s": "s",
-            "minutes": "Minuten",
-            "hours": "Stunde(n)",
-            "days": "d",
-            "h": "h",
-            "min": "min",
-            "meters": "Meter",
-            "lng": "läng",
-            "lat": "breit",
-            "tones": "Töne",
-            "t": "t",
-            "kmh": "km/h"
-        },
-        "layers": {
-            "macrocounty": "Makrobezirk",
-            "country": "Land",
-            "region": "Region",
-            "county": "Landkreis",
-            "macroregion": "Makroregion",
-            "neighbourhood": "Nachbarschaft",
-            "locality": "Ortschaft",
-            "borough": "Stadtbezirk",
-            "localadmin": "Lokale Verwaltung",
-            "address": "Anschrift",
-            "street": "Straße",
-            "venue": "Veranstaltungsort",
-            "rawCoordinate": "Rohkoordinaten lng,lat",
-            "notAvailable": "Nicht verfügbar",
-            "postalcode": "Postleitzahl",
-            "undefined": "Nicht definiert",
-            "ocean": "Ozean"
-        },
-        "population": "Bevölkerung",
-        "green": "Grün",
-        "noise": "Lärm",
-        "steepness": "Steilheit",
-        "surface": "Oberfläche",
-        "waytypes": "Wegarten",
-        "suitability": "Angemessenheit",
-        "waycategory": "Kategorie Weg",
-        "tollways": "Mautstraßen",
-        "traildifficulty": "Schwierigkeit der Strecke",
-        "osmid": "OSM-ID",
-        "countryinfo": "Länderinformationen",
-        "roadaccessrestrictions": "Beschränkungen des Straßenzugangs",
-        "rawRouting": "Rohes Routing"
+  "global": {
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen",
+    "brand": "HeiGIT - Universität Heidelberg",
+    "close": "Schließen",
+    "select": "Wählen",
+    "yes": "Ja.",
+    "no": "Nein",
+    "and": "und",
+    "noAndDonAskAgain": "Nein (bitte nicht wieder fragen)",
+    "ok": "OKAY.",
+    "polygon": "polygon",
+    "duration": "Dauer",
+    "distance": "Entfernung",
+    "elevation": "Höhe",
+    "save": "Speichern",
+    "closeAndDoNotShowAgain": "Schließen und nicht wieder anzeigen",
+    "developedBy": "Heidelberg Institut für Geoinformationstechnologie",
+    "send": "Sende",
+    "developedByIntro": "Dienstleistungen entwickelt von",
+    "profile": "Profil",
+    "options": "Optionen",
+    "custom": "Zoll",
+    "parameters": "Parameter",
+    "customOverlayer": "Benutzerdefinierte Überlagerungsschicht",
+    "months": {
+      "january": "Januar",
+      "february": "Februar",
+      "march": "März",
+      "april": "April",
+      "may": "Mai",
+      "june": "Juni",
+      "july": "Juli",
+      "august": "August",
+      "september": "September",
+      "october": "Oktober",
+      "november": "November",
+      "december": "Dezember"
     },
-    "download": {
-        "preparingDownload": "Vorbereiten des Downloads ...",
-        "fileReady": "Datei bereit",
-        "documentTitle": "ORS-Route",
-        "download": "Herunterladen",
-        "downloadFileName": "Dateiname herunterladen",
-        "downloadFormat": "Format herunterladen",
-        "downloadRoute": "Route herunterladen",
-        "errorPreparingFile": "Fehler bei der Erstellung der Datei",
-        "fileTooBigToBeDownloaded": "Datei zu groß zum Herunterladen",
-        "standard": "Standard"
+    "monthsShort": {
+      "january": "Jan",
+      "february": "Feb",
+      "march": "März",
+      "april": "Apr",
+      "may": "Mai",
+      "june": "Jun",
+      "july": "Jul",
+      "august": "Aug",
+      "september": "Sep",
+      "october": "Okt",
+      "november": "Nov",
+      "december": "Dez"
     },
-    "maps": {
-        "pageTitle": "ORS-Karten",
-        "Places": "Orte",
-        "isochrones": "Isochrone",
-        "placeNameRequired": "Ortsname erforderlich",
-        "altitude": "Höhenunterschiede",
-        "settings": "Einstellungen",
-        "toggleAccessibleMode": "Zugriffsmodus umschalten",
-        "aboutTitle": "Über ORS",
-        "updateSearch": "Diesen Bereich durchsuchen",
-        "updateSearchAfterZoomOrCenterChange": "Verbessern der Suche nach Zoom- oder Zentrumsänderung",
-        "pageNotFound": "Seite nicht gefunden. Überprüfen Sie, ob die URL nicht fehlerhaft ist"
+    "units": {
+      "km": "km(s)",
+      "mi": "mi(s)",
+      "m": "m",
+      "seconds": "Sekunden",
+      "s": "s",
+      "minutes": "Minuten",
+      "hours": "Stunde(n)",
+      "days": "d",
+      "h": "h",
+      "min": "min",
+      "meters": "Meter",
+      "lng": "läng",
+      "lat": "breit",
+      "tones": "Töne",
+      "t": "t",
+      "kmh": "km/h"
     },
-    "about": {
-        "donate": "Spenden Sie!",
-        "donateText": "Bitte spenden Sie Ihre geografischen Daten an",
-        "info_I": "Openrouteservice wird vom Heidelberger Institut für Geoinformationstechnologie (HeiGIT) entwickelt und bereitgestellt und bietet Routing-Dienste unter Verwendung von nutzergenerierten, gemeinschaftlich gesammelten freien geografischen Daten von OpenStreetMap. Bitte spenden Sie Ihre geografischen Daten an openstreetmap.org!",
-        "sources": "Wir verwenden verschiedene Open-Source-Bibliotheken für diese Webanwendung. Diese finden Sie in den entsprechenden Paketdateien auf",
-        "feelFreeToReportBugs": "Bitte melden Sie Fehler auf",
-        "orToFixThem": "oder beheben Sie sie selbst und stellen Sie einen Pull-Request",
-        "info_IV": "Falls Sie weitere Fragen, Bedenken oder Feedback haben, kontaktieren Sie uns bitte über:",
-        "CIAT_CSI_SRTM": "CIAT-CSI SRTM",
-        "dataProvided": "Bevölkerungsdaten bereitgestellt von",
-        "ghsFramework": "Leitlinien für globale menschliche Siedlungen (GHS)",
-        "askOpenrouteservice": "Openrouteservice fragen",
-        "termsOfService": "Bedingungen der Dienstleistung",
-        "privacyPolicy": "Datenschutzbestimmungen",
-        "openStreetMapOrg": "OpenStreetMap.org",
-        "infoSupport": "Bitte unterstützen Sie openrouteservice.org",
-        "supportText": "Openrouteservice bietet kostenlose Dienste an und finanziert sich zum größten Teil über Spenden. Wenn Sie die Weiterentwicklung der Funktionen und der Serverinfrastruktur unterstützen möchten, sind Spenden sehr willkommen.",
-        "softwareAndLibraries": "Software & Bibliotheken",
-        "info_II": "Wir verwenden den lokalen Speicher des Browsers, um Informationen zu speichern, so dass Sie diese während Ihres Besuchs oder bei späteren Besuchen nicht erneut eingeben müssen. Wir sammeln und speichern keine persönlichen Daten über Sie oder persönlich identifizierbare Informationen über Sie, außer denen, die Sie uns freiwillig durch direkten Kontakt zur Verfügung stellen. Außerdem geben wir keine analytischen Daten an Dienstleister oder Partner weiter.",
-        "info_III": "Den Nutzern ist jede kommerzielle, unfreie Weiterveräußerung oder Weiterverbreitung ohne ausdrückliche schriftliche Genehmigung des CIAT untersagt. Originaldaten von Jarvis A., H.I. Reuter, A. Nelson, E. Guevara, 2008, Hole-filled seamless SRTM data V4, International Centre for Tropical Agriculture (CIAT)",
-        "info_V": "Openrouteservice kümmert sich um Ihre Anfragen, Probleme, Fragen usw. Da es immer einen Strom von Anfragen geben wird, übernehmen wir die Verantwortung, Ihnen in kurzer Zeit zu antworten. Nachdem Sie unsere automatische Antwort-E-Mail erhalten haben, um Ihnen mitzuteilen, dass wir Ihre Anfrage erhalten haben, werden wir in der Regel kurz darauf antworten. Bitte geben Sie uns Zeit, Ihr Problem zu prüfen, bevor wir uns bei Ihnen melden."
+    "layers": {
+      "macrocounty": "Makrobezirk",
+      "country": "Land",
+      "region": "Region",
+      "county": "Landkreis",
+      "macroregion": "Makroregion",
+      "neighbourhood": "Nachbarschaft",
+      "locality": "Ortschaft",
+      "borough": "Stadtbezirk",
+      "localadmin": "Lokale Verwaltung",
+      "address": "Anschrift",
+      "street": "Straße",
+      "venue": "Veranstaltungsort",
+      "rawCoordinate": "Rohkoordinaten lng,lat",
+      "notAvailable": "Nicht verfügbar",
+      "postalcode": "Postleitzahl",
+      "undefined": "Nicht definiert",
+      "ocean": "Ozean"
     },
-    "box": {
-        "maximize": "Maximieren Sie",
-        "minimize": "Minimieren"
+    "population": "Bevölkerung",
+    "green": "Grün",
+    "noise": "Lärm",
+    "steepness": "Steilheit",
+    "surface": "Oberfläche",
+    "waytypes": "Wegarten",
+    "suitability": "Angemessenheit",
+    "waycategory": "Kategorie Weg",
+    "tollways": "Mautstraßen",
+    "traildifficulty": "Schwierigkeit der Strecke",
+    "osmid": "OSM-ID",
+    "countryinfo": "Länderinformationen",
+    "roadaccessrestrictions": "Beschränkungen des Straßenzugangs",
+    "rawRouting": "Rohes Routing"
+  },
+  "download": {
+    "preparingDownload": "Vorbereiten des Downloads ...",
+    "fileReady": "Datei bereit",
+    "documentTitle": "ORS-Route",
+    "download": "Herunterladen",
+    "downloadFileName": "Dateiname herunterladen",
+    "downloadFormat": "Format herunterladen",
+    "downloadRoute": "Route herunterladen",
+    "errorPreparingFile": "Fehler bei der Erstellung der Datei",
+    "fileTooBigToBeDownloaded": "Datei zu groß zum Herunterladen",
+    "standard": "Standard"
+  },
+  "maps": {
+    "pageTitle": "ORS-Karten",
+    "Places": "Orte",
+    "isochrones": "Isochrone",
+    "placeNameRequired": "Ortsname erforderlich",
+    "altitude": "Höhenunterschiede",
+    "settings": "Einstellungen",
+    "toggleAccessibleMode": "Zugriffsmodus umschalten",
+    "aboutTitle": "Über ORS",
+    "updateSearch": "Diesen Bereich durchsuchen",
+    "updateSearchAfterZoomOrCenterChange": "Verbessern der Suche nach Zoom- oder Zentrumsänderung",
+    "pageNotFound": "Seite nicht gefunden. Überprüfen Sie, ob die URL nicht fehlerhaft ist"
+  },
+  "about": {
+    "donate": "Spenden Sie!",
+    "donateText": "Bitte spenden Sie Ihre geografischen Daten an",
+    "info_I": "Openrouteservice wird vom Heidelberger Institut für Geoinformationstechnologie (HeiGIT) entwickelt und bereitgestellt und bietet Routing-Dienste unter Verwendung von nutzergenerierten, gemeinschaftlich gesammelten freien geografischen Daten von OpenStreetMap. Bitte spenden Sie Ihre geografischen Daten an openstreetmap.org!",
+    "sources": "Wir verwenden verschiedene Open-Source-Bibliotheken für diese Webanwendung. Diese finden Sie in den entsprechenden Paketdateien auf",
+    "feelFreeToReportBugs": "Bitte melden Sie Fehler auf",
+    "orToFixThem": "oder beheben Sie sie selbst und stellen Sie einen Pull-Request",
+    "info_IV": "Falls Sie weitere Fragen, Bedenken oder Feedback haben, kontaktieren Sie uns bitte über:",
+    "CIAT_CSI_SRTM": "CIAT-CSI SRTM",
+    "dataProvided": "Bevölkerungsdaten bereitgestellt von",
+    "ghsFramework": "Leitlinien für globale menschliche Siedlungen (GHS)",
+    "askOpenrouteservice": "Openrouteservice fragen",
+    "termsOfService": "Bedingungen der Dienstleistung",
+    "privacyPolicy": "Datenschutzbestimmungen",
+    "openStreetMapOrg": "OpenStreetMap.org",
+    "infoSupport": "Bitte unterstützen Sie openrouteservice.org",
+    "supportText": "Openrouteservice bietet kostenlose Dienste an und finanziert sich zum größten Teil über Spenden. Wenn Sie die Weiterentwicklung der Funktionen und der Serverinfrastruktur unterstützen möchten, sind Spenden sehr willkommen.",
+    "softwareAndLibraries": "Software & Bibliotheken",
+    "info_II": "Wir verwenden den lokalen Speicher des Browsers, um Informationen zu speichern, so dass Sie diese während Ihres Besuchs oder bei späteren Besuchen nicht erneut eingeben müssen. Wir sammeln und speichern keine persönlichen Daten über Sie oder persönlich identifizierbare Informationen über Sie, außer denen, die Sie uns freiwillig durch direkten Kontakt zur Verfügung stellen. Außerdem geben wir keine analytischen Daten an Dienstleister oder Partner weiter.",
+    "info_III": "Den Nutzern ist jede kommerzielle, unfreie Weiterveräußerung oder Weiterverbreitung ohne ausdrückliche schriftliche Genehmigung des CIAT untersagt. Originaldaten von Jarvis A., H.I. Reuter, A. Nelson, E. Guevara, 2008, Hole-filled seamless SRTM data V4, International Centre for Tropical Agriculture (CIAT)",
+    "info_V": "Openrouteservice kümmert sich um Ihre Anfragen, Probleme, Fragen usw. Da es immer einen Strom von Anfragen geben wird, übernehmen wir die Verantwortung, Ihnen in kurzer Zeit zu antworten. Nachdem Sie unsere automatische Antwort-E-Mail erhalten haben, um Ihnen mitzuteilen, dass wir Ihre Anfrage erhalten haben, werden wir in der Regel kurz darauf antworten. Bitte geben Sie uns Zeit, Ihr Problem zu prüfen, bevor wir uns bei Ihnen melden."
+  },
+  "box": {
+    "maximize": "Maximieren Sie",
+    "minimize": "Minimieren"
+  },
+  "formFields": {
+    "fieldHelp": "Klicken Sie, um die Beschreibung zu öffnen",
+    "defaultAbbreviation": "df.: ",
+    "paramJSONContent": "JSON-Inhalt",
+    "wrongInputValue": "Falscher Eingabewert für diesen Parameter.",
+    "notValidJsonString": "Kein gültiger Json für :fieldName"
+  },
+  "formActions": {
+    "addPlaceInput": "Ortseingabe hinzufügen",
+    "clearRoute": "Route löschen",
+    "reverseRoute": "Umgekehrte Route",
+    "roundTrip": "Rundreise",
+    "toggleRoundTrip": "Rundreise umschalten"
+  },
+  "isochronesDetails": {
+    "polygons": "Polygone",
+    "center": "zentrieren",
+    "reachCenters": "Zentren erreichen",
+    "toggleVisibility": "Sichtbarkeit umschalten",
+    "opacity": "Deckkraft"
+  },
+  "isochrones": {
+    "isochrones": "Isochrone",
+    "isochronesReady": "Isochrone bereit",
+    "calculatingIsochrones": "Berechnung von Isochronen ...",
+    "itWasNotPossibleToCalculateIsochronesWithTheDefinedOptions": "Es war nicht möglich, Isochronen mit den definierten Optionen zu berechnen. Versuchen Sie, kleinere Isochrone(n) zu definieren.",
+    "couldResolveTheSelectedPlaceAsASuitableCenter": "Es war nicht möglich, den ausgewählten Punkt als geeigneten Mittelpunkt zu bestimmen.",
+    "apiError": {
+      "2003": "Die Fläche eines zu vermeidenden Polygons darf 20,0000 Quadratkilometer nicht überschreiten.",
+      "3001": "Ein oder mehrere Parameter haben einen falschen Wert oder ein falsches Format.",
+      "3099": "Die Isochronenkarte für den/die ausgewählten Punkt(e) und das Profil kann nicht erstellt werden.",
+      "3003": "Der Parameter 'avoid_features' hat den falschen Wert 'null'",
+      "3004": "Die gewählte Kombination aus Profil, Intervall und Zeit oder Entfernung überschreitet die maximal unterstützten Werte. Bitte passen Sie die Werte an."
     },
-    "formFields": {
-        "fieldHelp": "Klicken Sie, um die Beschreibung zu öffnen",
-        "defaultAbbreviation": "df.: ",
-        "paramJSONContent": "JSON-Inhalt",
-        "wrongInputValue": "Falscher Eingabewert für diesen Parameter.",
-        "notValidJsonString": "Kein gültiger Json für :fieldName"
+    "genericErrorMsg": "Es war nicht möglich, die Isochronen zu berechnen."
+  },
+  "altitudePreview": {
+    "expandAltitudeChart": "Tabelle erweitern",
+    "altitude": "Höhenlage"
+  },
+  "placeDetails": {
+    "layer": "Ebene",
+    "lat": "Lat.",
+    "lon": "Lon.",
+    "placeDetails": "Details zum Ort",
+    "placeName": "Name",
+    "latlngCopied": "Breitengrad und Längengrad kopiert",
+    "lnglatCopied": "Längen- und Breitengrad kopiert",
+    "copyLatlng": "Kopie im Format Breitengrad, Längengrad",
+    "satelliteView": "Satellitenansicht",
+    "notAvailable": "Nicht verfügbar",
+    "copyLnglat": "Kopie im Format Längengrad, Breitengrad"
+  },
+  "roundtrip": {
+    "roundtripOptions": "Rundreiseoptionen"
+  },
+  "routeExtras": {
+    "extras": "Routen-Extras",
+    "extraInfo": "Zusätzliche Informationen",
+    "value": "Wert",
+    "clickToHighlightOnMap": "Anklicken, um es auf der Karte zu markieren",
+    "showAllOnMap": "Alle auf der Karte anzeigen"
+  },
+  "steps": {
+    "instruction": "Anleitung",
+    "on": "Auf",
+    "step": "Schritt",
+    "gotoStep": "Weiter zu Schritt"
+  },
+  "routeDetails": {
+    "warnings": "Warnungen",
+    "routes": "Routen",
+    "route": "Route",
+    "segments": "Segmente",
+    "segment": "Segment",
+    "instructions": "Anweisungen",
+    "instruction": "Anleitung",
+    "name": "Name",
+    "selectRoute": "Wählen Sie diese Route",
+    "gotoSegment": "Zum Segment gehen",
+    "warningCodes": {
+      "1": "Auf einigen Straßen kann es zu Einschränkungen kommen",
+      "2": "Entlang der Strecke gibt es Mautstellen",
+      "3": "Entlang der Route gibt es übersprungene Abschnitte. Dauer und Zugänglichkeit sind möglicherweise nicht korrekt",
+      "4": "Mindestens eine zusätzliche Information wurde angefordert, ist aber nicht verfügbar"
     },
-    "formActions": {
-        "addPlaceInput": "Ortseingabe hinzufügen",
-        "clearRoute": "Route löschen",
-        "reverseRoute": "Umgekehrte Route",
-        "roundTrip": "Rundreise",
-        "toggleRoundTrip": "Rundreise umschalten"
+    "routeOpacity": "Trübung der Route",
+    "routeDetails": "Details zur Route",
+    "selectedRoute": "Ausgewählte Route"
+  },
+  "placesAndDirections": {
+    "isochrones": "Isochrones",
+    "place": "Ort",
+    "notRouteFound": "Es war nicht möglich, eine Route zu finden, die die Orte mit dem gewählten Profil verbindet",
+    "notRouteFoundWithFilters": "Es war nicht möglich, eine Route zu finden, die die Orte mit dem gewählten Profil und den Filtern verbindet",
+    "noPlaceFound": "Keine Stelle mit dem eingegebenen Inhalt gefunden",
+    "routeReady": "Route bereit",
+    "useLocation": "GPS",
+    "addPlaceInput": "Ort hinzufügen",
+    "clearRoute": "Route",
+    "reverseRoute": "Umgekehrt",
+    "orderByClosestPlaces": "Bestellung nach Orten in der Nähe Ihres Standorts",
+    "calculatingRoute": "Berechnung der Route...",
+    "yourLocation": "Ihr Standort",
+    "expandAltitudeChart": "Diagramm erweitern",
+    "errorRenderingContentUploaded": "Fehler beim Rendern des hochgeladenen Inhalts. Überprüfen Sie das Dateiformat und den Inhalt",
+    "roundTrip": "Rundreise",
+    "notPossibleToCalculateRoute": "Eine Route konnte nicht mit einem der ausgewählten Orte berechnet werden",
+    "apiError": {
+      "2000": "JSON-Anfrage kann nicht geparst werden",
+      "2001": "Erforderlicher Parameter fehlt",
+      "2002": "Ungültiges Parameterformat",
+      "2003": "Die Routenparameter überschreiten einen oder mehrere Grenzwerte. Bitte denken Sie daran, dass einige Vermeidungsparameter Grenzen haben, wie die Routenlänge und die Fläche eines Vermeidungspolygons, die 20000 Quadratkilometer nicht überschreiten darf.",
+      "2004": "Die Routenparameter überschreiten einen oder mehrere Grenzwerte. Beachten Sie, dass die ungefähre Streckenlänge nicht mehr als 6000 km betragen darf. Wenn bestimmte Routenoptionen oder vermeidbare Strecken verwendet werden, darf die ungefähre Streckenentfernung nicht mehr als 150 km betragen.",
+      "2006": "Die Anfrage an den Export-Handler konnte nicht geparst werden",
+      "2007": "Nicht unterstütztes Exportformat",
+      "2008": "Leeres Element",
+      "2009": "Es konnte keine passende Route für die angegebenen Orte und Kriterien gefunden werden. Möglicherweise wird das angegebene Profil in diesem Gebiet/Region mit dem/den angewandten Filter(n) nicht unterstützt.",
+      "2010": "Es war nicht möglich, einen geeigneten Punkt zu finden, der Teil der Route ist. Vielleicht ist einer der ausgewählten Punkte nicht routingfähig oder das ausgewählte Profil wird in dieser Region nicht unterstützt",
+      "2011": "Bei der Verwendung von Alternativrouten ist es nicht möglich, Routenstopps zu definieren",
+      "2012": "Es wurde ein ungültiger Parameter angegeben. Stellen Sie sicher, dass die URL korrekt ist",
+      "2099": "Es kann keine Route berechnet werden, die die ausgewählten Orte miteinander verbindet"
     },
-    "isochronesDetails": {
-        "polygons": "Polygone",
-        "center": "zentrieren",
-        "reachCenters": "Zentren erreichen",
-        "toggleVisibility": "Sichtbarkeit umschalten",
-        "opacity": "Deckkraft"
+    "reorder": "Neuordnung",
+    "genericErrorMsg": "Es war nicht möglich, die Route zu berechnen"
+  },
+  "print": {
+    "print": "Drucken",
+    "segment": "Segment",
+    "preparingPrinting": "Vorbereiten des Drucks",
+    "readyToPrint": "Bereit zum Drucken"
+  },
+  "share": {
+    "fullUrl": "Vollständig",
+    "shortUrl": "Kurz",
+    "clickToCopy": "Klicken Sie, um die URL zu kopieren",
+    "share": "Teilen (zum Kopieren anklicken)",
+    "shareLink": "Link teilen",
+    "short": "Kurz-URL",
+    "copyUrlInfo": "Sie können den Link auch aus der Adressleiste Ihres Browsers kopieren.",
+    "urlShortened": "Gekürzte URL",
+    "embedCodeCopied": "Einbettungscode kopiert",
+    "embed": "Einbetten (zum Kopieren anklicken)",
+    "urlCopied": "URL in die Zwischenablage kopiert.",
+    "shorteningNotPossible": "Es war nicht möglich, eine kurze URL zu generieren. Bitte verwenden Sie die vollständige URL",
+    "embedInstructions": "Verwenden Sie diesen Code, um die ORS-Karte in Ihre Website einzubinden"
+  },
+  "mapForm": {
+    "placesAndDirections": "Finden und loslegen",
+    "isochrones": "Erreichen Sie",
+    "uploadedContentRendered": "Hochgeladene Inhalte gerendert",
+    "errorRenderingContentUploaded": "Fehler beim Hochladen der Inhalte. Überprüfen Sie das Dateiformat und den Inhalt"
+  },
+  "placeInput": {
+    "findAPlace": "Einen Ort finden",
+    "place": "Ort",
+    "addRouteStop": "Hinzufügen eines Routenstopps",
+    "routePlace": "Haltestelle der Route",
+    "routeDestination": "Reiseziel",
+    "placeNameRequired": "Ortsname erforderlich",
+    "yourLocation": "Ihr Standort",
+    "useYourLocation": "Verwenden Sie Ihren aktuellen Standort",
+    "removeInput": "Ort/Eingabe entfernen",
+    "directions": "Wegbeschreibung",
+    "fromYourBrowser": "Von Ihrem Gerät aus",
+    "addStartingPlace": "Einen Startplatz hinzufügen",
+    "startingPlace": "Startplatz",
+    "openInputOptions": "Eingabeoptionen öffnen",
+    "addInput": "Ortseingabe hinzufügen",
+    "switchCoords": "Koordinaten wechseln",
+    "rawCoordinate": "Lat,lng Rohkoordinate",
+    "fillOrRemoveInput": "Suchen Sie einen Ort oder verwenden Sie die Schaltfläche \"Karte\" auf der rechten Seite",
+    "noPlaceFound": "Keine Ergebnisse zurückgegeben",
+    "unknownSearchPlaceError": "Unbekannter Ort Suchfehler",
+    "approximateDistance": "Ungefähre Entfernung in einer geraden Linie vom aktuellen Kartenmittelpunkt",
+    "pleaseTypeSomething": "Bitte geben Sie etwas zur Suche ein",
+    "toggleDirect": "Direkt von hier bis zum nächsten Ort umschalten",
+    "clickOnTheMapToSelectAPlace": "Wählen Sie einen Ort, indem Sie auf eine Karte klicken",
+    "clickOnTheMapBtnToPickAPlace": "Klicken Sie auf diese Schaltfläche, um einen Ort auf der Karte für diese Eingabe auszuwählen",
+    "goToDirectionsMode": "Klicken Sie auf die Richtungstaste, um zum Routing-Modus zu wechseln",
+    "couldNotDetermineYourLocation": "Ihr Standort konnte nicht ermittelt werden. Vergewissern Sie sich, dass Sie die erforderlichen Berechtigungen haben",
+    "couldNotDetermineYourPreciseLocationUsingPreviousLocation": "Es war nicht möglich, Ihren genauen Standort zu bestimmen. Stattdessen wird Ihr bisheriger Standort verwendet",
+    "clickToSearchAndShowResultsOnTheMap": "Klicken Sie auf die Suche und zeigen Sie Ergebnisse auf der Karte"
+  },
+  "profileSelector": {
+    "activeProfile": "Aktiv"
+  },
+  "routeImporter": {
+    "loadRouteFile": "Datei importieren",
+    "acceptedImportTypes": "Akzeptierte Importtypen",
+    "dictDefaultMessage": "Legen Sie eine Routendatei zum Importieren ab oder klicken Sie hier",
+    "dictFallbackMessage": "Browser nicht unterstützt",
+    "dictFileTooBig": "Datei zu groß",
+    "dictInvalidFileType": "Ungültiger Dateityp",
+    "dictCancelUpload": "Upload abbrechen",
+    "dictUploadCanceled": "Upload abgebrochen",
+    "failedToLoadFile": "Die ausgewählte Datei konnte nicht geladen werden. Stellen Sie sicher, dass die Datei nicht beschädigt ist und in einem der akzeptierten Formate vorliegt",
+    "dictRemoveFile": "Datei entfernen"
+  },
+  "settings": {
+    "language": "Sprache",
+    "appLocale": "App Gebietsschema",
+    "unit": "Einheit",
+    "areaUnit": "Flächeneinheit",
+    "endpointsSectionTitle": "Dienstendpunkte (URI oder vollständige URL)",
+    "saveToLocalStorage": "In meinem Browser speichern",
+    "routeInstructions": "Routing-Anweisungen",
+    "randomizedIsochroneColors": "Zufällige Isochronenfarben",
+    "distanceMarkers": "Abstandsmarkierungen",
+    "elevationProfile": "Erhebungsprofil",
+    "mapSettings": "Kartenansicht und zusätzliche Informationen",
+    "defaultMapSettingsRestored": "Standardkarteneinstellungen wiederhergestellt und gespeichert",
+    "endpointsTitle": {
+      "directions": "Wegbeschreibung",
+      "isochrones": "Isochrones",
+      "geocodeSearch": "Geocode-Suche",
+      "autocomplete": "Automatische Vervollständigung des Geocodes",
+      "pois": "POIs",
+      "reverseGeocode": "Geocode rückwärts"
     },
-    "isochrones": {
-        "isochrones": "Isochrone",
-        "isochronesReady": "Isochrone bereit",
-        "calculatingIsochrones": "Berechnung von Isochronen ...",
-        "itWasNotPossibleToCalculateIsochronesWithTheDefinedOptions": "Es war nicht möglich, Isochronen mit den definierten Optionen zu berechnen. Versuchen Sie, kleinere Isochrone(n) zu definieren.",
-        "couldResolveTheSelectedPlaceAsASuitableCenter": "Es war nicht möglich, den ausgewählten Punkt als geeigneten Mittelpunkt zu bestimmen.",
-        "apiError": {
-            "2003": "Die Fläche eines zu vermeidenden Polygons darf 20,0000 Quadratkilometer nicht überschreiten.",
-            "3001": "Ein oder mehrere Parameter haben einen falschen Wert oder ein falsches Format.",
-            "3099": "Die Isochronenkarte für den/die ausgewählten Punkt(e) und das Profil kann nicht erstellt werden.",
-            "3003": "Der Parameter 'avoid_features' hat den falschen Wert 'null'",
-            "3004": "Die gewählte Kombination aus Profil, Intervall und Zeit oder Entfernung überschreitet die maximal unterstützten Werte. Bitte passen Sie die Werte an."
-        },
-        "genericErrorMsg": "Es war nicht möglich, die Isochronen zu berechnen."
+    "apiKey": "API-Schlüssel",
+    "customApiKey": "Benutzerdefinierter API-Schlüssel",
+    "apiBaseUrl": "API-Basis-URL",
+    "restoreDefaults": "Standardwerte wiederherstellen",
+    "advanced": "Fortgeschrittene",
+    "mapSettingsSaved": "Karteneinstellungen gespeichert",
+    "alwaysFitBounds": "Bei Routenänderungen immer die Grenzen anpassen",
+    "routeExtraInfo": "Route extra info",
+    "mapViewOptions": "Optionen für die Kartenansicht",
+    "customOverlayerTileProviderUrl": "Benutzerdefinierte Overlayer-Anbieter-URL",
+    "customTileProviderUrl": "Benutzerdefinierte Kachelanbieter-URL",
+    "defaultTilesProvider": "Standardkachelanbieter",
+    "customTileProviderUrlHint": "https://domain.tld/path/{z}/{x}/{y}.ext?optionalKey=value",
+    "prioritizeSearchingForNearbyPlaces": "Prioritäre Suche nach Orten in der Nähe",
+    "defaultProfile": "Standard-Profil",
+    "compressDataUrlSegment": "URL-Segment nach /data/ komprimieren",
+    "autoFitHighlightedBounds": "Automatische Anpassung hervorgehobener Grenzen",
+    "reloadToApplyLanguageChangeText": "Um die Sprachänderung vollständig zu übernehmen, muss die App neu geladen werden. Jetzt neu laden?",
+    "resetShownOnceTooltips": "Tooltips beim Laden der App wieder anzeigen",
+    "skipAllSegments": "gerader Weg für alle Segmente",
+    "useStopOptimization": "Optimieren Sie die Route, wenn eine Haltestelle per Drag-and-Drop erstellt wird",
+    "invalidSettingsValue": "Ungültige(r) Einstellungswert(e). Bitte überprüfen Sie die Felder oder stellen Sie die Standardwerte wieder her",
+    "advancedSettingsWarning": "Ändern Sie die folgenden Einstellungen nicht, wenn Sie nicht wissen, was Sie tun!",
+    "reloadToApplyLanguageChangeTitle": "Es ist notwendig, die App neu zu laden",
+    "convertStopAfterRouteEndingToDestination": "Am Ende der Route zum endgültigen Bestimmungsort hinzugefügte Haltestelle umwandeln"
+  },
+  "simplePlaceSearch": {
+    "noPlaceFound": "Keine Stelle mit dem unterstellten Inhalt gefunden",
+    "openSidebarToSeeRouteDetails": "Öffnen Sie die Seitenleiste, um Routendetails zu sehen",
+    "unknownSearchPlaceError": "Unbekannter Suchort-Fehler"
+  },
+  "header": {
+    "hideMenuBar": "Menüleiste ausblenden",
+    "showMenuBar": "Menüleiste anzeigen"
+  },
+  "mapLeftClick": {
+    "placeInfo": "Ortsangaben",
+    "placeInsidePolygon": "Innerhalb des Polygons platzieren",
+    "polygonArea": "Polygonfläche",
+    "copyLnglat": "lng, lat kopieren",
+    "copyLatlng": "Breitengrad, Längengrad kopieren",
+    "directionsToClickedPoint": "Wegbeschreibung zum angeklickten Ort",
+    "lnglatCopied": "Längen- und Breitengrad kopiert",
+    "latlngCopied": "Breitengrad und Längengrad kopiert"
+  },
+  "mapRightClick": {
+    "options": "Optionen",
+    "addDestinationToRoute": "Anhängen als Ziel",
+    "directionsFromHere": "Wegbeschreibung von hier",
+    "directionsToHere": "Wegbeschreibung hierher",
+    "nonStopDirectionsToHere": "Direkt hierher",
+    "addRouteStop": "Hier Haltestelle hinzufügen",
+    "centerHere": "Hier zentrieren",
+    "addAsIsochroneCenter": "Als Reichweitencenter hinzufügen",
+    "inspectDataOnOSM": "Daten auf OSM prüfen"
+  },
+  "myLocation": {
+    "stopShowingCurrentLocation": "Klicken Sie, um die Anzeige Ihres aktuellen Standorts zu beenden",
+    "showCurrentLocation": "Klicken Sie, um Ihren aktuellen Standort anzuzeigen",
+    "yourCurrentLocation": "Ihr aktueller Standort",
+    "continuously": "Kontinuierlich",
+    "onlyOnce": "Nur einmal",
+    "continuouslyLocation": "Aktualisieren Sie Ihre Position alle 2 Sekunden",
+    "onlyOnceLocation": "Erwerben Sie Ihre Position nur einmal",
+    "myPositionToolTip": "Aktivieren Sie den Standort, um Ihre Position anzuzeigen und Orte in der Nähe leichter zu finden"
+  },
+  "orsLPolyline": {
+    "type": "Typ",
+    "surface": "Fläche",
+    "unknownSurfaceType": "Unbekannt"
+  },
+  "mapView": {
+    "routeTo": "Route zu diesem Ort",
+    "polygonDetails": "Polygon-Details",
+    "polygon": "Polygon",
+    "whatIsHere": "Was ist hier?",
+    "directionsFromHere": "Wegbeschreibung von hier",
+    "fitAllFeatures": "Alle Funktionen anzeigen",
+    "addDestinationToRoute": "Ziel zur Route hinzufügen",
+    "acquirePositionErrors": {
+      "unavailable": "Laut Ihrem Gerät ist Ihr Standort derzeit nicht verfügbar. Stellen Sie sicher, dass die Ortungsoption/der Ortungsdienst richtig konfiguriert ist.",
+      "timeout": "Ihr Gerät hat beim Versuch, eine Position zu ermitteln, eine Zeitüberschreitung gemeldet. Sie können es erneut versuchen, indem Sie auf die Schaltfläche \"Meine Position\" klicken",
+      "generic": "Es war nicht möglich, Ihren Standort zu ermitteln, weil er nicht autorisiert war oder das Gerät ihn nicht unterstützt.",
+      "permissionDenied": "Ihre Position konnte nicht ermittelt werden, weil das Gerät den Zugriff darauf verweigert hat. Sie können es erneut versuchen, indem Sie die Geräteeinstellungen ändern und dann erneut auf die Schaltfläche \"Meine Position\" klicken"
     },
-    "altitudePreview": {
-        "expandAltitudeChart": "Tabelle erweitern",
-        "altitude": "Höhenlage"
+    "yourCurrentLocation": "Ihr aktueller Standort",
+    "options": "Optionen",
+    "polylineMeasure": {
+      "bearingTextIn": "Unter",
+      "bearingTextOut": "Aus",
+      "tooltipTextDragAndDelete": "Klicken und ziehen zum <b>Punkt verschieben</b><br>Drücken Sie die SHIFT-Taste und klicken Sie zum <b>Punkt löschen</b>",
+      "tooltipTextResume": "<br>Strg-Taste drücken und auf <b>Zeile fortsetzen</b> klicken",
+      "tooltipTextDelete": "Drücken Sie die SHIFT-Taste und klicken Sie auf <b>, um den Punkt zu löschen.</b>",
+      "tooltipTextAdd": "Drücken Sie die CTRL-Taste und klicken Sie auf <b>Punkt hinzufügen</b>",
+      "clearControlTitle": "Eindeutige Messungen",
+      "measureControlTitleOn": "Entfernungsmessung einschalten",
+      "measureControlTitleOff": "Entfernungsmessung ausschalten",
+      "unitControlTitle": {
+        "text": "Einheiten ändern",
+        "metres": "Meter",
+        "landmiles": "Landmeilen",
+        "nauticalmiles": "Seemeilen"
+      },
+      "clearControlLabel": "&Zeiten",
+      "measureControlLabel": "& #8614;",
+      "unitControlLabel": {
+        "metres": "m",
+        "kilometres": "km",
+        "feet": "ft",
+        "landmiles": "M",
+        "nauticalmiles": "NM"
+      }
     },
-    "placeDetails": {
-        "layer": "Ebene",
-        "lat": "Lat.",
-        "lon": "Lon.",
-        "placeDetails": "Details zum Ort",
-        "placeName": "Name",
-        "latlngCopied": "Breitengrad und Längengrad kopiert",
-        "lnglatCopied": "Längen- und Breitengrad kopiert",
-        "copyLatlng": "Kopie im Format Breitengrad, Längengrad",
-        "satelliteView": "Satellitenansicht",
-        "notAvailable": "Nicht verfügbar",
-        "copyLnglat": "Kopie im Format Längengrad, Breitengrad"
+    "defineAvoidPolygon": "Vermeiden Sie Polygone zur Routenberechnung",
+    "defineAvoidRectangle": "Vermeiden Sie Polygone zur Routenberechnung",
+    "youCantIntersectPolygons": "Sie können keine Polygone schneiden",
+    "polygonArea": "Polygonfläche",
+    "highlighting": "Hervorhebung",
+    "accuracy": "Genauigkeit",
+    "yourLocation": "Verwenden Sie Ihren Standort",
+    "removePlace": "Platz entfernen",
+    "viewOnORS": "Ansicht auf ORS",
+    "moveMapPositionToLeft": "Verschieben der Kartenmitte nach links",
+    "moveMapPositionToRight": "Verschieben der Kartenmitte nach rechts",
+    "moveMapPositionToUp": "Kartenmitte nach oben verschieben",
+    "moveMapPositionToDown": "Kartenmitte nach unten verschieben",
+    "toggleDirect": "Direkt von hier bis zum nächsten Ort umschalten",
+    "heightGraph": {
+      "distance": "Entfernung",
+      "elevation": "Höhe",
+      "segment_length": "Länge des Segments",
+      "type": "Typ",
+      "legend": "Legende"
     },
-    "roundtrip": {
-        "roundtripOptions": "Rundreiseoptionen"
+    "editShape": "Form bearbeiten",
+    "remove": "entfernen",
+    "avoidPolygonSaved": "Polygon vermeiden gespeichert",
+    "avoidPolygonRemoved": "Polygon vermeiden entfernt",
+    "avoidPolygonNotRemoved": "Es war nicht möglich, das Vermeidungspolygon zu entfernen",
+    "avoidPolygonNotSaved": "Es war nicht möglich, das Vermeidungspolygon zu entfernen",
+    "polygonEditModeEnabled": "Wenn Sie die Bearbeitung abgeschlossen haben, klicken Sie auf eine beliebige Stelle, um die Änderungen zu speichern",
+    "customTileProvider": "Benutzerdefinierter Kachelanbieter, der vom Benutzer definiert wird",
+    "gestureHandling": {
+      "touch": "Verwenden Sie zwei Finger, um die Karte zu bewegen",
+      "scroll": "Verwenden Sie ctrl + Scroll, um die Karte zu vergrößern",
+      "scrollMac": "Verwenden Sie ⌘ + Scrollen, um die Karte zu vergrößern"
     },
-    "routeExtras": {
-        "extras": "Routen-Extras",
-        "extraInfo": "Zusätzliche Informationen",
-        "value": "Wert",
-        "clickToHighlightOnMap": "Anklicken, um es auf der Karte zu markieren",
-        "showAllOnMap": "Alle auf der Karte anzeigen"
+    "addRouteStop": "Hier einen Routenstopp hinzufügen",
+    "youCanCenterAtYourLocationLater": "Sie können die Karte jederzeit auf Ihren aktuellen Standort zentrieren, indem Sie auf die Schaltfläche \"Mein Standort\" klicken",
+    "setMyLocationAsMapCenter": "Möchten Sie die Karte auf Ihren aktuellen Standort zentrieren? Dadurch wird die Genauigkeit der Ortssuche verbessert. Wenn Sie dazu aufgefordert werden, müssen Sie dies zulassen."
+  },
+  "placesCarousel": {
+    "layer": "Ebene",
+    "lat": "Lat.",
+    "lon": "Lon.",
+    "notAvailable": "Nicht verfügbar",
+    "placeDetails": "Details zum Ort",
+    "next": "Nächster Block",
+    "prev": "Vorheriger Block",
+    "directionsTo": "Anfahrtsbeschreibung",
+    "distance": "Entfernung",
+    "distanceFromLocationMarkedOnTheMap": "Ungefähre Entfernung vom auf der Karte markierten Standort",
+    "selectPlace": "Wählen"
+  },
+  "floatingTopMenu": {
+    "openSettings": "Einstellungen",
+    "showAbout": "Allgemeine Informationen anzeigen",
+    "about": "Über ORS",
+    "openrouteserviceAPI": "Openrouteservice API",
+    "openrouteserviceForDisasters": "Openrouteservice für Katastrophen",
+    "askOpenrouteservice": "Openrouteservice fragen",
+    "settingsTooltip": "Klicken Sie hier, wenn Sie die App-Einstellungen anpassen und weitere Optionen sehen möchten"
+  },
+  "topMenu": {
+    "openSettings": "Einstellungen öffnen",
+    "showAbout": "Allgemeine Informationen anzeigen",
+    "about": "Über ORS",
+    "pinSidebar": "Pin-Seitenleiste",
+    "settingsTooltip": "Klicken Sie hier, wenn Sie die App-Einstellungen anpassen möchten"
+  },
+  "sidebar": {
+    "switchSide": "Schalter Seite",
+    "showSidebar": "Seitenleiste anzeigen",
+    "hideSidebar": "Seitenleiste ausblenden"
+  },
+  "options": {
+    "units": {
+      "kilometers": "Kilometer",
+      "meters": "Meter",
+      "miles": "Meilen"
     },
-    "steps": {
-        "instruction": "Anleitung",
-        "on": "Auf",
-        "step": "Schritt",
-        "gotoStep": "Weiter zu Schritt"
-    },
-    "routeDetails": {
-        "warnings": "Warnungen",
-        "routes": "Routen",
-        "route": "Route",
-        "segments": "Segmente",
-        "segment": "Segment",
-        "instructions": "Anweisungen",
-        "instruction": "Anleitung",
-        "name": "Name",
-        "selectRoute": "Wählen Sie diese Route",
-        "gotoSegment": "Zum Segment gehen",
-        "warningCodes": {
-            "1": "Auf einigen Straßen kann es zu Einschränkungen kommen",
-            "2": "Entlang der Strecke gibt es Mautstellen",
-            "3": "Entlang der Route gibt es übersprungene Abschnitte. Dauer und Zugänglichkeit sind möglicherweise nicht korrekt",
-            "4": "Mindestens eine zusätzliche Information wurde angefordert, ist aber nicht verfügbar"
-        },
-        "routeOpacity": "Trübung der Route",
-        "routeDetails": "Details zur Route",
-        "selectedRoute": "Ausgewählte Route"
-    },
-    "placesAndDirections": {
-        "isochrones": "Isochrones",
-        "place": "Ort",
-        "notRouteFound": "Es war nicht möglich, eine Route zu finden, die die Orte mit dem gewählten Profil verbindet",
-        "notRouteFoundWithFilters": "Es war nicht möglich, eine Route zu finden, die die Orte mit dem gewählten Profil und den Filtern verbindet",
-        "noPlaceFound": "Keine Stelle mit dem eingegebenen Inhalt gefunden",
-        "routeReady": "Route bereit",
-        "useLocation": "GPS",
-        "addPlaceInput": "Ort hinzufügen",
-        "clearRoute": "Route",
-        "reverseRoute": "Umgekehrt",
-        "orderByClosestPlaces": "Bestellung nach Orten in der Nähe Ihres Standorts",
-        "calculatingRoute": "Berechnung der Route...",
-        "yourLocation": "Ihr Standort",
-        "expandAltitudeChart": "Diagramm erweitern",
-        "errorRenderingContentUploaded": "Fehler beim Rendern des hochgeladenen Inhalts. Überprüfen Sie das Dateiformat und den Inhalt",
-        "roundTrip": "Rundreise",
-        "notPossibleToCalculateRoute": "Eine Route konnte nicht mit einem der ausgewählten Orte berechnet werden",
-        "apiError": {
-            "2000": "JSON-Anfrage kann nicht geparst werden",
-            "2001": "Erforderlicher Parameter fehlt",
-            "2002": "Ungültiges Parameterformat",
-            "2003": "Die Routenparameter überschreiten einen oder mehrere Grenzwerte. Bitte denken Sie daran, dass einige Vermeidungsparameter Grenzen haben, wie die Routenlänge und die Fläche eines Vermeidungspolygons, die 20000 Quadratkilometer nicht überschreiten darf.",
-            "2004": "Die Routenparameter überschreiten einen oder mehrere Grenzwerte. Beachten Sie, dass die ungefähre Streckenlänge nicht mehr als 6000 km betragen darf. Wenn bestimmte Routenoptionen oder vermeidbare Strecken verwendet werden, darf die ungefähre Streckenentfernung nicht mehr als 150 km betragen.",
-            "2006": "Die Anfrage an den Export-Handler konnte nicht geparst werden",
-            "2007": "Nicht unterstütztes Exportformat",
-            "2008": "Leeres Element",
-            "2009": "Es konnte keine passende Route für die angegebenen Orte und Kriterien gefunden werden. Möglicherweise wird das angegebene Profil in diesem Gebiet/Region mit dem/den angewandten Filter(n) nicht unterstützt.",
-            "2010": "Es war nicht möglich, einen geeigneten Punkt zu finden, der Teil der Route ist. Vielleicht ist einer der ausgewählten Punkte nicht routingfähig oder das ausgewählte Profil wird in dieser Region nicht unterstützt",
-            "2011": "Bei der Verwendung von Alternativrouten ist es nicht möglich, Routenstopps zu definieren",
-            "2012": "Es wurde ein ungültiger Parameter angegeben. Stellen Sie sicher, dass die URL korrekt ist",
-            "2099": "Es kann keine Route berechnet werden, die die ausgewählten Orte miteinander verbindet"
-        },
-        "reorder": "Neuordnung",
-        "genericErrorMsg": "Es war nicht möglich, die Route zu berechnen"
-    },
-    "print": {
-        "print": "Drucken",
-        "segment": "Segment",
-        "preparingPrinting": "Vorbereiten des Drucks",
-        "readyToPrint": "Bereit zum Drucken"
-    },
-    "share": {
-        "fullUrl": "Vollständig",
-        "shortUrl": "Kurz",
-        "clickToCopy": "Klicken Sie, um die URL zu kopieren",
-        "share": "Teilen (zum Kopieren anklicken)",
-        "shareLink": "Link teilen",
-        "short": "Kurz-URL",
-        "copyUrlInfo": "Sie können den Link auch aus der Adressleiste Ihres Browsers kopieren.",
-        "urlShortened": "Gekürzte URL",
-        "embedCodeCopied": "Einbettungscode kopiert",
-        "embed": "Einbetten (zum Kopieren anklicken)",
-        "urlCopied": "URL in die Zwischenablage kopiert.",
-        "shorteningNotPossible": "Es war nicht möglich, eine kurze URL zu generieren. Bitte verwenden Sie die vollständige URL",
-        "embedInstructions": "Verwenden Sie diesen Code, um die ORS-Karte in Ihre Website einzubinden"
-    },
-    "mapForm": {
-        "placesAndDirections": "Finden und loslegen",
-        "isochrones": "Erreichen Sie",
-        "uploadedContentRendered": "Hochgeladene Inhalte gerendert",
-        "errorRenderingContentUploaded": "Fehler beim Hochladen der Inhalte. Überprüfen Sie das Dateiformat und den Inhalt"
-    },
-    "placeInput": {
-        "findAPlace": "Einen Ort finden",
-        "place": "Ort",
-        "addRouteStop": "Hinzufügen eines Routenstopps",
-        "routePlace": "Haltestelle der Route",
-        "routeDestination": "Reiseziel",
-        "placeNameRequired": "Ortsname erforderlich",
-        "yourLocation": "Ihr Standort",
-        "useYourLocation": "Verwenden Sie Ihren aktuellen Standort",
-        "removeInput": "Ort/Eingabe entfernen",
-        "directions": "Wegbeschreibung",
-        "fromYourBrowser": "Von Ihrem Gerät aus",
-        "addStartingPlace": "Einen Startplatz hinzufügen",
-        "startingPlace": "Startplatz",
-        "openInputOptions": "Eingabeoptionen öffnen",
-        "addInput": "Ortseingabe hinzufügen",
-        "switchCoords": "Koordinaten wechseln",
-        "rawCoordinate": "Lat,lng Rohkoordinate",
-        "fillOrRemoveInput": "Suchen Sie einen Ort oder verwenden Sie die Schaltfläche \"Karte\" auf der rechten Seite",
-        "noPlaceFound": "Keine Ergebnisse zurückgegeben",
-        "unknownSearchPlaceError": "Unbekannter Ort Suchfehler",
-        "approximateDistance": "Ungefähre Entfernung in einer geraden Linie vom aktuellen Kartenmittelpunkt",
-        "pleaseTypeSomething": "Bitte geben Sie etwas zur Suche ein",
-        "toggleDirect": "Direkt von hier bis zum nächsten Ort umschalten",
-        "clickOnTheMapToSelectAPlace": "Wählen Sie einen Ort, indem Sie auf eine Karte klicken",
-        "clickOnTheMapBtnToPickAPlace": "Klicken Sie auf diese Schaltfläche, um einen Ort auf der Karte für diese Eingabe auszuwählen",
-        "goToDirectionsMode": "Klicken Sie auf die Richtungstaste, um zum Routing-Modus zu wechseln",
-        "couldNotDetermineYourLocation": "Ihr Standort konnte nicht ermittelt werden. Vergewissern Sie sich, dass Sie die erforderlichen Berechtigungen haben",
-        "couldNotDetermineYourPreciseLocationUsingPreviousLocation": "Es war nicht möglich, Ihren genauen Standort zu bestimmen. Stattdessen wird Ihr bisheriger Standort verwendet",
-        "clickToSearchAndShowResultsOnTheMap": "Klicken Sie auf die Suche und zeigen Sie Ergebnisse auf der Karte"
-    },
-    "profileSelector": {
-        "activeProfile": "Aktiv"
-    },
-    "routeImporter": {
-        "loadRouteFile": "Datei importieren",
-        "acceptedImportTypes": "Akzeptierte Importtypen",
-        "dictDefaultMessage": "Legen Sie eine Routendatei zum Importieren ab oder klicken Sie hier",
-        "dictFallbackMessage": "Browser nicht unterstützt",
-        "dictFileTooBig": "Datei zu groß",
-        "dictInvalidFileType": "Ungültiger Dateityp",
-        "dictCancelUpload": "Upload abbrechen",
-        "dictUploadCanceled": "Upload abgebrochen",
-        "failedToLoadFile": "Die ausgewählte Datei konnte nicht geladen werden. Stellen Sie sicher, dass die Datei nicht beschädigt ist und in einem der akzeptierten Formate vorliegt",
-        "dictRemoveFile": "Datei entfernen"
-    },
-    "settings": {
-        "language": "Sprache",
-        "appLocale": "App Gebietsschema",
-        "unit": "Einheit",
-        "areaUnit": "Flächeneinheit",
-        "endpointsSectionTitle": "Dienstendpunkte (URI oder vollständige URL)",
-        "saveToLocalStorage": "In meinem Browser speichern",
-        "routeInstructions": "Routing-Anweisungen",
-        "randomizedIsochroneColors": "Zufällige Isochronenfarben",
-        "distanceMarkers": "Abstandsmarkierungen",
-        "elevationProfile": "Erhebungsprofil",
-        "mapSettings": "Kartenansicht und zusätzliche Informationen",
-        "defaultMapSettingsRestored": "Standardkarteneinstellungen wiederhergestellt und gespeichert",
-        "endpointsTitle": {
-            "directions": "Wegbeschreibung",
-            "isochrones": "Isochrones",
-            "geocodeSearch": "Geocode-Suche",
-            "autocomplete": "Automatische Vervollständigung des Geocodes",
-            "pois": "POIs",
-            "reverseGeocode": "Geocode rückwärts"
-        },
-        "apiKey": "API-Schlüssel",
-        "customApiKey": "Benutzerdefinierter API-Schlüssel",
-        "apiBaseUrl": "API-Basis-URL",
-        "restoreDefaults": "Standardwerte wiederherstellen",
-        "advanced": "Fortgeschrittene",
-        "mapSettingsSaved": "Karteneinstellungen gespeichert",
-        "alwaysFitBounds": "Bei Routenänderungen immer die Grenzen anpassen",
-        "routeExtraInfo": "Route extra info",
-        "mapViewOptions": "Optionen für die Kartenansicht",
-        "customOverlayerTileProviderUrl": "Benutzerdefinierte Overlayer-Anbieter-URL",
-        "customTileProviderUrl": "Benutzerdefinierte Kachelanbieter-URL",
-        "defaultTilesProvider": "Standardkachelanbieter",
-        "customTileProviderUrlHint": "https://domain.tld/path/{z}/{x}/{y}.ext?optionalKey=value",
-        "prioritizeSearchingForNearbyPlaces": "Prioritäre Suche nach Orten in der Nähe",
-        "defaultProfile": "Standard-Profil",
-        "compressDataUrlSegment": "URL-Segment nach /data/ komprimieren",
-        "autoFitHighlightedBounds": "Automatische Anpassung hervorgehobener Grenzen",
-        "reloadToApplyLanguageChangeText": "Um die Sprachänderung vollständig zu übernehmen, muss die App neu geladen werden. Jetzt neu laden?",
-        "resetShownOnceTooltips": "Tooltips beim Laden der App wieder anzeigen",
-        "skipAllSegments": "gerader Weg für alle Segmente",
-        "useStopOptimization": "Optimieren Sie die Route, wenn eine Haltestelle per Drag-and-Drop erstellt wird",
-        "invalidSettingsValue": "Ungültige(r) Einstellungswert(e). Bitte überprüfen Sie die Felder oder stellen Sie die Standardwerte wieder her",
-        "advancedSettingsWarning": "Ändern Sie die folgenden Einstellungen nicht, wenn Sie nicht wissen, was Sie tun!",
-        "reloadToApplyLanguageChangeTitle": "Es ist notwendig, die App neu zu laden",
-        "convertStopAfterRouteEndingToDestination": "Am Ende der Route zum endgültigen Bestimmungsort hinzugefügte Haltestelle umwandeln"
-    },
-    "simplePlaceSearch": {
-        "noPlaceFound": "Keine Stelle mit dem unterstellten Inhalt gefunden",
-        "openSidebarToSeeRouteDetails": "Öffnen Sie die Seitenleiste, um Routendetails zu sehen",
-        "unknownSearchPlaceError": "Unbekannter Suchort-Fehler"
-    },
-    "header": {
-        "hideMenuBar": "Menüleiste ausblenden",
-        "showMenuBar": "Menüleiste anzeigen"
-    },
-    "mapLeftClick": {
-        "placeInfo": "Ortsangaben",
-        "placeInsidePolygon": "Innerhalb des Polygons platzieren",
-        "polygonArea": "Polygonfläche",
-        "copyLnglat": "lng, lat kopieren",
-        "copyLatlng": "Breitengrad, Längengrad kopieren",
-        "directionsToClickedPoint": "Wegbeschreibung zum angeklickten Ort",
-        "lnglatCopied": "Längen- und Breitengrad kopiert",
-        "latlngCopied": "Breitengrad und Längengrad kopiert"
-    },
-    "mapRightClick": {
-        "options": "Optionen",
-        "addDestinationToRoute": "Anhängen als Ziel",
-        "directionsFromHere": "Wegbeschreibung von hier",
-        "directionsToHere": "Wegbeschreibung hierher",
-        "nonStopDirectionsToHere": "Direkt hierher",
-        "addRouteStop": "Hier Haltestelle hinzufügen",
-        "centerHere": "Hier zentrieren",
-        "addAsIsochroneCenter": "Als Reichweitencenter hinzufügen",
-        "inspectDataOnOSM": "Daten auf OSM prüfen"
-    },
-    "myLocation": {
-        "stopShowingCurrentLocation": "Klicken Sie, um die Anzeige Ihres aktuellen Standorts zu beenden",
-        "showCurrentLocation": "Klicken Sie, um Ihren aktuellen Standort anzuzeigen",
-        "yourCurrentLocation": "Ihr aktueller Standort",
-        "continuously": "Kontinuierlich",
-        "onlyOnce": "Nur einmal",
-        "continuouslyLocation": "Aktualisieren Sie Ihre Position alle 2 Sekunden",
-        "onlyOnceLocation": "Erwerben Sie Ihre Position nur einmal",
-        "myPositionToolTip": "Aktivieren Sie den Standort, um Ihre Position anzuzeigen und Orte in der Nähe leichter zu finden"
-    },
-    "orsLPolyline": {
-        "type": "Typ",
-        "surface": "Fläche",
-        "unknownSurfaceType": "Unbekannt"
-    },
-    "mapView": {
-        "routeTo": "Route zu diesem Ort",
-        "polygonDetails": "Polygon-Details",
-        "polygon": "Polygon",
-        "whatIsHere": "Was ist hier?",
-        "directionsFromHere": "Wegbeschreibung von hier",
-        "fitAllFeatures": "Alle Funktionen anzeigen",
-        "addDestinationToRoute": "Ziel zur Route hinzufügen",
-        "acquirePositionErrors": {
-            "unavailable": "Laut Ihrem Gerät ist Ihr Standort derzeit nicht verfügbar. Stellen Sie sicher, dass die Ortungsoption/der Ortungsdienst richtig konfiguriert ist.",
-            "timeout": "Ihr Gerät hat beim Versuch, eine Position zu ermitteln, eine Zeitüberschreitung gemeldet. Sie können es erneut versuchen, indem Sie auf die Schaltfläche \"Meine Position\" klicken",
-            "generic": "Es war nicht möglich, Ihren Standort zu ermitteln, weil er nicht autorisiert war oder das Gerät ihn nicht unterstützt.",
-            "permissionDenied": "Ihre Position konnte nicht ermittelt werden, weil das Gerät den Zugriff darauf verweigert hat. Sie können es erneut versuchen, indem Sie die Geräteeinstellungen ändern und dann erneut auf die Schaltfläche \"Meine Position\" klicken"
-        },
-        "yourCurrentLocation": "Ihr aktueller Standort",
-        "options": "Optionen",
-        "polylineMeasure": {
-            "bearingTextIn": "Unter",
-            "bearingTextOut": "Aus",
-            "tooltipTextDragAndDelete": "Klicken und ziehen zum <b>Punkt verschieben</b><br>Drücken Sie die SHIFT-Taste und klicken Sie zum <b>Punkt löschen</b>",
-            "tooltipTextResume": "<br>Strg-Taste drücken und auf <b>Zeile fortsetzen</b> klicken",
-            "tooltipTextDelete": "Drücken Sie die SHIFT-Taste und klicken Sie auf <b>, um den Punkt zu löschen.</b>",
-            "tooltipTextAdd": "Drücken Sie die CTRL-Taste und klicken Sie auf <b>Punkt hinzufügen</b>",
-            "clearControlTitle": "Eindeutige Messungen",
-            "measureControlTitleOn": "Entfernungsmessung einschalten",
-            "measureControlTitleOff": "Entfernungsmessung ausschalten",
-            "unitControlTitle": {
-                "text": "Einheiten ändern",
-                "metres": "Meter",
-                "landmiles": "Landmeilen",
-                "nauticalmiles": "Seemeilen"
-            },
-            "clearControlLabel": "&Zeiten",
-            "measureControlLabel": "& #8614;",
-            "unitControlLabel": {
-                "metres": "m",
-                "kilometres": "km",
-                "feet": "ft",
-                "landmiles": "M",
-                "nauticalmiles": "NM"
-            }
-        },
-        "defineAvoidPolygon": "Vermeiden Sie Polygone zur Routenberechnung",
-        "defineAvoidRectangle": "Vermeiden Sie Polygone zur Routenberechnung",
-        "youCantIntersectPolygons": "Sie können keine Polygone schneiden",
-        "polygonArea": "Polygonfläche",
-        "highlighting": "Hervorhebung",
-        "accuracy": "Genauigkeit",
-        "yourLocation": "Verwenden Sie Ihren Standort",
-        "removePlace": "Platz entfernen",
-        "viewOnORS": "Ansicht auf ORS",
-        "moveMapPositionToLeft": "Verschieben der Kartenmitte nach links",
-        "moveMapPositionToRight": "Verschieben der Kartenmitte nach rechts",
-        "moveMapPositionToUp": "Kartenmitte nach oben verschieben",
-        "moveMapPositionToDown": "Kartenmitte nach unten verschieben",
-        "toggleDirect": "Direkt von hier bis zum nächsten Ort umschalten",
-        "heightGraph": {
-            "distance": "Entfernung",
-            "elevation": "Höhe",
-            "segment_length": "Länge des Segments",
-            "type": "Typ",
-            "legend": "Legende"
-        },
-        "editShape": "Form bearbeiten",
-        "remove": "entfernen",
-        "avoidPolygonSaved": "Polygon vermeiden gespeichert",
-        "avoidPolygonRemoved": "Polygon vermeiden entfernt",
-        "avoidPolygonNotRemoved": "Es war nicht möglich, das Vermeidungspolygon zu entfernen",
-        "avoidPolygonNotSaved": "Es war nicht möglich, das Vermeidungspolygon zu entfernen",
-        "polygonEditModeEnabled": "Wenn Sie die Bearbeitung abgeschlossen haben, klicken Sie auf eine beliebige Stelle, um die Änderungen zu speichern",
-        "customTileProvider": "Benutzerdefinierter Kachelanbieter, der vom Benutzer definiert wird",
-        "gestureHandling": {
-            "touch": "Verwenden Sie zwei Finger, um die Karte zu bewegen",
-            "scroll": "Verwenden Sie ctrl + Scroll, um die Karte zu vergrößern",
-            "scrollMac": "Verwenden Sie ⌘ + Scrollen, um die Karte zu vergrößern"
-        },
-        "addRouteStop": "Hier einen Routenstopp hinzufügen",
-        "youCanCenterAtYourLocationLater": "Sie können die Karte jederzeit auf Ihren aktuellen Standort zentrieren, indem Sie auf die Schaltfläche \"Mein Standort\" klicken",
-        "setMyLocationAsMapCenter": "Möchten Sie die Karte auf Ihren aktuellen Standort zentrieren? Dadurch wird die Genauigkeit der Ortssuche verbessert. Wenn Sie dazu aufgefordert werden, müssen Sie dies zulassen."
-    },
-    "placesCarousel": {
-        "layer": "Ebene",
-        "lat": "Lat.",
-        "lon": "Lon.",
-        "notAvailable": "Nicht verfügbar",
-        "placeDetails": "Details zum Ort",
-        "next": "Nächster Block",
-        "prev": "Vorheriger Block",
-        "directionsTo": "Anfahrtsbeschreibung",
-        "distance": "Entfernung",
-        "distanceFromLocationMarkedOnTheMap": "Ungefähre Entfernung vom auf der Karte markierten Standort",
-        "selectPlace": "Wählen"
-    },
-    "floatingTopMenu": {
-        "openSettings": "Einstellungen",
-        "showAbout": "Allgemeine Informationen anzeigen",
-        "about": "Über ORS",
-        "openrouteserviceAPI": "Openrouteservice API",
-        "openrouteserviceForDisasters": "Openrouteservice für Katastrophen",
-        "askOpenrouteservice": "Openrouteservice fragen",
-        "settingsTooltip": "Klicken Sie hier, wenn Sie die App-Einstellungen anpassen und weitere Optionen sehen möchten"
-    },
-    "topMenu": {
-        "openSettings": "Einstellungen öffnen",
-        "showAbout": "Allgemeine Informationen anzeigen",
-        "about": "Über ORS",
-        "pinSidebar": "Pin-Seitenleiste",
-        "settingsTooltip": "Klicken Sie hier, wenn Sie die App-Einstellungen anpassen möchten"
-    },
-    "sidebar": {
-        "switchSide": "Schalter Seite",
-        "showSidebar": "Seitenleiste anzeigen",
-        "hideSidebar": "Seitenleiste ausblenden"
-    },
-    "options": {
-        "units": {
-            "kilometers": "Kilometer",
-            "meters": "Meter",
-            "miles": "Meilen"
-        },
-        "areUnits": {
-            "sqKms": "km²",
-            "hectare": "Hektar",
-            "sqMeters": "m²"
-        }
-    },
-    "orsDictionary": {
-        "unknown": "Unbekannt",
-        "paved": "Gepflastert",
-        "asphalt": "Asphalt",
-        "concrete": "Beton",
-        "cobblestone": "Kopfsteinpflaster",
-        "metal": "Metall",
-        "wood": "Holz",
-        "compactedGravel": "Verdichteter Schotter",
-        "fineGravel": "Feiner Schotter",
-        "gravel": "Schotter",
-        "dirt": "Dreck",
-        "ground": "Boden",
-        "ice": "Eis",
-        "pavingStones": "Pflastersteine",
-        "sand": "Sand",
-        "woodchips": "Hackschnitzel",
-        "grass": "Gras",
-        "grassPaver": "Rasengittersteine",
-        "none": "Keine",
-        "no": "Nein",
-        "customers": "Kunden",
-        "destination": "Reiseziel",
-        "delivery": "Lieferung",
-        "private": "Privat",
-        "permissive": "Permissiv",
-        "stateRoad": "Bundesstraße",
-        "road": "Straße",
-        "street": "Straße",
-        "path": "Pfad",
-        "track": "Spur",
-        "cycleway": "Radweg",
-        "footway": "Fußweg",
-        "steps": "Schritte",
-        "ferry": "Fähre",
-        "unpaved": "Ungepflasterte",
-        "construction": "Bauwesen",
-        "concrete:lanes": "Betonspuren",
-        "paving_stones": "Pflastersteine",
-        "unhewn_cobblestone": "Ungehobeltes Kopfsteinpflaster",
-        "compacted": "Verdichtet",
-        "fine_gravel": "Feiner Schotter",
-        "pebblestone": "Kieselstein",
-        "impassable": "Unbefahrbar",
-        "very_horrible": "Sehr furchtbar",
-        "horrible": "Schrecklich",
-        "very_bad": "Sehr schlecht",
-        "bad": "Schlecht",
-        "intermediate": "Zwischenbericht",
-        "good": "Gut",
-        "excellent": "Ausgezeichnet",
-        "grade1": "Klasse 1",
-        "grade2": "Klasse 2",
-        "grade3": "Klasse 3",
-        "grade4": "Klasse 4",
-        "grade5": "Klasse 5",
-        "no_tollway": "Keine Mautstraße",
-        "is_tollway": "Ist Mautstraße",
-        "no_category": "Keine Kategorie",
-        "highway": "Autobahn",
-        "unpaved_road": "Ungepflasterte Straße",
-        "tunnel": "Tunnel",
-        "paved_road": "Gepflasterte Straße",
-        "ford": "Ford",
-        "no_data": "Keine Daten",
-        "sett": "Setzung"
-    },
-    "orsMapFilters": {
-        "profiles": {
-            "cycling-regular": "Fahrrad",
-            "cycling-road": "Rennrad",
-            "cycling-electric": "E-Bike",
-            "cycling-mountain": "Mountainbike",
-            "cycling-safe": "Sicheres Radfahren",
-            "foot-walking": "Gehen zu Fuß",
-            "foot-hiking": "Wandern zu Fuß",
-            "driving-car": "Auto",
-            "driving-hgv": "Schweres Fahrzeug",
-            "wheelchair": "Rollstuhl",
-            "hgv": "Schweres Fahrzeug",
-            "bus": "Bus",
-            "agricultural": "Landwirtschaftliches Fahrzeug",
-            "delivery": "Lieferwagen",
-            "forestry": "Forstwirtschaftlicher LKW",
-            "goods": "Lastwagen"
-        },
-        "filters": {
-            "preference": {
-                "label": "Bevorzugte Route",
-                "description": "Der bevorzugte Faktor, der bei der Routenberechnung zu berücksichtigen ist",
-                "enum": {
-                    "fastest": "Schnellste",
-                    "shortest": "Kürzeste",
-                    "recommended": "Empfohlen"
-                }
-            },
-            "range_type": {
-                "label": "Isochrone Methode",
-                "description": "Methode zur Berechnung des Isochrons",
-                "enum": {
-                    "time": "Zeit",
-                    "distance": "Entfernung"
-                }
-            },
-            "time_range": {
-                "label": "Bereich",
-                "description": "Der maximale Bereich der zu berechnenden Isochronen"
-            },
-            "distance_range": {
-                "label": "Reichweite",
-                "description": "Der maximale Bereich der zu berechnenden Isochrone"
-            },
-            "time_interval": {
-                "label": "Intervall",
-                "description": "Das Intervall der zu berechnenden Isochronen"
-            },
-            "distance_interval": {
-                "label": "Interoperabilität",
-                "description": "Das Intervall der zu berechnenden Isochronen"
-            },
-            "options": {
-                "label": "Optionen"
-            },
-            "profile_params": {
-                "label": "Profil-Parameter"
-            },
-            "restrictions": {
-                "label": "Beschränkungen"
-            },
-            "axleload": {
-                "label": "Achslast",
-                "description": "Die maximale Achslast in Tonnen"
-            },
-            "height": {
-                "label": "Höhe",
-                "description": "Die maximale Höhe in Metern. Die Grenzwerte werden nicht vom Server erzwungen und sind nur dazu da, um sicherzustellen, dass keine unangemessenen Werte gesetzt werden. Seltsam große Werte können zu unbrauchbaren Routen führen, wenn die OpenStreetMap-Datenbank dafür nicht ausreichend getaggt ist."
-            },
-            "weight": {
-                "label": "Gewicht",
-                "description": "Das maximale Gewicht in Tonnen"
-            },
-            "width": {
-                "label": "Breite",
-                "description": "Die maximale Höhe in Metern. Die Grenzwerte werden nicht vom Server erzwungen und sind nur dazu da, um sicherzustellen, dass keine unangemessenen Werte gesetzt werden. Seltsam große Werte können zu unbrauchbaren Routen führen, wenn die OpenStreetMap-Datenbank dafür nicht ausreichend getaggt ist."
-            },
-            "hazmat": {
-                "label": "Gefährliche Güter",
-                "description": "Beförderung gefährlicher Güter"
-            },
-            "maximum_incline": {
-                "label": "Maximale Neigung",
-                "description": "Die maximale Neigung in Prozent"
-            },
-            "maximum_sloped_kerb": {
-                "label": "Maximale Bordsteinhöhe",
-                "description": "Gibt die maximale Höhe des schrägen Bordsteins in Metern an"
-            },
-            "minimum_width": {
-                "label": "Mindestbreite der Fußwege",
-                "description": "Gibt die Mindestbreite des Fußwegs in Metern an"
-            },
-            "smoothness_type": {
-                "label": "Glattheit der Strecke",
-                "description": "Gibt die Mindestglätte der Strecke an. Weitere Informationen: https://wiki.openstreetmap.org/wiki/Key:smoothness"
-            },
-            "surface_type": {
-                "label": "Min. Oberflächenart",
-                "description": "Gibt den minimalen Oberflächentyp an. Reihenfolge der Typen: https://wiki.openstreetmap.org/wiki/Key:surface"
-            },
-            "track_type": {
-                "label": "Minimale Steigung der Strecke",
-                "description": "Gibt die Mindestneigung der Route an. Werte für die Steigung: https://wiki.openstreetmap.org/wiki/Key:tracktype"
-            },
-            "round_trip": {
-                "label": "Rundreise"
-            },
-            "round_trip_length": {
-                "label": "Länge der Rundreise",
-                "description": "Die Ziellänge der Route (dies ist ein bevorzugter Wert, die Ergebnisse können jedoch abweichen)."
-            },
-            "points": {
-                "label": "Punkte",
-                "description": "Die Anzahl der Punkte, die auf der Route verwendet werden sollen. Größere Werte erzeugen mehr kreisförmige Routen."
-            },
-            "seed": {
-                "label": "Zufälliges Saatgut",
-                "description": "Ein Zufallswert, der für die Zufallsgenerierung der generierten Route verwendet wird (min:0, max: 90)"
-            },
-            "avoid_polygons": {
-                "label": "Polygone vermeiden",
-                "description": "Polygone vermeiden"
-            },
-            "avoid_features": {
-                "label": "Merkmale vermeiden",
-                "description": "Features vermeiden",
-                "enum": {
-                    "highways": "Autobahnen",
-                    "ferries": "Fähren",
-                    "hills": "Hügel",
-                    "tunnels": "Tunnel",
-                    "fords": "Fords",
-                    "steps": "Schritte",
-                    "pavedroads": "Gepflasterte Straßen",
-                    "unpavedroads": "Ungepflasterte Straßen",
-                    "tollways": "Mautgebühren"
-                }
-            },
-            "avoid_borders": {
-                "label": "Grenzen vermeiden",
-                "enum": {
-                    "all": "Alle",
-                    "controlled": "Kontrolliert"
-                },
-                "description": "Grenzen vermeiden"
-            },
-            "avoid_countries": {
-                "label": "Länder meiden",
-                "description": "Länder vermeiden"
-            },
-            "alternative_routes": {
-                "label": "Alternative Routen"
-            },
-            "target_count": {
-                "label": "Anzahl der Routen",
-                "description": "Zielanzahl der zu berechnenden Alternativrouten. Der Dienst gibt bis zu dieser Anzahl von Routen zurück, die die Bedingungen für den Anteilsfaktor und den Gewichtsfaktor erfüllen."
-            },
-            "share_factor": {
-                "label": "Anteilsfaktor",
-                "description": "Maximaler Anteil der Route, den sich Alternativen mit der optimalen Route teilen dürfen. Der Standardwert von 0,6 bedeutet, dass die Alternativen bis zu 60 % der Pfadsegmente mit der optimalen Route teilen können."
-            },
-            "weight_factor": {
-                "label": "Gewichtsfaktor",
-                "description": "Maximaler Faktor, um den die Routengewichtung von der optimalen Route abweichen darf. Der Standardwert von 1,4 bedeutet, dass die Alternativen bis zu 1,4 Mal länger (teurer) sein können als die optimale Route."
-            },
-            "maximum_speed": {
-                "label": "Maximale Geschwindigkeit",
-                "description": "Die maximale Geschwindigkeit, die angewendet werden muss"
-            },
-            "weightings": {
-                "label": "Zusätzliche Einstellungen"
-            },
-            "green": {
-                "label": "Grün (nur Deutschland)",
-                "description": "Grünflächen bevorzugen (nur für Deutschland verfügbar)"
-            },
-            "quiet": {
-                "label": "Leise (nur Deutschland)",
-                "description": "Bevorzugen Sie ruhige Gebiete (nur für Deutschland verfügbar)"
-            },
-            "surface_quality_known": {
-                "label": "Nur Oberflächen mit bekannter Qualität",
-                "description": "Erzwingt die Verwendung nur von Kanten, bei denen die Oberflächenqualität explizit bekannt ist"
-            },
-            "allow_unsuitable": {
-                "label": "Ungeeignetes zulassen",
-                "description": "Ermöglicht die Nutzung von Kanten, die für Rollstühle ungeeignet sind und zuvor ausgeschlossen waren"
-            },
-            "vehicle_type": {
-                "label": "Fahrzeugtyp",
-                "description": "Fahrzeugtyp, der bei der Routenberechnung zu berücksichtigen ist"
-            },
-            "length": {
-                "label": "Länge",
-                "description": "Die maximale Höhe in Metern. Die Grenzwerte werden nicht vom Server erzwungen und sind nur dazu da, um sicherzustellen, dass keine unangemessenen Werte gesetzt werden. Seltsam große Werte können zu unbrauchbaren Routen führen, wenn die OpenStreetMap-Datenbank dafür nicht ausreichend getaggt ist."
-            }
-        }
+    "areUnits": {
+      "sqKms": "km²",
+      "hectare": "Hektar",
+      "sqMeters": "m²"
     }
+  },
+  "orsDictionary": {
+    "unknown": "Unbekannt",
+    "paved": "Gepflastert",
+    "asphalt": "Asphalt",
+    "concrete": "Beton",
+    "cobblestone": "Kopfsteinpflaster",
+    "metal": "Metall",
+    "wood": "Holz",
+    "compactedGravel": "Verdichteter Schotter",
+    "fineGravel": "Feiner Schotter",
+    "gravel": "Schotter",
+    "dirt": "Dreck",
+    "ground": "Boden",
+    "ice": "Eis",
+    "pavingStones": "Pflastersteine",
+    "sand": "Sand",
+    "woodchips": "Hackschnitzel",
+    "grass": "Gras",
+    "grassPaver": "Rasengittersteine",
+    "none": "Keine",
+    "no": "Nein",
+    "customers": "Kunden",
+    "destination": "Reiseziel",
+    "delivery": "Lieferung",
+    "private": "Privat",
+    "permissive": "Permissiv",
+    "stateRoad": "Bundesstraße",
+    "road": "Straße",
+    "street": "Straße",
+    "path": "Pfad",
+    "track": "Spur",
+    "cycleway": "Radweg",
+    "footway": "Fußweg",
+    "steps": "Schritte",
+    "ferry": "Fähre",
+    "unpaved": "Ungepflasterte",
+    "construction": "Bauwesen",
+    "concrete:lanes": "Betonspuren",
+    "paving_stones": "Pflastersteine",
+    "unhewn_cobblestone": "Ungehobeltes Kopfsteinpflaster",
+    "compacted": "Verdichtet",
+    "fine_gravel": "Feiner Schotter",
+    "pebblestone": "Kieselstein",
+    "impassable": "Unbefahrbar",
+    "very_horrible": "Sehr furchtbar",
+    "horrible": "Schrecklich",
+    "very_bad": "Sehr schlecht",
+    "bad": "Schlecht",
+    "intermediate": "Zwischenbericht",
+    "good": "Gut",
+    "excellent": "Ausgezeichnet",
+    "grade1": "Klasse 1",
+    "grade2": "Klasse 2",
+    "grade3": "Klasse 3",
+    "grade4": "Klasse 4",
+    "grade5": "Klasse 5",
+    "no_tollway": "Keine Mautstraße",
+    "is_tollway": "Ist Mautstraße",
+    "no_category": "Keine Kategorie",
+    "highway": "Autobahn",
+    "unpaved_road": "Ungepflasterte Straße",
+    "tunnel": "Tunnel",
+    "paved_road": "Gepflasterte Straße",
+    "ford": "Ford",
+    "no_data": "Keine Daten",
+    "sett": "Setzung"
+  },
+  "orsMapFilters": {
+    "profiles": {
+      "cycling-regular": "Fahrrad",
+      "cycling-road": "Rennrad",
+      "cycling-electric": "E-Bike",
+      "cycling-mountain": "Mountainbike",
+      "cycling-safe": "Sicheres Radfahren",
+      "foot-walking": "Gehen zu Fuß",
+      "foot-hiking": "Wandern zu Fuß",
+      "driving-car": "Auto",
+      "driving-hgv": "Schweres Fahrzeug",
+      "wheelchair": "Rollstuhl",
+      "hgv": "Schweres Fahrzeug",
+      "bus": "Bus",
+      "agricultural": "Landwirtschaftliches Fahrzeug",
+      "delivery": "Lieferwagen",
+      "forestry": "Forstwirtschaftlicher LKW",
+      "goods": "Lastwagen"
+    },
+    "filters": {
+      "preference": {
+        "label": "Bevorzugte Route",
+        "description": "Der bevorzugte Faktor, der bei der Routenberechnung zu berücksichtigen ist",
+        "enum": {
+          "fastest": "Schnellste",
+          "shortest": "Kürzeste",
+          "recommended": "Empfohlen"
+        }
+      },
+      "range_type": {
+        "label": "Isochrone Methode",
+        "description": "Methode zur Berechnung des Isochrons",
+        "enum": {
+          "time": "Zeit",
+          "distance": "Entfernung"
+        }
+      },
+      "time_range": {
+        "label": "Bereich",
+        "description": "Der maximale Bereich der zu berechnenden Isochronen"
+      },
+      "distance_range": {
+        "label": "Reichweite",
+        "description": "Der maximale Bereich der zu berechnenden Isochrone"
+      },
+      "time_interval": {
+        "label": "Intervall",
+        "description": "Das Intervall der zu berechnenden Isochronen"
+      },
+      "distance_interval": {
+        "label": "Interoperabilität",
+        "description": "Das Intervall der zu berechnenden Isochronen"
+      },
+      "options": {
+        "label": "Optionen"
+      },
+      "profile_params": {
+        "label": "Profil-Parameter"
+      },
+      "restrictions": {
+        "label": "Beschränkungen"
+      },
+      "axleload": {
+        "label": "Achslast",
+        "description": "Die maximale Achslast in Tonnen"
+      },
+      "height": {
+        "label": "Höhe",
+        "description": "Die maximale Höhe in Metern. Die Grenzwerte werden nicht vom Server erzwungen und sind nur dazu da, um sicherzustellen, dass keine unangemessenen Werte gesetzt werden. Seltsam große Werte können zu unbrauchbaren Routen führen, wenn die OpenStreetMap-Datenbank dafür nicht ausreichend getaggt ist."
+      },
+      "weight": {
+        "label": "Gewicht",
+        "description": "Das maximale Gewicht in Tonnen"
+      },
+      "width": {
+        "label": "Breite",
+        "description": "Die maximale Höhe in Metern. Die Grenzwerte werden nicht vom Server erzwungen und sind nur dazu da, um sicherzustellen, dass keine unangemessenen Werte gesetzt werden. Seltsam große Werte können zu unbrauchbaren Routen führen, wenn die OpenStreetMap-Datenbank dafür nicht ausreichend getaggt ist."
+      },
+      "hazmat": {
+        "label": "Gefährliche Güter",
+        "description": "Beförderung gefährlicher Güter"
+      },
+      "maximum_incline": {
+        "label": "Maximale Neigung",
+        "description": "Die maximale Neigung in Prozent"
+      },
+      "maximum_sloped_kerb": {
+        "label": "Maximale Bordsteinhöhe",
+        "description": "Gibt die maximale Höhe des schrägen Bordsteins in Metern an"
+      },
+      "minimum_width": {
+        "label": "Mindestbreite der Fußwege",
+        "description": "Gibt die Mindestbreite des Fußwegs in Metern an"
+      },
+      "smoothness_type": {
+        "label": "Glattheit der Strecke",
+        "description": "Gibt die Mindestglätte der Strecke an. Weitere Informationen: https://wiki.openstreetmap.org/wiki/Key:smoothness"
+      },
+      "surface_type": {
+        "label": "Min. Oberflächenart",
+        "description": "Gibt den minimalen Oberflächentyp an. Reihenfolge der Typen: https://wiki.openstreetmap.org/wiki/Key:surface"
+      },
+      "track_type": {
+        "label": "Minimale Steigung der Strecke",
+        "description": "Gibt die Mindestneigung der Route an. Werte für die Steigung: https://wiki.openstreetmap.org/wiki/Key:tracktype"
+      },
+      "round_trip": {
+        "label": "Rundreise"
+      },
+      "round_trip_length": {
+        "label": "Länge der Rundreise",
+        "description": "Die Ziellänge der Route (dies ist ein bevorzugter Wert, die Ergebnisse können jedoch abweichen)."
+      },
+      "points": {
+        "label": "Punkte",
+        "description": "Die Anzahl der Punkte, die auf der Route verwendet werden sollen. Größere Werte erzeugen mehr kreisförmige Routen."
+      },
+      "seed": {
+        "label": "Zufälliges Saatgut",
+        "description": "Ein Zufallswert, der für die Zufallsgenerierung der generierten Route verwendet wird (min:0, max: 90)"
+      },
+      "avoid_polygons": {
+        "label": "Polygone vermeiden",
+        "description": "Polygone vermeiden"
+      },
+      "avoid_features": {
+        "label": "Merkmale vermeiden",
+        "description": "Features vermeiden",
+        "enum": {
+          "highways": "Autobahnen",
+          "ferries": "Fähren",
+          "hills": "Hügel",
+          "tunnels": "Tunnel",
+          "fords": "Fords",
+          "steps": "Schritte",
+          "pavedroads": "Gepflasterte Straßen",
+          "unpavedroads": "Ungepflasterte Straßen",
+          "tollways": "Mautgebühren"
+        }
+      },
+      "avoid_borders": {
+        "label": "Grenzen vermeiden",
+        "enum": {
+          "all": "Alle",
+          "controlled": "Kontrolliert"
+        },
+        "description": "Grenzen vermeiden"
+      },
+      "avoid_countries": {
+        "label": "Länder meiden",
+        "description": "Länder vermeiden"
+      },
+      "alternative_routes": {
+        "label": "Alternative Routen"
+      },
+      "target_count": {
+        "label": "Anzahl der Routen",
+        "description": "Zielanzahl der zu berechnenden Alternativrouten. Der Dienst gibt bis zu dieser Anzahl von Routen zurück, die die Bedingungen für den Anteilsfaktor und den Gewichtsfaktor erfüllen."
+      },
+      "share_factor": {
+        "label": "Anteilsfaktor",
+        "description": "Maximaler Anteil der Route, den sich Alternativen mit der optimalen Route teilen dürfen. Der Standardwert von 0,6 bedeutet, dass die Alternativen bis zu 60 % der Pfadsegmente mit der optimalen Route teilen können."
+      },
+      "weight_factor": {
+        "label": "Gewichtsfaktor",
+        "description": "Maximaler Faktor, um den die Routengewichtung von der optimalen Route abweichen darf. Der Standardwert von 1,4 bedeutet, dass die Alternativen bis zu 1,4 Mal länger (teurer) sein können als die optimale Route."
+      },
+      "maximum_speed": {
+        "label": "Maximale Geschwindigkeit",
+        "description": "Die maximale Geschwindigkeit, die angewendet werden muss"
+      },
+      "weightings": {
+        "label": "Zusätzliche Einstellungen"
+      },
+      "green": {
+        "label": "Grün (nur Deutschland)",
+        "description": "Grünflächen bevorzugen (nur für Deutschland verfügbar)"
+      },
+      "quiet": {
+        "label": "Leise (nur Deutschland)",
+        "description": "Bevorzugen Sie ruhige Gebiete (nur für Deutschland verfügbar)"
+      },
+      "surface_quality_known": {
+        "label": "Nur Oberflächen mit bekannter Qualität",
+        "description": "Erzwingt die Verwendung nur von Kanten, bei denen die Oberflächenqualität explizit bekannt ist"
+      },
+      "allow_unsuitable": {
+        "label": "Ungeeignetes zulassen",
+        "description": "Ermöglicht die Nutzung von Kanten, die für Rollstühle ungeeignet sind und zuvor ausgeschlossen waren"
+      },
+      "vehicle_type": {
+        "label": "Fahrzeugtyp",
+        "description": "Fahrzeugtyp, der bei der Routenberechnung zu berücksichtigen ist"
+      },
+      "length": {
+        "label": "Länge",
+        "description": "Die maximale Höhe in Metern. Die Grenzwerte werden nicht vom Server erzwungen und sind nur dazu da, um sicherzustellen, dass keine unangemessenen Werte gesetzt werden. Seltsam große Werte können zu unbrauchbaren Routen führen, wenn die OpenStreetMap-Datenbank dafür nicht ausreichend getaggt ist."
+      }
+    }
+  }
 }

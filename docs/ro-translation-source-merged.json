@@ -1,842 +1,842 @@
 {
-    "global": {
-        "units": {
-            "m": "m",
-            "minutes": "minute",
-            "km": "km(s)",
-            "mi": "mi(s)",
-            "seconds": "secunde",
-            "s": "s",
-            "hours": "oră(e)",
-            "days": "d",
-            "h": "h",
-            "min": "min",
-            "meters": "metri",
-            "lat": "latitudine",
-            "lng": "longitudine",
-            "tones": "tonuri",
-            "t": "t",
-            "kmh": "km/h"
-        },
-        "layers": {
-            "region": "Regiune",
-            "macrocounty": "Macro județ",
-            "country": "Țara",
-            "county": "Județ",
-            "macroregion": "Macro regiune",
-            "neighbourhood": "Vecinătate",
-            "locality": "Localitate",
-            "borough": "Orășel",
-            "localadmin": "Administrator local",
-            "address": "Adresă",
-            "notAvailable": "Nu este disponibil",
-            "undefined": "Nedefinit",
-            "street": "Stradă",
-            "venue": "Locația",
-            "rawCoordinate": "Coordonate brute lng,lat",
-            "postalcode": "Cod poștal",
-            "ocean": "Oceanul"
-        },
-        "send": "Trimiteți",
-        "save": "Salvați",
-        "confirm": "Confirmați",
-        "cancel": "Anulați",
-        "brand": "HeiGIT - Universitatea din Heidelberg",
-        "close": "Închideți",
-        "closeAndDoNotShowAgain": "Închideți și nu afișați din nou",
-        "select": "Selectați",
-        "yes": "Da",
-        "no": "Nu",
-        "and": "și",
-        "noAndDonAskAgain": "NU (nu întrebați din nou)",
-        "ok": "OK",
-        "polygon": "poligon",
-        "developedByIntro": "Servicii dezvoltate de",
-        "developedBy": "Institutul Heidelberg pentru tehnologia geoinformațiilor",
-        "duration": "Durată",
-        "distance": "Distanță",
-        "elevation": "Elevație",
-        "profile": "Profil",
-        "options": "Opțiuni",
-        "parameters": "Parametrii",
-        "custom": "Personalizat",
-        "customOverlayer": "Strat de acoperire personalizat",
-        "rawRouting": "Traseu brut",
-        "months": {
-            "january": "Ianuarie",
-            "february": "Februarie",
-            "march": "Martie",
-            "april": "Aprilie",
-            "may": "Mai",
-            "june": "Iunie",
-            "july": "Iulie",
-            "august": "August",
-            "september": "Septembrie",
-            "october": "Octombrie",
-            "november": "Noiembrie",
-            "december": "Decembrie"
-        },
-        "monthsShort": {
-            "january": "Ian",
-            "february": "Feb",
-            "march": "Mar",
-            "april": "Apr",
-            "may": "Mai",
-            "june": "Iun",
-            "july": "Iul",
-            "august": "Aug",
-            "september": "Sep",
-            "october": "Oct",
-            "november": "Nov",
-            "december": "Dec"
-        },
-        "population": "Populația",
-        "roadaccessrestrictions": "Restricții de acces la drumuri",
-        "green": "Verde",
-        "noise": "Zgomot",
-        "steepness": "Abrupt",
-        "surface": "Suprafață",
-        "waytypes": "Tipuri de căi",
-        "suitability": "Adecvare",
-        "waycategory": "Categoria Calea",
-        "tollways": "Autostrăzi cu taxă",
-        "traildifficulty": "Dificultatea traseului",
-        "osmid": "OSM ID",
-        "countryinfo": "Informații despre țară"
+  "global": {
+    "units": {
+      "m": "m",
+      "minutes": "minute",
+      "km": "km(s)",
+      "mi": "mi(s)",
+      "seconds": "secunde",
+      "s": "s",
+      "hours": "oră(e)",
+      "days": "d",
+      "h": "h",
+      "min": "min",
+      "meters": "metri",
+      "lat": "latitudine",
+      "lng": "longitudine",
+      "tones": "tonuri",
+      "t": "t",
+      "kmh": "km/h"
     },
-    "maps": {
-        "pageTitle": "Hărți ORS",
-        "Places": "Locuri",
-        "isochrones": "Izocronii",
-        "placeNameRequired": "Numele locului este necesar",
-        "altitude": "Variația altitudinii",
-        "settings": "Setări",
-        "toggleAccessibleMode": "Comutați modul accesibil",
-        "aboutTitle": "Despre ORS",
-        "updateSearch": "Căutați în această zonă",
-        "updateSearchAfterZoomOrCenterChange": "Actualizarea căutării după modificarea zoom-ului sau a centrului",
-        "pageNotFound": "Pagina nu a fost găsită. Verificați dacă URL-ul nu este deformat"
+    "layers": {
+      "region": "Regiune",
+      "macrocounty": "Macro județ",
+      "country": "Țara",
+      "county": "Județ",
+      "macroregion": "Macro regiune",
+      "neighbourhood": "Vecinătate",
+      "locality": "Localitate",
+      "borough": "Orășel",
+      "localadmin": "Administrator local",
+      "address": "Adresă",
+      "notAvailable": "Nu este disponibil",
+      "undefined": "Nedefinit",
+      "street": "Stradă",
+      "venue": "Locația",
+      "rawCoordinate": "Coordonate brute lng,lat",
+      "postalcode": "Cod poștal",
+      "ocean": "Oceanul"
     },
-    "about": {
-        "donate": "Donați!",
-        "info_I": "Openrouteservice este dezvoltat și furnizat de Institutul Heidelberg pentru Tehnologia Geoinformațiilor (HeiGIT) și oferă servicii de rutare prin utilizarea datelor geografice gratuite generate de utilizatori și colectate în mod colaborativ din OpenStreetMap. Vă rugăm să donați datele dumneavoastră geografice către openstreetmap.org!",
-        "info_II": "Utilizăm memoria locală a browserului pentru a păstra informațiile, astfel încât nu va trebui să le introduceți din nou în timpul vizitei dumneavoastră sau în vizitele ulterioare. Nu colectăm și nu stocăm informații personale despre dumneavoastră sau informații care să vă identifice personal, cu excepția celor pe care le furnizați în mod voluntar prin contact direct. În plus, nu împărtășim date analitice cu niciun furnizor de servicii sau partener.",
-        "donateText": "Vă rugăm să donați datele dumneavoastră geografice la",
-        "sources": "Pentru această aplicație web folosim diferite biblioteci open source. Acestea pot fi găsite în fișierele pachetelor corespunzătoare de pe",
-        "feelFreeToReportBugs": "Vă rugăm să nu ezitați să raportați bug-uri pe",
-        "orToFixThem": "sau reparați-le singuri și faceți o cerere pull",
-        "info_III": "Utilizatorilor le este interzisă orice formă de revânzare sau redistribuire în scop comercial, fără permisiunea scrisă explicită din partea CIAT. Date originale de Jarvis A., H.I. Reuter, A. Nelson, E. Guevara, 2008, Hole-filled seamless SRTM data V4, Centrul Internațional pentru Agricultură Tropicală (CIAT)",
-        "info_V": "Openrouteservice se preocupă de solicitările, problemele, întrebările, etc. Deoarece va exista întotdeauna un flux de solicitări, ne asumăm o mare responsabilitate pentru a vă răspunde în timp scurt. După ce ați primit e-mailul nostru de răspuns automat pentru a vă anunța că am primit solicitarea dumneavoastră, de obicei vă vom răspunde în scurt timp. Vă rugăm să ne acordați timp să analizăm în mod corespunzător problema raportată de dumneavoastră înainte de a vă răspunde.",
-        "askOpenrouteservice": "Întrebați Openrouteservice",
-        "supportText": "Openrouteservice oferă servicii gratuite și se bazează în cea mai mare parte pe donații pentru finanțarea sa. Dacă doriți să sprijiniți dezvoltarea în continuare a funcțiilor și a infrastructurii serverului, donațiile sunt binevenite.",
-        "info_IV": "În cazul în care aveți orice alte întrebări, nelămuriri sau feedback, vă rugăm să ne contactați prin:",
-        "CIAT_CSI_SRTM": "CIAT-CSI SRTM",
-        "dataProvided": "Datele privind populația furnizate de",
-        "ghsFramework": "Datele privind populația furnizate de",
-        "termsOfService": "Termeni și condiții de utilizare",
-        "privacyPolicy": "Politica de confidențialitate",
-        "openStreetMapOrg": "OpenStreetMap.org",
-        "infoSupport": "Vă rugăm să sprijiniți openrouteservice.org",
-        "softwareAndLibraries": "Software & Biblioteci"
+    "send": "Trimiteți",
+    "save": "Salvați",
+    "confirm": "Confirmați",
+    "cancel": "Anulați",
+    "brand": "HeiGIT - Universitatea din Heidelberg",
+    "close": "Închideți",
+    "closeAndDoNotShowAgain": "Închideți și nu afișați din nou",
+    "select": "Selectați",
+    "yes": "Da",
+    "no": "Nu",
+    "and": "și",
+    "noAndDonAskAgain": "NU (nu întrebați din nou)",
+    "ok": "OK",
+    "polygon": "poligon",
+    "developedByIntro": "Servicii dezvoltate de",
+    "developedBy": "Institutul Heidelberg pentru tehnologia geoinformațiilor",
+    "duration": "Durată",
+    "distance": "Distanță",
+    "elevation": "Elevație",
+    "profile": "Profil",
+    "options": "Opțiuni",
+    "parameters": "Parametrii",
+    "custom": "Personalizat",
+    "customOverlayer": "Strat de acoperire personalizat",
+    "rawRouting": "Traseu brut",
+    "months": {
+      "january": "Ianuarie",
+      "february": "Februarie",
+      "march": "Martie",
+      "april": "Aprilie",
+      "may": "Mai",
+      "june": "Iunie",
+      "july": "Iulie",
+      "august": "August",
+      "september": "Septembrie",
+      "october": "Octombrie",
+      "november": "Noiembrie",
+      "december": "Decembrie"
     },
-    "box": {
-        "maximize": "Maximizați",
-        "minimize": "Minimizați"
+    "monthsShort": {
+      "january": "Ian",
+      "february": "Feb",
+      "march": "Mar",
+      "april": "Apr",
+      "may": "Mai",
+      "june": "Iun",
+      "july": "Iul",
+      "august": "Aug",
+      "september": "Sep",
+      "october": "Oct",
+      "november": "Nov",
+      "december": "Dec"
     },
-    "formFields": {
-        "fieldHelp": "Faceți clic pentru a deschide descrierea",
-        "defaultAbbreviation": "df.: ",
-        "paramJSONContent": "Conținutul JSON",
-        "wrongInputValue": "Valoare de intrare greșită pentru acest parametru.",
-        "notValidJsonString": "Nu există Json valid pentru :fieldName"
+    "population": "Populația",
+    "roadaccessrestrictions": "Restricții de acces la drumuri",
+    "green": "Verde",
+    "noise": "Zgomot",
+    "steepness": "Abrupt",
+    "surface": "Suprafață",
+    "waytypes": "Tipuri de căi",
+    "suitability": "Adecvare",
+    "waycategory": "Categoria Calea",
+    "tollways": "Autostrăzi cu taxă",
+    "traildifficulty": "Dificultatea traseului",
+    "osmid": "OSM ID",
+    "countryinfo": "Informații despre țară"
+  },
+  "maps": {
+    "pageTitle": "Hărți ORS",
+    "Places": "Locuri",
+    "isochrones": "Izocronii",
+    "placeNameRequired": "Numele locului este necesar",
+    "altitude": "Variația altitudinii",
+    "settings": "Setări",
+    "toggleAccessibleMode": "Comutați modul accesibil",
+    "aboutTitle": "Despre ORS",
+    "updateSearch": "Căutați în această zonă",
+    "updateSearchAfterZoomOrCenterChange": "Actualizarea căutării după modificarea zoom-ului sau a centrului",
+    "pageNotFound": "Pagina nu a fost găsită. Verificați dacă URL-ul nu este deformat"
+  },
+  "about": {
+    "donate": "Donați!",
+    "info_I": "Openrouteservice este dezvoltat și furnizat de Institutul Heidelberg pentru Tehnologia Geoinformațiilor (HeiGIT) și oferă servicii de rutare prin utilizarea datelor geografice gratuite generate de utilizatori și colectate în mod colaborativ din OpenStreetMap. Vă rugăm să donați datele dumneavoastră geografice către openstreetmap.org!",
+    "info_II": "Utilizăm memoria locală a browserului pentru a păstra informațiile, astfel încât nu va trebui să le introduceți din nou în timpul vizitei dumneavoastră sau în vizitele ulterioare. Nu colectăm și nu stocăm informații personale despre dumneavoastră sau informații care să vă identifice personal, cu excepția celor pe care le furnizați în mod voluntar prin contact direct. În plus, nu împărtășim date analitice cu niciun furnizor de servicii sau partener.",
+    "donateText": "Vă rugăm să donați datele dumneavoastră geografice la",
+    "sources": "Pentru această aplicație web folosim diferite biblioteci open source. Acestea pot fi găsite în fișierele pachetelor corespunzătoare de pe",
+    "feelFreeToReportBugs": "Vă rugăm să nu ezitați să raportați bug-uri pe",
+    "orToFixThem": "sau reparați-le singuri și faceți o cerere pull",
+    "info_III": "Utilizatorilor le este interzisă orice formă de revânzare sau redistribuire în scop comercial, fără permisiunea scrisă explicită din partea CIAT. Date originale de Jarvis A., H.I. Reuter, A. Nelson, E. Guevara, 2008, Hole-filled seamless SRTM data V4, Centrul Internațional pentru Agricultură Tropicală (CIAT)",
+    "info_V": "Openrouteservice se preocupă de solicitările, problemele, întrebările, etc. Deoarece va exista întotdeauna un flux de solicitări, ne asumăm o mare responsabilitate pentru a vă răspunde în timp scurt. După ce ați primit e-mailul nostru de răspuns automat pentru a vă anunța că am primit solicitarea dumneavoastră, de obicei vă vom răspunde în scurt timp. Vă rugăm să ne acordați timp să analizăm în mod corespunzător problema raportată de dumneavoastră înainte de a vă răspunde.",
+    "askOpenrouteservice": "Întrebați Openrouteservice",
+    "supportText": "Openrouteservice oferă servicii gratuite și se bazează în cea mai mare parte pe donații pentru finanțarea sa. Dacă doriți să sprijiniți dezvoltarea în continuare a funcțiilor și a infrastructurii serverului, donațiile sunt binevenite.",
+    "info_IV": "În cazul în care aveți orice alte întrebări, nelămuriri sau feedback, vă rugăm să ne contactați prin:",
+    "CIAT_CSI_SRTM": "CIAT-CSI SRTM",
+    "dataProvided": "Datele privind populația furnizate de",
+    "ghsFramework": "Datele privind populația furnizate de",
+    "termsOfService": "Termeni și condiții de utilizare",
+    "privacyPolicy": "Politica de confidențialitate",
+    "openStreetMapOrg": "OpenStreetMap.org",
+    "infoSupport": "Vă rugăm să sprijiniți openrouteservice.org",
+    "softwareAndLibraries": "Software & Biblioteci"
+  },
+  "box": {
+    "maximize": "Maximizați",
+    "minimize": "Minimizați"
+  },
+  "formFields": {
+    "fieldHelp": "Faceți clic pentru a deschide descrierea",
+    "defaultAbbreviation": "df.: ",
+    "paramJSONContent": "Conținutul JSON",
+    "wrongInputValue": "Valoare de intrare greșită pentru acest parametru.",
+    "notValidJsonString": "Nu există Json valid pentru :fieldName"
+  },
+  "download": {
+    "documentTitle": "Ruta ORS",
+    "download": "Descărcați",
+    "downloadFileName": "Numele fișierului de descărcare",
+    "downloadFormat": "Format de descărcare",
+    "downloadRoute": "Ruta de descărcare",
+    "preparingDownload": "Pregătirea pentru descărcare ...",
+    "fileReady": "Fișier pregătit",
+    "errorPreparingFile": "Eroare la pregătirea fișierului",
+    "standard": "Standard",
+    "fileTooBigToBeDownloaded": "Fișier prea mare pentru a fi descărcat"
+  },
+  "formActions": {
+    "addPlaceInput": "Adăugați intrarea locului",
+    "clearRoute": "Traseu liber",
+    "reverseRoute": "Rută inversă",
+    "roundTrip": "Călătorie dus-întors",
+    "toggleRoundTrip": "Comutați călătoria dus-întors"
+  },
+  "isochronesDetails": {
+    "polygons": "Poligoane",
+    "center": "Centru",
+    "reachCenters": "Centrele Reach",
+    "toggleVisibility": "Comutați vizibilitatea",
+    "opacity": "Opacitate"
+  },
+  "isochrones": {
+    "isochrones": "Izocronii",
+    "isochronesReady": "Isocroni gata",
+    "calculatingIsochrones": "Calcularea izocronilor ...",
+    "itWasNotPossibleToCalculateIsochronesWithTheDefinedOptions": "Nu a fost posibil să se calculeze izocronele cu opțiunile definite. Încercați să definiți izocrone mai mici.",
+    "couldResolveTheSelectedPlaceAsASuitableCenter": "Nu a fost posibilă rezolvarea punctului selectat ca fiind un centru adecvat.",
+    "apiError": {
+      "2003": "Suprafața unui poligon de evitat nu trebuie să depășească 20,0000 kilometri pătrați.",
+      "3001": "Unul sau mai mulți parametri au o valoare sau un format incorect.",
+      "3003": "Parametrul \"avoid_features\" are valoarea incorectă \"null\"",
+      "3004": "Combinația de profil, interval și timp sau distanță selectată depășește valoarea maximă acceptată. Vă rugăm să ajustați valorile.",
+      "3099": "Nu se poate construi o hartă izocronă pentru punctul (punctele) și profilul selectat(e)."
     },
-    "download": {
-        "documentTitle": "Ruta ORS",
-        "download": "Descărcați",
-        "downloadFileName": "Numele fișierului de descărcare",
-        "downloadFormat": "Format de descărcare",
-        "downloadRoute": "Ruta de descărcare",
-        "preparingDownload": "Pregătirea pentru descărcare ...",
-        "fileReady": "Fișier pregătit",
-        "errorPreparingFile": "Eroare la pregătirea fișierului",
-        "standard": "Standard",
-        "fileTooBigToBeDownloaded": "Fișier prea mare pentru a fi descărcat"
+    "genericErrorMsg": "Nu a fost posibil să se calculeze izocronii."
+  },
+  "altitudePreview": {
+    "expandAltitudeChart": "Extindeți graficul",
+    "altitude": "Altitudine"
+  },
+  "placeDetails": {
+    "layer": "Stratul",
+    "lat": "Lat.",
+    "lon": "Lon.",
+    "notAvailable": "Nu este disponibil",
+    "placeDetails": "Detalii privind locul",
+    "placeName": "Nume",
+    "latlngCopied": "Latitudine și longitudine copiate",
+    "lnglatCopied": "Longitudine și latitudine copiate",
+    "copyLatlng": "Copiați în format latitudine, longitudine",
+    "copyLnglat": "Copiați în format longitudine, latitudine",
+    "satelliteView": "vedere din satelit"
+  },
+  "roundtrip": {
+    "roundtripOptions": "Opțiuni de călătorie dus-întors"
+  },
+  "routeExtras": {
+    "extras": "Extras de traseu",
+    "extraInfo": "Informații suplimentare",
+    "value": "Valoare",
+    "showAllOnMap": "Arată totul pe hartă",
+    "clickToHighlightOnMap": "Faceți clic pentru a-l evidenția pe hartă"
+  },
+  "steps": {
+    "on": "Pe",
+    "step": "pasul",
+    "gotoStep": "Mergeți la pas",
+    "instruction": "Instrucțiuni"
+  },
+  "routeDetails": {
+    "routeDetails": "Detalii despre traseu",
+    "warnings": "Avertismente",
+    "routes": "Rute",
+    "route": "Rută",
+    "segments": "Segmente",
+    "segment": "Segmentul",
+    "instructions": "Instrucțiuni",
+    "instruction": "Instrucțiune",
+    "name": "Nume",
+    "selectRoute": "Selectați această rută",
+    "selectedRoute": "Traseu selectat",
+    "gotoSegment": "Mergeți la segment",
+    "warningCodes": {
+      "1": "Este posibil să existe restricții pe unele drumuri",
+      "2": "Există autostrăzi cu taxă de-a lungul traseului",
+      "3": "Există segmente sărite de-a lungul traseului. Este posibil ca duratele și accesibilitatea să nu fie corecte",
+      "4": "Cel puțin o informație suplimentară solicitată, dar care nu este disponibilă"
     },
-    "formActions": {
-        "addPlaceInput": "Adăugați intrarea locului",
-        "clearRoute": "Traseu liber",
-        "reverseRoute": "Rută inversă",
-        "roundTrip": "Călătorie dus-întors",
-        "toggleRoundTrip": "Comutați călătoria dus-întors"
+    "routeOpacity": "Opacitatea rutei"
+  },
+  "placesAndDirections": {
+    "isochrones": "Izocronii",
+    "noPlaceFound": "Nu s-a găsit niciun loc cu conținutul introdus",
+    "routeReady": "Ruta pregătită",
+    "useLocation": "GPS",
+    "addPlaceInput": "Adăugați locul",
+    "clearRoute": "Rută liberă",
+    "reverseRoute": "Inversați",
+    "calculatingRoute": "Calcularea rutei...",
+    "yourLocation": "Locația dumneavoastră",
+    "place": "loc",
+    "notRouteFound": "Nu a fost posibil să se găsească o rută care să lege locurile cu profilul selectat",
+    "notRouteFoundWithFilters": "Nu a fost posibil să se găsească o rută care să conecteze locurile cu profilul și filtrele selectate",
+    "orderByClosestPlaces": "Comandați prin locuri mai apropiate de locația dumneavoastră",
+    "expandAltitudeChart": "Extindeți graficul",
+    "errorRenderingContentUploaded": "Eroare la redarea conținutului încărcat. Verificați formatul și conținutul fișierului",
+    "roundTrip": "Călătorie dus-întors",
+    "notPossibleToCalculateRoute": "O rută nu a putut fi calculată folosind unul dintre locurile selectate",
+    "apiError": {
+      "2000": "Nu se poate analiza cererea JSON",
+      "2001": "Parametrul necesar lipsește",
+      "2002": "Format de parametru invalid",
+      "2006": "Imposibilitatea de a analiza cererea către gestionarul de export",
+      "2007": "Format de export neacceptat",
+      "2008": "Element gol",
+      "2009": "Imposibilitatea de a găsi un traseu adecvat pentru locurile și criteriile specificate. Poate că profilul specificat nu este acceptat în această zonă/regiune cu filtrul aplicat(e).",
+      "2011": "Atunci când se utilizează opțiunea de trasee alternative, nu este posibilă definirea de opriri pe traseu",
+      "2003": "Parametrii rutei depășesc una sau mai multe limite. Vă rugăm să rețineți că unele variabile de evitare au limite, cum ar fi lungimea traseului și suprafața unui poligon de evitare care nu trebuie să depășească 20000 de kilometri pătrați.",
+      "2004": "Parametrii rutei depășesc una sau mai multe limite. Rețineți că distanța aproximativă a traseului nu trebuie să fie mai mare de 6000 km. În cazul în care se utilizează anumite opțiuni de traseu sau anumite opțiuni de evitare, distanța aproximativă a traseului nu trebuie să fie mai mare de 150 km.",
+      "2010": "Nu a fost posibil să se găsească un punct potrivit care să facă parte din traseu. Poate că unul dintre punctele selectate nu poate fi trasat sau profilul selectat nu este acceptat în această regiune",
+      "2012": "A fost specificat un parametru invalid. Asigurați-vă că URL-ul este corect",
+      "2099": "Nu se poate calcula o rută care să conecteze locurile selectate"
     },
-    "isochronesDetails": {
-        "polygons": "Poligoane",
-        "center": "Centru",
-        "reachCenters": "Centrele Reach",
-        "toggleVisibility": "Comutați vizibilitatea",
-        "opacity": "Opacitate"
+    "genericErrorMsg": "Nu a fost posibil să se calculeze ruta",
+    "reorder": "Reordonare"
+  },
+  "mapView": {
+    "polylineMeasure": {
+      "unitControlLabel": {
+        "feet": "ft",
+        "landmiles": "M",
+        "nauticalmiles": "NM",
+        "kilometres": "km",
+        "metres": "m"
+      },
+      "bearingTextIn": "În",
+      "bearingTextOut": "Afară",
+      "tooltipTextDragAndDelete": "Faceți clic și trageți pentru <b>punct de deplasare</b><br>Apăsați tasta SHIFT și faceți clic pentru <b>punctul de ștergere</b>",
+      "tooltipTextResume": "<br>Apăsați tasta CTRL și faceți clic pentru <b>linia de reluare</b>",
+      "tooltipTextAdd": "Apăsați tasta CTRL și faceți clic pentru a <b>adăuga un punct</b>",
+      "measureControlTitleOff": "Activați măsurarea distanței",
+      "unitControlTitle": {
+        "text": "Schimbarea unităților",
+        "metres": "metri",
+        "landmiles": "mile de teren",
+        "nauticalmiles": "mile nautice"
+      },
+      "clearControlLabel": "&ori",
+      "measureControlLabel": "&#8614;",
+      "tooltipTextDelete": "Apăsați tasta SHIFT și faceți clic pentru a <b>șterge punctul</b>",
+      "clearControlTitle": "Măsurători clare",
+      "measureControlTitleOn": "Activați măsurarea distanței"
     },
-    "isochrones": {
-        "isochrones": "Izocronii",
-        "isochronesReady": "Isocroni gata",
-        "calculatingIsochrones": "Calcularea izocronilor ...",
-        "itWasNotPossibleToCalculateIsochronesWithTheDefinedOptions": "Nu a fost posibil să se calculeze izocronele cu opțiunile definite. Încercați să definiți izocrone mai mici.",
-        "couldResolveTheSelectedPlaceAsASuitableCenter": "Nu a fost posibilă rezolvarea punctului selectat ca fiind un centru adecvat.",
-        "apiError": {
-            "2003": "Suprafața unui poligon de evitat nu trebuie să depășească 20,0000 kilometri pătrați.",
-            "3001": "Unul sau mai mulți parametri au o valoare sau un format incorect.",
-            "3003": "Parametrul \"avoid_features\" are valoarea incorectă \"null\"",
-            "3004": "Combinația de profil, interval și timp sau distanță selectată depășește valoarea maximă acceptată. Vă rugăm să ajustați valorile.",
-            "3099": "Nu se poate construi o hartă izocronă pentru punctul (punctele) și profilul selectat(e)."
-        },
-        "genericErrorMsg": "Nu a fost posibil să se calculeze izocronii."
+    "youCantIntersectPolygons": "Nu se pot intersecta poligoane",
+    "polygonArea": "Zona poligonală",
+    "highlighting": "Evidențierea",
+    "accuracy": "Precizie",
+    "yourLocation": "Utilizați locația dvs",
+    "viewOnORS": "Vezi pe ORS",
+    "moveMapPositionToLeft": "Mutați centrul hărții spre stânga",
+    "moveMapPositionToUp": "Mutați centrul hărții în sus",
+    "moveMapPositionToDown": "Mutați centrul hărții în jos",
+    "toggleDirect": "Comutați direct de aici până la următorul loc",
+    "heightGraph": {
+      "distance": "Distanță",
+      "elevation": "Elevație",
+      "segment_length": "Lungimea segmentului",
+      "type": "Tip",
+      "legend": "Legenda"
     },
-    "altitudePreview": {
-        "expandAltitudeChart": "Extindeți graficul",
-        "altitude": "Altitudine"
+    "editShape": "Editați forma",
+    "remove": "Eliminați",
+    "avoidPolygonSaved": "Evitați poligonul salvat",
+    "avoidPolygonNotRemoved": "Nu a fost posibil să se elimine poligonul de evitare",
+    "avoidPolygonNotSaved": "Nu a fost posibilă salvarea poligonului de evitare",
+    "customTileProvider": "Furnizor de țiglă personalizat definit de utilizator",
+    "gestureHandling": {
+      "touch": "Folosiți două degete pentru a muta harta",
+      "scroll": "Utilizați ctrl + scroll pentru a mări harta",
+      "scrollMac": "Utilizați ⌘ + scroll pentru a mări harta"
     },
-    "placeDetails": {
-        "layer": "Stratul",
-        "lat": "Lat.",
-        "lon": "Lon.",
-        "notAvailable": "Nu este disponibil",
-        "placeDetails": "Detalii privind locul",
-        "placeName": "Nume",
-        "latlngCopied": "Latitudine și longitudine copiate",
-        "lnglatCopied": "Longitudine și latitudine copiate",
-        "copyLatlng": "Copiați în format latitudine, longitudine",
-        "copyLnglat": "Copiați în format longitudine, latitudine",
-        "satelliteView": "vedere din satelit"
+    "defineAvoidPolygon": "Definirea poligoanelor de evitare pentru calculul traseului",
+    "defineAvoidRectangle": "Definirea dreptunghiurilor de evitare pentru calculul traseului",
+    "youCanCenterAtYourLocationLater": "Puteți centra harta pe locația dvs. curentă în orice moment, făcând clic pe butonul \"locația mea\"",
+    "setMyLocationAsMapCenter": "Doriți să centrați harta la locația dvs. curentă? Acest lucru va îmbunătăți precizia căutării unui loc. Va trebui să autorizați acest lucru dacă vi se solicită.",
+    "removePlace": "Scoateți locul",
+    "moveMapPositionToRight": "Mutați centrul hărții spre dreapta",
+    "avoidPolygonRemoved": "Evitați poligonul eliminat",
+    "polygonEditModeEnabled": "Când terminați editarea, faceți clic oriunde pentru a salva modificările",
+    "routeTo": "Ruta către acest loc",
+    "polygon": "Poligon",
+    "whatIsHere": "Ce este aici ?",
+    "fitAllFeatures": "Afișați toate funcțiile",
+    "addRouteStop": "Adăugați o oprire pe traseu aici",
+    "addDestinationToRoute": "Adăugarea destinației la traseu",
+    "acquirePositionErrors": {
+      "unavailable": "Conform dispozitivului dumneavoastră, locația nu este disponibilă în prezent. Asigurați-vă că opțiunea/serviciul de poziționare este configurat(ă) corect.",
+      "timeout": "Dispozitivul dumneavoastră a returnat \"timeout\" în timp ce încerca să obțină o poziție. Puteți încerca din nou făcând clic pe \"butonul poziția mea\"",
+      "generic": "Nu a fost posibilă obținerea locației dumneavoastră deoarece nu a fost autorizată sau deoarece dispozitivul nu o acceptă.",
+      "permissionDenied": "Poziția dumneavoastră nu a putut fi obținută deoarece dispozitivul a refuzat accesul la ea. Puteți încerca din nou modificând setările dispozitivului și apoi faceți din nou clic pe \"butonul poziția mea\""
     },
-    "roundtrip": {
-        "roundtripOptions": "Opțiuni de călătorie dus-întors"
+    "yourCurrentLocation": "Locația dumneavoastră actuală",
+    "options": "Opțiuni",
+    "polygonDetails": "Detalii poligon",
+    "directionsFromHere": "Direcții de aici"
+  },
+  "placesCarousel": {
+    "layer": "Stratul",
+    "lat": "Lat.",
+    "lon": "Lon.",
+    "placeDetails": "Detalii privind locul",
+    "next": "Următorul bloc",
+    "prev": "Blocul anterior",
+    "directionsTo": "Direcții către",
+    "distance": "Distanță",
+    "notAvailable": "Nu este disponibil",
+    "distanceFromLocationMarkedOnTheMap": "Distanța aproximativă față de locația marcată pe hartă",
+    "selectPlace": "Selectați"
+  },
+  "floatingTopMenu": {
+    "openSettings": "Setări",
+    "about": "Despre ORS",
+    "openrouteserviceAPI": "Openrouteservice API",
+    "openrouteserviceForDisasters": "Openrouteservice pentru dezastre",
+    "askOpenrouteservice": "Întrebați Openrouteservice",
+    "showAbout": "Afișați informații generale",
+    "settingsTooltip": "Faceți clic aici dacă doriți să ajustați setările aplicației și să vedeți alte opțiuni"
+  },
+  "topMenu": {
+    "openSettings": "Deschideți setările",
+    "showAbout": "Afișați informații generale",
+    "about": "Despre ORS",
+    "pinSidebar": "Bara laterală Pin",
+    "settingsTooltip": "Faceți clic aici dacă doriți să ajustați setările aplicației"
+  },
+  "sidebar": {
+    "showSidebar": "Afișați bara laterală",
+    "hideSidebar": "Ascundeți bara laterală",
+    "switchSide": "Partea de comutare"
+  },
+  "options": {
+    "units": {
+      "kilometers": "kilometri",
+      "meters": "metri",
+      "miles": "mile"
     },
-    "routeExtras": {
-        "extras": "Extras de traseu",
-        "extraInfo": "Informații suplimentare",
-        "value": "Valoare",
-        "showAllOnMap": "Arată totul pe hartă",
-        "clickToHighlightOnMap": "Faceți clic pentru a-l evidenția pe hartă"
-    },
-    "steps": {
-        "on": "Pe",
-        "step": "pasul",
-        "gotoStep": "Mergeți la pas",
-        "instruction": "Instrucțiuni"
-    },
-    "routeDetails": {
-        "routeDetails": "Detalii despre traseu",
-        "warnings": "Avertismente",
-        "routes": "Rute",
-        "route": "Rută",
-        "segments": "Segmente",
-        "segment": "Segmentul",
-        "instructions": "Instrucțiuni",
-        "instruction": "Instrucțiune",
-        "name": "Nume",
-        "selectRoute": "Selectați această rută",
-        "selectedRoute": "Traseu selectat",
-        "gotoSegment": "Mergeți la segment",
-        "warningCodes": {
-            "1": "Este posibil să existe restricții pe unele drumuri",
-            "2": "Există autostrăzi cu taxă de-a lungul traseului",
-            "3": "Există segmente sărite de-a lungul traseului. Este posibil ca duratele și accesibilitatea să nu fie corecte",
-            "4": "Cel puțin o informație suplimentară solicitată, dar care nu este disponibilă"
-        },
-        "routeOpacity": "Opacitatea rutei"
-    },
-    "placesAndDirections": {
-        "isochrones": "Izocronii",
-        "noPlaceFound": "Nu s-a găsit niciun loc cu conținutul introdus",
-        "routeReady": "Ruta pregătită",
-        "useLocation": "GPS",
-        "addPlaceInput": "Adăugați locul",
-        "clearRoute": "Rută liberă",
-        "reverseRoute": "Inversați",
-        "calculatingRoute": "Calcularea rutei...",
-        "yourLocation": "Locația dumneavoastră",
-        "place": "loc",
-        "notRouteFound": "Nu a fost posibil să se găsească o rută care să lege locurile cu profilul selectat",
-        "notRouteFoundWithFilters": "Nu a fost posibil să se găsească o rută care să conecteze locurile cu profilul și filtrele selectate",
-        "orderByClosestPlaces": "Comandați prin locuri mai apropiate de locația dumneavoastră",
-        "expandAltitudeChart": "Extindeți graficul",
-        "errorRenderingContentUploaded": "Eroare la redarea conținutului încărcat. Verificați formatul și conținutul fișierului",
-        "roundTrip": "Călătorie dus-întors",
-        "notPossibleToCalculateRoute": "O rută nu a putut fi calculată folosind unul dintre locurile selectate",
-        "apiError": {
-            "2000": "Nu se poate analiza cererea JSON",
-            "2001": "Parametrul necesar lipsește",
-            "2002": "Format de parametru invalid",
-            "2006": "Imposibilitatea de a analiza cererea către gestionarul de export",
-            "2007": "Format de export neacceptat",
-            "2008": "Element gol",
-            "2009": "Imposibilitatea de a găsi un traseu adecvat pentru locurile și criteriile specificate. Poate că profilul specificat nu este acceptat în această zonă/regiune cu filtrul aplicat(e).",
-            "2011": "Atunci când se utilizează opțiunea de trasee alternative, nu este posibilă definirea de opriri pe traseu",
-            "2003": "Parametrii rutei depășesc una sau mai multe limite. Vă rugăm să rețineți că unele variabile de evitare au limite, cum ar fi lungimea traseului și suprafața unui poligon de evitare care nu trebuie să depășească 20000 de kilometri pătrați.",
-            "2004": "Parametrii rutei depășesc una sau mai multe limite. Rețineți că distanța aproximativă a traseului nu trebuie să fie mai mare de 6000 km. În cazul în care se utilizează anumite opțiuni de traseu sau anumite opțiuni de evitare, distanța aproximativă a traseului nu trebuie să fie mai mare de 150 km.",
-            "2010": "Nu a fost posibil să se găsească un punct potrivit care să facă parte din traseu. Poate că unul dintre punctele selectate nu poate fi trasat sau profilul selectat nu este acceptat în această regiune",
-            "2012": "A fost specificat un parametru invalid. Asigurați-vă că URL-ul este corect",
-            "2099": "Nu se poate calcula o rută care să conecteze locurile selectate"
-        },
-        "genericErrorMsg": "Nu a fost posibil să se calculeze ruta",
-        "reorder": "Reordonare"
-    },
-    "mapView": {
-        "polylineMeasure": {
-            "unitControlLabel": {
-                "feet": "ft",
-                "landmiles": "M",
-                "nauticalmiles": "NM",
-                "kilometres": "km",
-                "metres": "m"
-            },
-            "bearingTextIn": "În",
-            "bearingTextOut": "Afară",
-            "tooltipTextDragAndDelete": "Faceți clic și trageți pentru <b>punct de deplasare</b><br>Apăsați tasta SHIFT și faceți clic pentru <b>punctul de ștergere</b>",
-            "tooltipTextResume": "<br>Apăsați tasta CTRL și faceți clic pentru <b>linia de reluare</b>",
-            "tooltipTextAdd": "Apăsați tasta CTRL și faceți clic pentru a <b>adăuga un punct</b>",
-            "measureControlTitleOff": "Activați măsurarea distanței",
-            "unitControlTitle": {
-                "text": "Schimbarea unităților",
-                "metres": "metri",
-                "landmiles": "mile de teren",
-                "nauticalmiles": "mile nautice"
-            },
-            "clearControlLabel": "&ori",
-            "measureControlLabel": "&#8614;",
-            "tooltipTextDelete": "Apăsați tasta SHIFT și faceți clic pentru a <b>șterge punctul</b>",
-            "clearControlTitle": "Măsurători clare",
-            "measureControlTitleOn": "Activați măsurarea distanței"
-        },
-        "youCantIntersectPolygons": "Nu se pot intersecta poligoane",
-        "polygonArea": "Zona poligonală",
-        "highlighting": "Evidențierea",
-        "accuracy": "Precizie",
-        "yourLocation": "Utilizați locația dvs",
-        "viewOnORS": "Vezi pe ORS",
-        "moveMapPositionToLeft": "Mutați centrul hărții spre stânga",
-        "moveMapPositionToUp": "Mutați centrul hărții în sus",
-        "moveMapPositionToDown": "Mutați centrul hărții în jos",
-        "toggleDirect": "Comutați direct de aici până la următorul loc",
-        "heightGraph": {
-            "distance": "Distanță",
-            "elevation": "Elevație",
-            "segment_length": "Lungimea segmentului",
-            "type": "Tip",
-            "legend": "Legenda"
-        },
-        "editShape": "Editați forma",
-        "remove": "Eliminați",
-        "avoidPolygonSaved": "Evitați poligonul salvat",
-        "avoidPolygonNotRemoved": "Nu a fost posibil să se elimine poligonul de evitare",
-        "avoidPolygonNotSaved": "Nu a fost posibilă salvarea poligonului de evitare",
-        "customTileProvider": "Furnizor de țiglă personalizat definit de utilizator",
-        "gestureHandling": {
-            "touch": "Folosiți două degete pentru a muta harta",
-            "scroll": "Utilizați ctrl + scroll pentru a mări harta",
-            "scrollMac": "Utilizați ⌘ + scroll pentru a mări harta"
-        },
-        "defineAvoidPolygon": "Definirea poligoanelor de evitare pentru calculul traseului",
-        "defineAvoidRectangle": "Definirea dreptunghiurilor de evitare pentru calculul traseului",
-        "youCanCenterAtYourLocationLater": "Puteți centra harta pe locația dvs. curentă în orice moment, făcând clic pe butonul \"locația mea\"",
-        "setMyLocationAsMapCenter": "Doriți să centrați harta la locația dvs. curentă? Acest lucru va îmbunătăți precizia căutării unui loc. Va trebui să autorizați acest lucru dacă vi se solicită.",
-        "removePlace": "Scoateți locul",
-        "moveMapPositionToRight": "Mutați centrul hărții spre dreapta",
-        "avoidPolygonRemoved": "Evitați poligonul eliminat",
-        "polygonEditModeEnabled": "Când terminați editarea, faceți clic oriunde pentru a salva modificările",
-        "routeTo": "Ruta către acest loc",
-        "polygon": "Poligon",
-        "whatIsHere": "Ce este aici ?",
-        "fitAllFeatures": "Afișați toate funcțiile",
-        "addRouteStop": "Adăugați o oprire pe traseu aici",
-        "addDestinationToRoute": "Adăugarea destinației la traseu",
-        "acquirePositionErrors": {
-            "unavailable": "Conform dispozitivului dumneavoastră, locația nu este disponibilă în prezent. Asigurați-vă că opțiunea/serviciul de poziționare este configurat(ă) corect.",
-            "timeout": "Dispozitivul dumneavoastră a returnat \"timeout\" în timp ce încerca să obțină o poziție. Puteți încerca din nou făcând clic pe \"butonul poziția mea\"",
-            "generic": "Nu a fost posibilă obținerea locației dumneavoastră deoarece nu a fost autorizată sau deoarece dispozitivul nu o acceptă.",
-            "permissionDenied": "Poziția dumneavoastră nu a putut fi obținută deoarece dispozitivul a refuzat accesul la ea. Puteți încerca din nou modificând setările dispozitivului și apoi faceți din nou clic pe \"butonul poziția mea\""
-        },
-        "yourCurrentLocation": "Locația dumneavoastră actuală",
-        "options": "Opțiuni",
-        "polygonDetails": "Detalii poligon",
-        "directionsFromHere": "Direcții de aici"
-    },
-    "placesCarousel": {
-        "layer": "Stratul",
-        "lat": "Lat.",
-        "lon": "Lon.",
-        "placeDetails": "Detalii privind locul",
-        "next": "Următorul bloc",
-        "prev": "Blocul anterior",
-        "directionsTo": "Direcții către",
-        "distance": "Distanță",
-        "notAvailable": "Nu este disponibil",
-        "distanceFromLocationMarkedOnTheMap": "Distanța aproximativă față de locația marcată pe hartă",
-        "selectPlace": "Selectați"
-    },
-    "floatingTopMenu": {
-        "openSettings": "Setări",
-        "about": "Despre ORS",
-        "openrouteserviceAPI": "Openrouteservice API",
-        "openrouteserviceForDisasters": "Openrouteservice pentru dezastre",
-        "askOpenrouteservice": "Întrebați Openrouteservice",
-        "showAbout": "Afișați informații generale",
-        "settingsTooltip": "Faceți clic aici dacă doriți să ajustați setările aplicației și să vedeți alte opțiuni"
-    },
-    "topMenu": {
-        "openSettings": "Deschideți setările",
-        "showAbout": "Afișați informații generale",
-        "about": "Despre ORS",
-        "pinSidebar": "Bara laterală Pin",
-        "settingsTooltip": "Faceți clic aici dacă doriți să ajustați setările aplicației"
-    },
-    "sidebar": {
-        "showSidebar": "Afișați bara laterală",
-        "hideSidebar": "Ascundeți bara laterală",
-        "switchSide": "Partea de comutare"
-    },
-    "options": {
-        "units": {
-            "kilometers": "kilometri",
-            "meters": "metri",
-            "miles": "mile"
-        },
-        "areUnits": {
-            "sqKms": "km²",
-            "hectare": "hectare",
-            "sqMeters": "m²"
-        }
-    },
-    "orsDictionary": {
-        "unknown": "Necunoscut",
-        "paved": "Asfaltat",
-        "unpaved": "Neasfaltat",
-        "asphalt": "Asfalt",
-        "concrete": "Beton",
-        "cobblestone": "Pavaj",
-        "metal": "metal",
-        "wood": "Lemn",
-        "destination": "Destinație",
-        "private": "Privat",
-        "permissive": "Permisivitate",
-        "road": "Drumul",
-        "street": "Strada",
-        "path": "Calea",
-        "track": "Pista",
-        "cycleway": "Pistă de biciclete",
-        "footway": "Trotuare",
-        "steps": "Pași",
-        "ferry": "Feribot",
-        "construction": "Construcții",
-        "concrete:lanes": "benzi de beton",
-        "paving_stones": "pietre de pavaj",
-        "sett": "Setare",
-        "compacted": "Compactat",
-        "fine_gravel": "Pietriș fin",
-        "pebblestone": "Pavaj",
-        "impassable": "Impasibil",
-        "very_horrible": "Foarte oribil",
-        "customers": "Clienți",
-        "delivery": "Livrare",
-        "stateRoad": "Drum national",
-        "unhewn_cobblestone": "Pavaj neșlefuit",
-        "gravel": "Pietriș",
-        "ground": "Sol",
-        "pavingStones": "Pietre de pavaj",
-        "sand": "Nisip",
-        "woodchips": "Așchii de lemn",
-        "grass": "Iarbă",
-        "none": "Nici unul",
-        "no": "Nu",
-        "bad": "Rău",
-        "intermediate": "Intermediar",
-        "good": "Bun",
-        "excellent": "Excelent",
-        "grade1": "Grad 1",
-        "grade2": "Grad 2",
-        "grade3": "Grad 3",
-        "grade4": "Grad 4",
-        "grade5": "Grad 5",
-        "is_tollway": "Este o autostradă cu taxă",
-        "highway": "Autostradă",
-        "unpaved_road": "Drum neasfaltat",
-        "tunnel": "Tunel",
-        "paved_road": "Drum asfaltat",
-        "ford": "Ford",
-        "no_data": "Fără date",
-        "compactedGravel": "Pietriș compactat",
-        "fineGravel": "Pietriș fin",
-        "dirt": "Murdărie",
-        "ice": "Gheață",
-        "grassPaver": "Pavele de iarbă",
-        "horrible": "Oribil",
-        "very_bad": "Foarte rău",
-        "no_tollway": "Fără taxă de drum",
-        "no_category": "Fără categorie"
-    },
-    "print": {
-        "print": "Imprimare",
-        "segment": "Segmentul",
-        "preparingPrinting": "Pregătirea imprimării",
-        "readyToPrint": "Gata de imprimare"
-    },
-    "share": {
-        "fullUrl": "Complet",
-        "clickToCopy": "Faceți clic pentru a copia URL-ul",
-        "share": "Partajați (click pentru a copia)",
-        "shareLink": "Partajați link-ul",
-        "short": "URL scurt",
-        "embedCodeCopied": "Cod de încorporare copiat",
-        "embed": "Integrare (click pentru a copia)",
-        "embedInstructions": "Utilizați acest cod pentru a încorpora harta ORS în site-ul dumneavoastră",
-        "shortUrl": "Scurt",
-        "urlCopied": "URL copiat în clipboard.",
-        "copyUrlInfo": "De asemenea, puteți copia linkul din bara de adrese a browserului dumneavoastră.",
-        "urlShortened": "URL scurtat",
-        "shorteningNotPossible": "Nu a fost posibilă generarea unui URL scurt. Vă rugăm să utilizați URL-ul complet"
-    },
-    "mapForm": {
-        "placesAndDirections": "Găsiți & plecați",
-        "isochrones": "Ajungeți la",
-        "uploadedContentRendered": "Conținutul încărcat a fost redat",
-        "errorRenderingContentUploaded": "Eroare la redarea conținutului încărcat. Verificați formatul și conținutul fișierului"
-    },
-    "placeInput": {
-        "findAPlace": "Găsiți un loc",
-        "place": "Locul",
-        "addRouteStop": "Adăugați o oprire pe traseu",
-        "routePlace": "Oprire traseu",
-        "routeDestination": "Destinație",
-        "placeNameRequired": "Numele locului este necesar",
-        "yourLocation": "Locația dumneavoastră",
-        "couldNotDetermineYourLocation": "Locația dumneavoastră nu a putut fi determinată. Asigurați-vă că ați primit permisiunile necesare",
-        "useYourLocation": "Utilizați locația dumneavoastră curentă",
-        "removeInput": "Eliminați locul/introducere",
-        "fromYourBrowser": "De pe dispozitivul dumneavoastră",
-        "startingPlace": "Locul de start",
-        "openInputOptions": "Opțiuni de intrare deschise",
-        "addInput": "Adăugați intrarea locului",
-        "switchCoords": "Comutați coordonatele",
-        "rawCoordinate": "Coordonate brute lat,lng",
-        "noPlaceFound": "Nu au fost returnate rezultate",
-        "unknownSearchPlaceError": "Eroare de căutare a unui loc necunoscut",
-        "approximateDistance": "Distanța aproximativă în linie dreaptă față de centrul actual al hărții",
-        "pleaseTypeSomething": "Vă rugăm să introduceți ceva pentru a căuta",
-        "toggleDirect": "Comutați direct de aici până la următorul loc",
-        "clickOnTheMapToSelectAPlace": "Alegeți un loc făcând clic pe o locație de pe hartă",
-        "clickOnTheMapBtnToPickAPlace": "Faceți clic pe acest buton pentru a alege un loc de pe hartă pentru această intrare",
-        "clickToSearchAndShowResultsOnTheMap": "Faceți clic pentru a căuta și a afișa rezultatele pe hartă",
-        "directions": "Direcții",
-        "addStartingPlace": "Adăugați un loc de pornire",
-        "fillOrRemoveInput": "Căutați un loc sau folosiți butonul de pe hartă din dreapta",
-        "couldNotDetermineYourPreciseLocationUsingPreviousLocation": "Nu a fost posibil să se stabilească locația dumneavoastră exactă. Se va folosi în schimb locația dumneavoastră anterioară",
-        "goToDirectionsMode": "Faceți clic pe butonul de direcții pentru a trece la modul de rutare"
-    },
-    "profileSelector": {
-        "activeProfile": "Activă"
-    },
-    "routeImporter": {
-        "loadRouteFile": "Importați fișierul",
-        "acceptedImportTypes": "Tipuri de importuri acceptate",
-        "dictDefaultMessage": "Trimiteți un fișier de traseu pentru a importa sau faceți clic aici",
-        "dictFallbackMessage": "Browser neacceptat",
-        "dictFileTooBig": "Fișier prea mare",
-        "dictInvalidFileType": "Tip de fișier invalid",
-        "dictCancelUpload": "Anulați încărcarea",
-        "dictUploadCanceled": "Încărcare anulată",
-        "failedToLoadFile": "Nu s-a reușit încărcarea fișierului selectat. Asigurați-vă că fișierul nu este corupt și că este într-unul dintre formatele acceptate",
-        "dictRemoveFile": "Eliminați fișierul"
-    },
-    "myLocation": {
-        "myPositionToolTip": "Activați locația pentru a vă afișa poziția și pentru a găsi mai ușor locurile din apropiere",
-        "onlyOnce": "O singură dată",
-        "continuouslyLocation": "Actualizați-vă poziția la fiecare 2 secunde",
-        "showCurrentLocation": "Faceți clic pentru a afișa locația dumneavoastră curentă",
-        "yourCurrentLocation": "Locația dumneavoastră actuală",
-        "continuously": "Continuu",
-        "onlyOnceLocation": "Dobândește-ți poziția o singură dată",
-        "stopShowingCurrentLocation": "Faceți clic pentru a nu mai afișa locația dumneavoastră curentă"
-    },
-    "orsLPolyline": {
-        "type": "Tip",
-        "surface": "Suprafața",
-        "unknownSurfaceType": "Necunoscut"
-    },
-    "orsMapFilters": {
-        "profiles": {
-            "bus": "Autobuz",
-            "delivery": "Camion de livrare",
-            "forestry": "Camion forestier",
-            "goods": "Camion de marfă",
-            "hgv": "Vehicule grele",
-            "agricultural": "Vehicul agricol",
-            "cycling-regular": "Bicicletă",
-            "cycling-road": "Bicicleta de drum",
-            "cycling-mountain": "Mountain bike",
-            "cycling-safe": "Ciclism în condiții de siguranță",
-            "foot-walking": "Mers pe jos",
-            "foot-hiking": "Drumeție pe jos",
-            "driving-car": "Automobil",
-            "wheelchair": "Scaun rulant",
-            "cycling-electric": "Bicicletă electrică",
-            "driving-hgv": "Vehicule grele"
-        },
-        "filters": {
-            "preference": {
-                "label": "Preferința de rută",
-                "enum": {
-                    "fastest": "Cel mai rapid",
-                    "shortest": "Cel mai scurt",
-                    "recommended": "Recomandat"
-                },
-                "description": "Factorul preferat care trebuie luat în considerare la calcularea rutelor"
-            },
-            "range_type": {
-                "label": "Metoda izocronei",
-                "description": "Metoda utilizată pentru calcularea izocronei",
-                "enum": {
-                    "time": "Timp",
-                    "distance": "Distanță"
-                }
-            },
-            "time_range": {
-                "label": "Gamă",
-                "description": "Intervalul maxim al izocronelor care urmează să fie calculate"
-            },
-            "distance_range": {
-                "label": "Gamă",
-                "description": "Intervalul maxim al izocronelor care urmează să fie calculate"
-            },
-            "time_interval": {
-                "label": "Interval",
-                "description": "Intervalul dintre izocronele care urmează să fie calculate"
-            },
-            "distance_interval": {
-                "label": "Intervalul",
-                "description": "Intervalul dintre izocronele care urmează să fie calculate"
-            },
-            "restrictions": {
-                "label": "Restricții"
-            },
-            "axleload": {
-                "label": "Sarcina pe axă",
-                "description": "Sarcina maximă pe axă în tone"
-            },
-            "height": {
-                "label": "Înălțime",
-                "description": "Înălțimea maximă în metri. Limitele nu sunt impuse de server și sunt doar pentru a se asigura că nu sunt setate valori nerezonabile. Orice valori ciudat de mari ar putea duce la rute inutilizabile atunci când baza de date OpenStreetMap nu este suficient de etichetată pentru acest lucru."
-            },
-            "length": {
-                "label": "Lungime",
-                "description": "Lungimea maximă în metri. Limitele nu sunt impuse de server și sunt doar pentru a se asigura că nu sunt setate valori nerezonabile. Orice valori ciudat de mari ar putea duce la rute inutilizabile atunci când baza de date OpenStreetMap nu este suficient de etichetată pentru acest lucru."
-            },
-            "weight": {
-                "description": "Greutatea maximă în tone",
-                "label": "Greutate"
-            },
-            "width": {
-                "label": "Lățime",
-                "description": "Lățimea maximă în metri. Limitele nu sunt impuse de server și sunt doar pentru a se asigura că nu sunt setate valori nerezonabile. Orice valori ciudat de mari ar putea duce la rute inutilizabile atunci când baza de date OpenStreetMap nu este suficient de etichetată pentru acest lucru."
-            },
-            "hazmat": {
-                "label": "Mărfuri periculoase",
-                "description": "Transportul de mărfuri periculoase"
-            },
-            "maximum_incline": {
-                "label": "Înclinare maximă",
-                "description": "Înclinarea maximă în procente"
-            },
-            "maximum_sloped_kerb": {
-                "label": "Înălțimea maximă a bordurii",
-                "description": "Specifică înălțimea maximă a bordurii înclinate în metri"
-            },
-            "minimum_width": {
-                "label": "Lățimea minimă a trotuarului",
-                "description": "Precizează lățimea minimă a trotuarului în metri"
-            },
-            "smoothness_type": {
-                "label": "Fluiditatea traseului",
-                "description": "Specifică netezimea minimă a traseului. Informații suplimentare: https://wiki.openstreetmap.org/wiki/Key:smoothness"
-            },
-            "surface_type": {
-                "label": "Tipul de suprafață minimă",
-                "description": "Specifică tipul de suprafață minimă. Ordinea tipului: https://wiki.openstreetmap.org/wiki/Key:surface"
-            },
-            "track_type": {
-                "label": "Gradul minim al traseului",
-                "description": "Specifică nivelul minim al traseului. Valori ale gradului: https://wiki.openstreetmap.org/wiki/Key:tracktype"
-            },
-            "round_trip": {
-                "label": "Călătorie dus-întors"
-            },
-            "round_trip_length": {
-                "label": "Lungimea călătoriei dus-întors",
-                "description": "Lungimea țintă a traseului (rețineți că aceasta este o valoare preferată, dar rezultatele pot fi diferite)."
-            },
-            "points": {
-                "label": "Puncte",
-                "description": "Numărul de puncte care trebuie utilizate pe traseu. Valorile mai mari creează trasee mai circulare."
-            },
-            "seed": {
-                "label": "Sămânță aleatorie",
-                "description": "O sămânță aleatorie care să fie utilizată pentru a adăuga aleatorism la ruta generată (min:0, max: 90)"
-            },
-            "avoid_polygons": {
-                "label": "Evitați poligoanele",
-                "description": "Evitați poligoanele"
-            },
-            "avoid_features": {
-                "label": "Evitați funcțiile",
-                "enum": {
-                    "highways": "Autostrăzi",
-                    "tollways": "Autostrăzi cu taxă",
-                    "ferries": "Feriboturi",
-                    "hills": "Dealuri",
-                    "tunnels": "Tuneluri",
-                    "fords": "Forduri",
-                    "steps": "Pași",
-                    "pavedroads": "Drumuri asfaltate",
-                    "unpavedroads": "Drumuri neasfaltate"
-                },
-                "description": "Evitați funcțiile"
-            },
-            "avoid_borders": {
-                "label": "Evitați frontierele",
-                "description": "Evitați frontierele",
-                "enum": {
-                    "all": "Toate",
-                    "controlled": "Controlat"
-                }
-            },
-            "avoid_countries": {
-                "description": "Evitați țările",
-                "label": "Evitați țările"
-            },
-            "alternative_routes": {
-                "label": "Rute alternative"
-            },
-            "target_count": {
-                "label": "Numărul de rute",
-                "description": "Numărul țintă de rute alternative de calculat. Serviciul returnează până la acest număr de rute care îndeplinesc constrângerile legate de factorul de pondere și de factorul de greutate."
-            },
-            "share_factor": {
-                "label": "Coeficientul de repartiție",
-                "description": "Fracțiunea maximă a traseului pe care alternativele o pot împărți cu traseul optim. Valoarea implicită de 0,6 înseamnă că alternativele pot împărți până la 60% din segmentele de traseu cu traseul optim."
-            },
-            "weight_factor": {
-                "label": "Coeficientul de greutate",
-                "description": "Factorul maxim cu care greutatea traseului se poate abate de la traseul optim. Valoarea implicită de 1,4 înseamnă că alternativele pot fi de până la 1,4 ori mai lungi (costisitoare) decât traseul optim."
-            },
-            "maximum_speed": {
-                "label": "Viteză maximă",
-                "description": "Viteza maximă care trebuie aplicată"
-            },
-            "weightings": {
-                "label": "Setări suplimentare"
-            },
-            "green": {
-                "label": "Verde (numai în Germania)",
-                "description": "Preferă zonele verzi (disponibil numai pentru Germania)"
-            },
-            "quiet": {
-                "label": "Silențios (numai în Germania)",
-                "description": "Preferă zonele liniștite (disponibil doar pentru Germania)"
-            },
-            "surface_quality_known": {
-                "label": "Numai suprafețe cu o calitate cunoscută",
-                "description": "Forțează utilizarea numai a marginilor în cazul în care calitatea suprafeței este cunoscută în mod explicit"
-            },
-            "allow_unsuitable": {
-                "label": "Permiteți necorespunzătoare",
-                "description": "Permite utilizarea marginilor care ar putea fi nepotrivite pentru scaunul cu rotile și care erau anterior excluse"
-            },
-            "vehicle_type": {
-                "label": "Tipul de vehicul",
-                "description": "Tipul de vehicul care trebuie luat în considerare pentru calcularea traseului"
-            },
-            "options": {
-                "label": "Opțiuni"
-            },
-            "profile_params": {
-                "label": "Parametrii profilului"
-            }
-        }
-    },
-    "settings": {
-        "endpointsSectionTitle": "Puncte finale ale serviciului (URI sau URL complet)",
-        "language": "Limbă",
-        "appLocale": "App local",
-        "unit": "Unitate",
-        "saveToLocalStorage": "Salvați în browserul meu",
-        "routeInstructions": "Instrucțiuni de rutare",
-        "randomizedIsochroneColors": "Culori izocrone randomizate",
-        "elevationProfile": "Profil de elevație",
-        "mapSettings": "Vizualizarea hărții și informații suplimentare",
-        "endpointsTitle": {
-            "directions": "Direcții",
-            "isochrones": "Izocronii",
-            "geocodeSearch": "Căutare prin geocodare",
-            "autocomplete": "Completarea automată a geocodului",
-            "pois": "POIs",
-            "reverseGeocode": "Geocodare inversă"
-        },
-        "apiKey": "Cheia API",
-        "customApiKey": "Cheie API personalizată",
-        "apiBaseUrl": "URL de bază API",
-        "restoreDefaults": "Restabilirea valorilor implicite",
-        "advanced": "Avansat",
-        "mapSettingsSaved": "Setări de hartă salvate",
-        "routeExtraInfo": "Informații suplimentare despre rută",
-        "mapViewOptions": "Opțiuni de vizualizare a hărții",
-        "advancedSettingsWarning": "Nu modificați setările de mai jos dacă nu știți ce faceți!",
-        "customTileProviderUrl": "URL-ul furnizorului de dale personalizate",
-        "defaultTilesProvider": "Furnizorul de dale implicit",
-        "customTileProviderUrlHint": "https://domain.tld/path/{z}/{x}/{y}.ext?optionalKey=value",
-        "prioritizeSearchingForNearbyPlaces": "Prioritizează căutarea de locuri din apropiere",
-        "defaultProfile": "Profil implicit",
-        "autoFitHighlightedBounds": "Auto se potrivesc limitele evidențiate",
-        "resetShownOnceTooltips": "Afișați din nou tooltips la încărcarea aplicației",
-        "convertStopAfterRouteEndingToDestination": "Oprire de conversie adăugată la sfârșitul traseului către destinația finală",
-        "skipAllSegments": "traseu drept pentru toate segmentele",
-        "useStopOptimization": "Optimizarea traseului atunci când se creează o oprire prin glisare și fixare",
-        "areaUnit": "Unitatea de suprafață",
-        "distanceMarkers": "Indicatori de distanță",
-        "defaultMapSettingsRestored": "Setări implicite ale hărții restaurate și salvate",
-        "invalidSettingsValue": "Valoare(e) nevalabilă(e) a(le) setărilor. Vă rugăm să verificați câmpurile sau să restaurați valorile implicite",
-        "alwaysFitBounds": "Întotdeauna se potrivesc limitele atunci când se schimbă traseul",
-        "customOverlayerTileProviderUrl": "URL-ul furnizorului de suprapunere personalizat",
-        "compressDataUrlSegment": "Comprimarea segmentului URL după /data/",
-        "reloadToApplyLanguageChangeTitle": "Este necesar să reîncărcați aplicația",
-        "reloadToApplyLanguageChangeText": "Pentru a aplica complet schimbarea de limbă, este necesar să reîncărcați aplicația. Reîncărcați acum?"
-    },
-    "simplePlaceSearch": {
-        "noPlaceFound": "Nu s-a găsit niciun loc cu conținut imputat",
-        "unknownSearchPlaceError": "Eroare de căutare loc necunoscut",
-        "openSidebarToSeeRouteDetails": "Deschideți bara laterală pentru a vedea detaliile traseului"
-    },
-    "header": {
-        "hideMenuBar": "Ascundeți bara de meniu",
-        "showMenuBar": "Afișați bara de meniu"
-    },
-    "mapLeftClick": {
-        "placeInfo": "Informații despre locație",
-        "polygonArea": "Suprafața poligonului",
-        "copyLnglat": "Copiați lng, lat",
-        "copyLatlng": "Copiați lat, lng",
-        "directionsToClickedPoint": "Direcții de acces la locul indicat",
-        "latlngCopied": "Longitudine și latitudine copiate",
-        "placeInsidePolygon": "Așezați în interiorul poligonului",
-        "lnglatCopied": "Longitudine și latitudine copiate"
-    },
-    "mapRightClick": {
-        "options": "Opțiuni",
-        "addDestinationToRoute": "Adăugați ca destinație",
-        "directionsToHere": "Direcții spre aici",
-        "nonStopDirectionsToHere": "Direct aici",
-        "addRouteStop": "Adăugați stop aici",
-        "centerHere": "Centrul aici",
-        "addAsIsochroneCenter": "Adăugați ca centru de acces",
-        "inspectDataOnOSM": "Inspectați datele pe OSM",
-        "directionsFromHere": "Direcții de aici"
+    "areUnits": {
+      "sqKms": "km²",
+      "hectare": "hectare",
+      "sqMeters": "m²"
     }
+  },
+  "orsDictionary": {
+    "unknown": "Necunoscut",
+    "paved": "Asfaltat",
+    "unpaved": "Neasfaltat",
+    "asphalt": "Asfalt",
+    "concrete": "Beton",
+    "cobblestone": "Pavaj",
+    "metal": "metal",
+    "wood": "Lemn",
+    "destination": "Destinație",
+    "private": "Privat",
+    "permissive": "Permisivitate",
+    "road": "Drumul",
+    "street": "Strada",
+    "path": "Calea",
+    "track": "Pista",
+    "cycleway": "Pistă de biciclete",
+    "footway": "Trotuare",
+    "steps": "Pași",
+    "ferry": "Feribot",
+    "construction": "Construcții",
+    "concrete:lanes": "benzi de beton",
+    "paving_stones": "pietre de pavaj",
+    "sett": "Setare",
+    "compacted": "Compactat",
+    "fine_gravel": "Pietriș fin",
+    "pebblestone": "Pavaj",
+    "impassable": "Impasibil",
+    "very_horrible": "Foarte oribil",
+    "customers": "Clienți",
+    "delivery": "Livrare",
+    "stateRoad": "Drum national",
+    "unhewn_cobblestone": "Pavaj neșlefuit",
+    "gravel": "Pietriș",
+    "ground": "Sol",
+    "pavingStones": "Pietre de pavaj",
+    "sand": "Nisip",
+    "woodchips": "Așchii de lemn",
+    "grass": "Iarbă",
+    "none": "Nici unul",
+    "no": "Nu",
+    "bad": "Rău",
+    "intermediate": "Intermediar",
+    "good": "Bun",
+    "excellent": "Excelent",
+    "grade1": "Grad 1",
+    "grade2": "Grad 2",
+    "grade3": "Grad 3",
+    "grade4": "Grad 4",
+    "grade5": "Grad 5",
+    "is_tollway": "Este o autostradă cu taxă",
+    "highway": "Autostradă",
+    "unpaved_road": "Drum neasfaltat",
+    "tunnel": "Tunel",
+    "paved_road": "Drum asfaltat",
+    "ford": "Ford",
+    "no_data": "Fără date",
+    "compactedGravel": "Pietriș compactat",
+    "fineGravel": "Pietriș fin",
+    "dirt": "Murdărie",
+    "ice": "Gheață",
+    "grassPaver": "Pavele de iarbă",
+    "horrible": "Oribil",
+    "very_bad": "Foarte rău",
+    "no_tollway": "Fără taxă de drum",
+    "no_category": "Fără categorie"
+  },
+  "print": {
+    "print": "Imprimare",
+    "segment": "Segmentul",
+    "preparingPrinting": "Pregătirea imprimării",
+    "readyToPrint": "Gata de imprimare"
+  },
+  "share": {
+    "fullUrl": "Complet",
+    "clickToCopy": "Faceți clic pentru a copia URL-ul",
+    "share": "Partajați (click pentru a copia)",
+    "shareLink": "Partajați link-ul",
+    "short": "URL scurt",
+    "embedCodeCopied": "Cod de încorporare copiat",
+    "embed": "Integrare (click pentru a copia)",
+    "embedInstructions": "Utilizați acest cod pentru a încorpora harta ORS în site-ul dumneavoastră",
+    "shortUrl": "Scurt",
+    "urlCopied": "URL copiat în clipboard.",
+    "copyUrlInfo": "De asemenea, puteți copia linkul din bara de adrese a browserului dumneavoastră.",
+    "urlShortened": "URL scurtat",
+    "shorteningNotPossible": "Nu a fost posibilă generarea unui URL scurt. Vă rugăm să utilizați URL-ul complet"
+  },
+  "mapForm": {
+    "placesAndDirections": "Găsiți & plecați",
+    "isochrones": "Ajungeți la",
+    "uploadedContentRendered": "Conținutul încărcat a fost redat",
+    "errorRenderingContentUploaded": "Eroare la redarea conținutului încărcat. Verificați formatul și conținutul fișierului"
+  },
+  "placeInput": {
+    "findAPlace": "Găsiți un loc",
+    "place": "Locul",
+    "addRouteStop": "Adăugați o oprire pe traseu",
+    "routePlace": "Oprire traseu",
+    "routeDestination": "Destinație",
+    "placeNameRequired": "Numele locului este necesar",
+    "yourLocation": "Locația dumneavoastră",
+    "couldNotDetermineYourLocation": "Locația dumneavoastră nu a putut fi determinată. Asigurați-vă că ați primit permisiunile necesare",
+    "useYourLocation": "Utilizați locația dumneavoastră curentă",
+    "removeInput": "Eliminați locul/introducere",
+    "fromYourBrowser": "De pe dispozitivul dumneavoastră",
+    "startingPlace": "Locul de start",
+    "openInputOptions": "Opțiuni de intrare deschise",
+    "addInput": "Adăugați intrarea locului",
+    "switchCoords": "Comutați coordonatele",
+    "rawCoordinate": "Coordonate brute lat,lng",
+    "noPlaceFound": "Nu au fost returnate rezultate",
+    "unknownSearchPlaceError": "Eroare de căutare a unui loc necunoscut",
+    "approximateDistance": "Distanța aproximativă în linie dreaptă față de centrul actual al hărții",
+    "pleaseTypeSomething": "Vă rugăm să introduceți ceva pentru a căuta",
+    "toggleDirect": "Comutați direct de aici până la următorul loc",
+    "clickOnTheMapToSelectAPlace": "Alegeți un loc făcând clic pe o locație de pe hartă",
+    "clickOnTheMapBtnToPickAPlace": "Faceți clic pe acest buton pentru a alege un loc de pe hartă pentru această intrare",
+    "clickToSearchAndShowResultsOnTheMap": "Faceți clic pentru a căuta și a afișa rezultatele pe hartă",
+    "directions": "Direcții",
+    "addStartingPlace": "Adăugați un loc de pornire",
+    "fillOrRemoveInput": "Căutați un loc sau folosiți butonul de pe hartă din dreapta",
+    "couldNotDetermineYourPreciseLocationUsingPreviousLocation": "Nu a fost posibil să se stabilească locația dumneavoastră exactă. Se va folosi în schimb locația dumneavoastră anterioară",
+    "goToDirectionsMode": "Faceți clic pe butonul de direcții pentru a trece la modul de rutare"
+  },
+  "profileSelector": {
+    "activeProfile": "Activă"
+  },
+  "routeImporter": {
+    "loadRouteFile": "Importați fișierul",
+    "acceptedImportTypes": "Tipuri de importuri acceptate",
+    "dictDefaultMessage": "Trimiteți un fișier de traseu pentru a importa sau faceți clic aici",
+    "dictFallbackMessage": "Browser neacceptat",
+    "dictFileTooBig": "Fișier prea mare",
+    "dictInvalidFileType": "Tip de fișier invalid",
+    "dictCancelUpload": "Anulați încărcarea",
+    "dictUploadCanceled": "Încărcare anulată",
+    "failedToLoadFile": "Nu s-a reușit încărcarea fișierului selectat. Asigurați-vă că fișierul nu este corupt și că este într-unul dintre formatele acceptate",
+    "dictRemoveFile": "Eliminați fișierul"
+  },
+  "myLocation": {
+    "myPositionToolTip": "Activați locația pentru a vă afișa poziția și pentru a găsi mai ușor locurile din apropiere",
+    "onlyOnce": "O singură dată",
+    "continuouslyLocation": "Actualizați-vă poziția la fiecare 2 secunde",
+    "showCurrentLocation": "Faceți clic pentru a afișa locația dumneavoastră curentă",
+    "yourCurrentLocation": "Locația dumneavoastră actuală",
+    "continuously": "Continuu",
+    "onlyOnceLocation": "Dobândește-ți poziția o singură dată",
+    "stopShowingCurrentLocation": "Faceți clic pentru a nu mai afișa locația dumneavoastră curentă"
+  },
+  "orsLPolyline": {
+    "type": "Tip",
+    "surface": "Suprafața",
+    "unknownSurfaceType": "Necunoscut"
+  },
+  "orsMapFilters": {
+    "profiles": {
+      "bus": "Autobuz",
+      "delivery": "Camion de livrare",
+      "forestry": "Camion forestier",
+      "goods": "Camion de marfă",
+      "hgv": "Vehicule grele",
+      "agricultural": "Vehicul agricol",
+      "cycling-regular": "Bicicletă",
+      "cycling-road": "Bicicleta de drum",
+      "cycling-mountain": "Mountain bike",
+      "cycling-safe": "Ciclism în condiții de siguranță",
+      "foot-walking": "Mers pe jos",
+      "foot-hiking": "Drumeție pe jos",
+      "driving-car": "Automobil",
+      "wheelchair": "Scaun rulant",
+      "cycling-electric": "Bicicletă electrică",
+      "driving-hgv": "Vehicule grele"
+    },
+    "filters": {
+      "preference": {
+        "label": "Preferința de rută",
+        "enum": {
+          "fastest": "Cel mai rapid",
+          "shortest": "Cel mai scurt",
+          "recommended": "Recomandat"
+        },
+        "description": "Factorul preferat care trebuie luat în considerare la calcularea rutelor"
+      },
+      "range_type": {
+        "label": "Metoda izocronei",
+        "description": "Metoda utilizată pentru calcularea izocronei",
+        "enum": {
+          "time": "Timp",
+          "distance": "Distanță"
+        }
+      },
+      "time_range": {
+        "label": "Gamă",
+        "description": "Intervalul maxim al izocronelor care urmează să fie calculate"
+      },
+      "distance_range": {
+        "label": "Gamă",
+        "description": "Intervalul maxim al izocronelor care urmează să fie calculate"
+      },
+      "time_interval": {
+        "label": "Interval",
+        "description": "Intervalul dintre izocronele care urmează să fie calculate"
+      },
+      "distance_interval": {
+        "label": "Intervalul",
+        "description": "Intervalul dintre izocronele care urmează să fie calculate"
+      },
+      "restrictions": {
+        "label": "Restricții"
+      },
+      "axleload": {
+        "label": "Sarcina pe axă",
+        "description": "Sarcina maximă pe axă în tone"
+      },
+      "height": {
+        "label": "Înălțime",
+        "description": "Înălțimea maximă în metri. Limitele nu sunt impuse de server și sunt doar pentru a se asigura că nu sunt setate valori nerezonabile. Orice valori ciudat de mari ar putea duce la rute inutilizabile atunci când baza de date OpenStreetMap nu este suficient de etichetată pentru acest lucru."
+      },
+      "length": {
+        "label": "Lungime",
+        "description": "Lungimea maximă în metri. Limitele nu sunt impuse de server și sunt doar pentru a se asigura că nu sunt setate valori nerezonabile. Orice valori ciudat de mari ar putea duce la rute inutilizabile atunci când baza de date OpenStreetMap nu este suficient de etichetată pentru acest lucru."
+      },
+      "weight": {
+        "description": "Greutatea maximă în tone",
+        "label": "Greutate"
+      },
+      "width": {
+        "label": "Lățime",
+        "description": "Lățimea maximă în metri. Limitele nu sunt impuse de server și sunt doar pentru a se asigura că nu sunt setate valori nerezonabile. Orice valori ciudat de mari ar putea duce la rute inutilizabile atunci când baza de date OpenStreetMap nu este suficient de etichetată pentru acest lucru."
+      },
+      "hazmat": {
+        "label": "Mărfuri periculoase",
+        "description": "Transportul de mărfuri periculoase"
+      },
+      "maximum_incline": {
+        "label": "Înclinare maximă",
+        "description": "Înclinarea maximă în procente"
+      },
+      "maximum_sloped_kerb": {
+        "label": "Înălțimea maximă a bordurii",
+        "description": "Specifică înălțimea maximă a bordurii înclinate în metri"
+      },
+      "minimum_width": {
+        "label": "Lățimea minimă a trotuarului",
+        "description": "Precizează lățimea minimă a trotuarului în metri"
+      },
+      "smoothness_type": {
+        "label": "Fluiditatea traseului",
+        "description": "Specifică netezimea minimă a traseului. Informații suplimentare: https://wiki.openstreetmap.org/wiki/Key:smoothness"
+      },
+      "surface_type": {
+        "label": "Tipul de suprafață minimă",
+        "description": "Specifică tipul de suprafață minimă. Ordinea tipului: https://wiki.openstreetmap.org/wiki/Key:surface"
+      },
+      "track_type": {
+        "label": "Gradul minim al traseului",
+        "description": "Specifică nivelul minim al traseului. Valori ale gradului: https://wiki.openstreetmap.org/wiki/Key:tracktype"
+      },
+      "round_trip": {
+        "label": "Călătorie dus-întors"
+      },
+      "round_trip_length": {
+        "label": "Lungimea călătoriei dus-întors",
+        "description": "Lungimea țintă a traseului (rețineți că aceasta este o valoare preferată, dar rezultatele pot fi diferite)."
+      },
+      "points": {
+        "label": "Puncte",
+        "description": "Numărul de puncte care trebuie utilizate pe traseu. Valorile mai mari creează trasee mai circulare."
+      },
+      "seed": {
+        "label": "Sămânță aleatorie",
+        "description": "O sămânță aleatorie care să fie utilizată pentru a adăuga aleatorism la ruta generată (min:0, max: 90)"
+      },
+      "avoid_polygons": {
+        "label": "Evitați poligoanele",
+        "description": "Evitați poligoanele"
+      },
+      "avoid_features": {
+        "label": "Evitați funcțiile",
+        "enum": {
+          "highways": "Autostrăzi",
+          "tollways": "Autostrăzi cu taxă",
+          "ferries": "Feriboturi",
+          "hills": "Dealuri",
+          "tunnels": "Tuneluri",
+          "fords": "Forduri",
+          "steps": "Pași",
+          "pavedroads": "Drumuri asfaltate",
+          "unpavedroads": "Drumuri neasfaltate"
+        },
+        "description": "Evitați funcțiile"
+      },
+      "avoid_borders": {
+        "label": "Evitați frontierele",
+        "description": "Evitați frontierele",
+        "enum": {
+          "all": "Toate",
+          "controlled": "Controlat"
+        }
+      },
+      "avoid_countries": {
+        "description": "Evitați țările",
+        "label": "Evitați țările"
+      },
+      "alternative_routes": {
+        "label": "Rute alternative"
+      },
+      "target_count": {
+        "label": "Numărul de rute",
+        "description": "Numărul țintă de rute alternative de calculat. Serviciul returnează până la acest număr de rute care îndeplinesc constrângerile legate de factorul de pondere și de factorul de greutate."
+      },
+      "share_factor": {
+        "label": "Coeficientul de repartiție",
+        "description": "Fracțiunea maximă a traseului pe care alternativele o pot împărți cu traseul optim. Valoarea implicită de 0,6 înseamnă că alternativele pot împărți până la 60% din segmentele de traseu cu traseul optim."
+      },
+      "weight_factor": {
+        "label": "Coeficientul de greutate",
+        "description": "Factorul maxim cu care greutatea traseului se poate abate de la traseul optim. Valoarea implicită de 1,4 înseamnă că alternativele pot fi de până la 1,4 ori mai lungi (costisitoare) decât traseul optim."
+      },
+      "maximum_speed": {
+        "label": "Viteză maximă",
+        "description": "Viteza maximă care trebuie aplicată"
+      },
+      "weightings": {
+        "label": "Setări suplimentare"
+      },
+      "green": {
+        "label": "Verde (numai în Germania)",
+        "description": "Preferă zonele verzi (disponibil numai pentru Germania)"
+      },
+      "quiet": {
+        "label": "Silențios (numai în Germania)",
+        "description": "Preferă zonele liniștite (disponibil doar pentru Germania)"
+      },
+      "surface_quality_known": {
+        "label": "Numai suprafețe cu o calitate cunoscută",
+        "description": "Forțează utilizarea numai a marginilor în cazul în care calitatea suprafeței este cunoscută în mod explicit"
+      },
+      "allow_unsuitable": {
+        "label": "Permiteți necorespunzătoare",
+        "description": "Permite utilizarea marginilor care ar putea fi nepotrivite pentru scaunul cu rotile și care erau anterior excluse"
+      },
+      "vehicle_type": {
+        "label": "Tipul de vehicul",
+        "description": "Tipul de vehicul care trebuie luat în considerare pentru calcularea traseului"
+      },
+      "options": {
+        "label": "Opțiuni"
+      },
+      "profile_params": {
+        "label": "Parametrii profilului"
+      }
+    }
+  },
+  "settings": {
+    "endpointsSectionTitle": "Puncte finale ale serviciului (URI sau URL complet)",
+    "language": "Limbă",
+    "appLocale": "App local",
+    "unit": "Unitate",
+    "saveToLocalStorage": "Salvați în browserul meu",
+    "routeInstructions": "Instrucțiuni de rutare",
+    "randomizedIsochroneColors": "Culori izocrone randomizate",
+    "elevationProfile": "Profil de elevație",
+    "mapSettings": "Vizualizarea hărții și informații suplimentare",
+    "endpointsTitle": {
+      "directions": "Direcții",
+      "isochrones": "Izocronii",
+      "geocodeSearch": "Căutare prin geocodare",
+      "autocomplete": "Completarea automată a geocodului",
+      "pois": "POIs",
+      "reverseGeocode": "Geocodare inversă"
+    },
+    "apiKey": "Cheia API",
+    "customApiKey": "Cheie API personalizată",
+    "apiBaseUrl": "URL de bază API",
+    "restoreDefaults": "Restabilirea valorilor implicite",
+    "advanced": "Avansat",
+    "mapSettingsSaved": "Setări de hartă salvate",
+    "routeExtraInfo": "Informații suplimentare despre rută",
+    "mapViewOptions": "Opțiuni de vizualizare a hărții",
+    "advancedSettingsWarning": "Nu modificați setările de mai jos dacă nu știți ce faceți!",
+    "customTileProviderUrl": "URL-ul furnizorului de dale personalizate",
+    "defaultTilesProvider": "Furnizorul de dale implicit",
+    "customTileProviderUrlHint": "https://domain.tld/path/{z}/{x}/{y}.ext?optionalKey=value",
+    "prioritizeSearchingForNearbyPlaces": "Prioritizează căutarea de locuri din apropiere",
+    "defaultProfile": "Profil implicit",
+    "autoFitHighlightedBounds": "Auto se potrivesc limitele evidențiate",
+    "resetShownOnceTooltips": "Afișați din nou tooltips la încărcarea aplicației",
+    "convertStopAfterRouteEndingToDestination": "Oprire de conversie adăugată la sfârșitul traseului către destinația finală",
+    "skipAllSegments": "traseu drept pentru toate segmentele",
+    "useStopOptimization": "Optimizarea traseului atunci când se creează o oprire prin glisare și fixare",
+    "areaUnit": "Unitatea de suprafață",
+    "distanceMarkers": "Indicatori de distanță",
+    "defaultMapSettingsRestored": "Setări implicite ale hărții restaurate și salvate",
+    "invalidSettingsValue": "Valoare(e) nevalabilă(e) a(le) setărilor. Vă rugăm să verificați câmpurile sau să restaurați valorile implicite",
+    "alwaysFitBounds": "Întotdeauna se potrivesc limitele atunci când se schimbă traseul",
+    "customOverlayerTileProviderUrl": "URL-ul furnizorului de suprapunere personalizat",
+    "compressDataUrlSegment": "Comprimarea segmentului URL după /data/",
+    "reloadToApplyLanguageChangeTitle": "Este necesar să reîncărcați aplicația",
+    "reloadToApplyLanguageChangeText": "Pentru a aplica complet schimbarea de limbă, este necesar să reîncărcați aplicația. Reîncărcați acum?"
+  },
+  "simplePlaceSearch": {
+    "noPlaceFound": "Nu s-a găsit niciun loc cu conținut imputat",
+    "unknownSearchPlaceError": "Eroare de căutare loc necunoscut",
+    "openSidebarToSeeRouteDetails": "Deschideți bara laterală pentru a vedea detaliile traseului"
+  },
+  "header": {
+    "hideMenuBar": "Ascundeți bara de meniu",
+    "showMenuBar": "Afișați bara de meniu"
+  },
+  "mapLeftClick": {
+    "placeInfo": "Informații despre locație",
+    "polygonArea": "Suprafața poligonului",
+    "copyLnglat": "Copiați lng, lat",
+    "copyLatlng": "Copiați lat, lng",
+    "directionsToClickedPoint": "Direcții de acces la locul indicat",
+    "latlngCopied": "Longitudine și latitudine copiate",
+    "placeInsidePolygon": "Așezați în interiorul poligonului",
+    "lnglatCopied": "Longitudine și latitudine copiate"
+  },
+  "mapRightClick": {
+    "options": "Opțiuni",
+    "addDestinationToRoute": "Adăugați ca destinație",
+    "directionsToHere": "Direcții spre aici",
+    "nonStopDirectionsToHere": "Direct aici",
+    "addRouteStop": "Adăugați stop aici",
+    "centerHere": "Centrul aici",
+    "addAsIsochroneCenter": "Adăugați ca centru de acces",
+    "inspectDataOnOSM": "Inspectați datele pe OSM",
+    "directionsFromHere": "Direcții de aici"
+  }
 }
